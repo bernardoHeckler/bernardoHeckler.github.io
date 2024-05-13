@@ -1,0 +1,163 @@
+@media only screen and (max-width: 768px) {
+    .sobre{
+        padding: 80px 0 500px 0;
+    }
+    .sobre h3 {
+        font-size: 1.5rem;
+    }
+
+    ul li a {
+        padding: 0.5rem;
+    }
+
+    img {
+        width: 30px;
+    }
+
+    .footer__contact {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .sobre h3 {
+        font-size: 0.8rem;
+    }
+
+    .emoji {
+        font-size: 20px;
+    }
+
+    ul li a {
+        padding: 0.3rem;
+    }
+
+    img {
+        width: 25px;
+    }
+
+    .sobre h1, #h1 {
+        font-size: 3rem;
+    }
+
+    .footer__contact {
+        font-size: 0.8rem;
+    }
+    .sobre > p {
+        padding: 0; 
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .sobre h1, #h1 {
+        font-size: 3rem;
+    }
+    .sobre > p {
+        padding: 0; 
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .sobre h1, #h1 {
+        font-size: 5rem;
+    }
+    .sobre > p {
+        padding: 0; 
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .sobre h1, #h1 {
+        font-size: 3em;
+    }
+    .sobre > p {
+        padding: 0; 
+    }
+}
+
+@media only screen and (min-width: 518px) and (max-width: 541px) {
+    .sobre h1, #h1 {
+        font-size: 3em;
+    }
+    .sobre > p {
+        padding: 0; 
+    }
+}
+
+@media only screen and (min-width: 80px) and (max-width: 294px) {
+    .sobre h1, #h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 50px) and (max-width: 80px) {
+    .sobre h1, #h1 {
+        font-size: 3rem;
+    }
+    .sobre > p {
+        padding: 0; 
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .sobre > p {
+        padding: 0 50px; /* Adiciona padding horizontal de 50px */
+    }
+}
+@media only screen and (max-width: 375px) {
+    .sobre h3 {
+        font-size: 0.8rem;
+    }
+
+    .emoji {
+        font-size: 20px;
+    }
+
+    ul li a {
+        padding: 0.3rem;
+    }
+
+    img {
+        width: 25px;
+    }
+
+    .sobre h1, #h1 {
+        font-size: 3rem;
+    }
+
+    .footer__contact {
+        font-size: 0.8rem;
+    }
+
+    .sobre > p {
+        padding: 0; 
+    }
+}
+
+@media only screen and (min-width: 833px) and (max-width: 9000px){
+    .conteinerTextoImg {
+    height: 100px
+    }
+    .sobre{
+        padding: 240px 0 500px 0;
+    }
+    .sobre h3{
+        margin: 0 0 -80px 0;
+        padding-right: 28%;
+    }
+    .sobre > h3{
+        height: 17px;
+    }
+    .sobre #h1{
+        padding-right: 14%;
+        margin-bottom: -100px;
+    }
+    .sobre h4{
+        padding-left: 5%;
+    }
+    .sobre > #sobre{
+        width: 84.9%;
+        text-align: right;
+        padding-left: 34%;
+    }
+}

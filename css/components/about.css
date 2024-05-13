@@ -1,0 +1,138 @@
+#inicio {
+    background-color: #232024; 
+    background-image: radial-gradient(circle at 50% 40%, #665577 -62%, transparent 83%);
+    color: #fff;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.sobre h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.emoji {
+    display: inline-block;
+    font-size: 30px;
+    animation: wave 1s infinite alternate;
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(30deg); }
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 1rem;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #ccc;
+}
+
+
+
+ul li a img {
+    vertical-align: middle; /* Alinha verticalmente as imagens */
+}
+
+.conteinerTextoImg {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente no centro da tela */
+    align-items: center; /* Alinha verticalmente no centro da tela */
+    flex-wrap: wrap; /* Permite que os elementos sejam quebrados em várias linhas */
+}
+
+.conteinerTextoImg h1 {
+    margin-right: 10px;
+}
+.icones {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-direction: row; /* Alinha as imagens em uma linha */
+}
+
+.icones li {
+    margin-right: 10px;
+}
+
+ul li a img {
+    vertical-align: middle;
+    margin-right: 10px; /* Adiciona margem entre as imagens */
+}
+
+.conteinerTextoImg ul {
+    white-space: nowrap; /* Impede que os itens da lista sejam quebrados em várias linhas */
+}
+
+.icones {
+    display: inline-block; /* Faz com que os itens da lista fiquem em uma única linha */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.sobre > p {
+    padding: 0 100px 0 100px; /* Adiciona padding horizontal de 20px */
+}
+
+
+
+
+
+
+
+
+
+@keyframes descerParaBaixo {
+    from {
+        transform: translateY(-15px); /* Começa 20 pixels acima do ponto inicial */
+    }
+    to {
+        transform: translateY(0); /* Termina no ponto inicial */
+    }
+}
+
+img {
+    width: 50px;
+    animation: descerParaBaixo 0.3s forwards;
+}
+
+img:hover {
+    animation: subirParaCima 0.3s forwards;
+}
+
+@keyframes descerParaBaixo {
+    from {
+        transform: translateY(-15px); /* Começa 20 pixels acima do ponto inicial */
+    }
+    to {
+        transform: translateY(0); /* Termina no ponto inicial */
+    }
+}
+
+@keyframes subirParaCima {
+    from {
+        transform: translateY(0); /* Começa no ponto inicial */
+    }
+    to {
+        transform: translateY(-15px); /* Termina 20 pixels acima do ponto inicial */
+    }
+}

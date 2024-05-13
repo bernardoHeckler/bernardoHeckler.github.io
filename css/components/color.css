@@ -1,0 +1,32 @@
+h3 {
+    color: var(--primary-color);
+    font-size: 30px;
+}
+h1{
+    color: var(--white);
+    font-size: 120px;
+}
+p{
+    font-weight: 100; /* Define a espessura da fonte como fina */
+}
+h4{
+    padding: 0;
+    color: var(--primary-color);
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+    padding: 0;
+    color: var(--white);
+    opacity: 0.8; /* Define a transparência do texto para 50% */
+
+}
+
+.mb-s{
+    color: var(--white);
+  }
+
+  span{
+  
+    color: var(--white);
+  }

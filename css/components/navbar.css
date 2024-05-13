@@ -1,0 +1,33 @@
+/* Estilos da barra de navegação */
+.conteinerNavbar {
+    display: block;
+    
+}
+.navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    align-items: center;
+    display: flex; /* Ativa o modo flexbox */
+    justify-content: center; 
+}
+
+/* Estilos dos links na barra de navegação */
+.navbar a {
+    float: left;
+    display: block;
+    color: var(--primary-color);
+
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Altera a cor de fundo dos links ao passar o mouse sobre eles */
+.navbar a:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    color: var(--secondary-color);
+}
+
