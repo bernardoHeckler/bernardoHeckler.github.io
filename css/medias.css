@@ -1,163 +1,288 @@
+/* Estilos gerais para dispositivos móveis */
 @media only screen and (max-width: 768px) {
-    .sobre{
-        padding: 80px 0 500px 0;
+    .sobre {
+        padding: 60px 20px;
     }
     .sobre h3 {
         font-size: 1.5rem;
     }
-
     ul li a {
         padding: 0.5rem;
     }
-
     img {
         width: 30px;
     }
-
     .footer__contact {
         font-size: 0.9rem;
     }
 }
 
-@media only screen and (max-width: 375px) {
+/* Estilos para tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .sobre {
+        padding: 80px 40px;
+    }
     .sobre h3 {
-        font-size: 0.8rem;
+        font-size: 2rem;
     }
-
-    .emoji {
-        font-size: 20px;
-    }
-
-    ul li a {
-        padding: 0.3rem;
-    }
-
-    img {
-        width: 25px;
-    }
-
-    .sobre h1, #h1 {
-        font-size: 3rem;
-    }
-
-    .footer__contact {
-        font-size: 0.8rem;
-    }
-    .sobre > p {
-        padding: 0; 
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    .sobre h1, #h1 {
-        font-size: 3rem;
-    }
-    .sobre > p {
-        padding: 0; 
-    }
-}
-
-@media only screen and (max-width: 430px) {
     .sobre h1, #h1 {
         font-size: 5rem;
     }
-    .sobre > p {
-        padding: 0; 
+    .sobre p {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+    .footer__contact {
+        font-size: 1rem;
+    }
+    img {
+        width: 40px;
+    }
+    .conteinerTextoImg {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icones {
+        margin-top: 20px;
     }
 }
 
-@media only screen and (max-width: 540px) {
-    .sobre h1, #h1 {
-        font-size: 3em;
+/* Estilos para telas grandes (monitores) */
+@media only screen and (min-width: 1025px) {
+    .sobre {
+        padding: 190px 50px;
     }
-    .sobre > p {
-        padding: 0; 
-    }
-}
-
-@media only screen and (min-width: 518px) and (max-width: 541px) {
-    .sobre h1, #h1 {
-        font-size: 3em;
-    }
-    .sobre > p {
-        padding: 0; 
-    }
-}
-
-@media only screen and (min-width: 80px) and (max-width: 294px) {
-    .sobre h1, #h1 {
-        font-size: 3rem;
-    }
-}
-
-@media only screen and (min-width: 50px) and (max-width: 80px) {
-    .sobre h1, #h1 {
-        font-size: 3rem;
-    }
-    .sobre > p {
-        padding: 0; 
-    }
-}
-
-@media only screen and (min-width: 820px) {
-    .sobre > p {
-        padding: 0 50px; /* Adiciona padding horizontal de 50px */
-    }
-}
-@media only screen and (max-width: 375px) {
     .sobre h3 {
-        font-size: 0.8rem;
+        font-size: 2.5rem;
     }
+    .sobre h1, #h1 {
+        font-size: 6rem;
+    }
+    .sobre p {
+        font-size: 1.2rem;
+        padding: 0 50px;
+    }
+    .footer__contact {
+        font-size: 1.2rem;
+    }
+    img {
+        width: 50px;
+    }
+    .conteinerTextoImg {
+        flex-direction: row;
+        text-align: left;
+    }
+    .icones {
+        margin-top: 0;
+    }
+}
 
+/* Estilos para dispositivos móveis com resolução 375 x 667 */
+@media only screen and (max-width: 375px) {
+    .sobre {
+        padding: 40px 10px;
+    }
+    .sobre h3 {
+        font-size: 1.2rem;
+    }
+    .sobre h1, #h1 {
+        font-size: 2.5rem;
+    }
+    .sobre h4 {
+        font-size: 1.5rem;
+    }
+    .sobre p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
     .emoji {
         font-size: 20px;
     }
-
     ul li a {
         padding: 0.3rem;
     }
-
     img {
         width: 25px;
     }
-
-    .sobre h1, #h1 {
-        font-size: 3rem;
-    }
-
     .footer__contact {
         font-size: 0.8rem;
     }
-
+    .conteinerTextoImg {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icones {
+        margin-top: 10px;
+    }
     .sobre > p {
-        padding: 0; 
+        padding: 0;
     }
 }
 
-@media only screen and (min-width: 833px) and (max-width: 9000px){
+/* Estilos para dispositivos móveis com resolução 414 x 896 */
+@media only screen and (max-width: 414px) {
+    .sobre {
+        padding: 60px 20px;
+    }
+    .sobre h3 {
+        font-size: 1.4rem;
+    }
+    .sobre h1, #h1 {
+        font-size: 3rem;
+    }
+    .sobre h4 {
+        font-size: 1.8rem;
+    }
+    .sobre p {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+    .emoji {
+        font-size: 24px;
+    }
+    ul li a {
+        padding: 0.4rem;
+    }
+    img {
+        width: 30px;
+    }
+    .footer__contact {
+        font-size: 0.9rem;
+    }
     .conteinerTextoImg {
-    height: 100px
+        flex-direction: column;
+        text-align: center;
     }
-    .sobre{
-        padding: 240px 0 500px 0;
+    .icones {
+        margin-top: 10px;
     }
-    .sobre h3{
-        margin: 0 0 -80px 0;
-        padding-right: 28%;
+    .sobre > p {
+        padding: 0;
     }
-    .sobre > h3{
-        height: 17px;
+}
+
+/* Estilos para dispositivos móveis com resolução 430 x 932 */
+@media only screen and (max-width: 430px) {
+    .sobre {
+        padding: 70px 20px;
     }
-    .sobre #h1{
-        padding-right: 14%;
-        margin-bottom: -100px;
+    .sobre h3 {
+        font-size: 1.5rem;
     }
-    .sobre h4{
-        padding-left: 5%;
+    .sobre h1, #h1 {
+        font-size: 3.5rem;
     }
-    .sobre > #sobre{
-        width: 84.9%;
-        text-align: right;
-        padding-left: 34%;
+    .sobre h4 {
+        font-size: 2rem;
+    }
+    .sobre p {
+        font-size: 1.1rem;
+        padding: 0 20px;
+    }
+    .emoji {
+        font-size: 28px;
+    }
+    ul li a {
+        padding: 0.5rem;
+    }
+    img {
+        width: 35px;
+    }
+    .footer__contact {
+        font-size: 1rem;
+    }
+    .conteinerTextoImg {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icones {
+        margin-top: 15px;
+    }
+    .sobre > p {
+        padding: 0;
+    }
+}
+
+/* Estilos para dispositivos móveis com resolução 360 x 740 */
+@media only screen and (max-width: 360px) {
+    .sobre {
+        padding: 60px 15px;
+    }
+    .sobre h3 {
+        font-size: 1.4rem;
+    }
+    .sobre h1, #h1 {
+        font-size: 3rem;
+    }
+    .sobre h4 {
+        font-size: 1.8rem;
+    }
+    .sobre p {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    .emoji {
+        font-size: 24px;
+    }
+    ul li a {
+        padding: 0.4rem;
+    }
+    img {
+        width: 30px;
+    }
+    .footer__contact {
+        font-size: 0.9rem;
+    }
+    .conteinerTextoImg {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icones {
+        margin-top: 10px;
+    }
+    .sobre > p {
+        padding: 0;
+    }
+}
+
+/* Estilos para dispositivos móveis com resolução 540 x 720 */
+@media only screen and (max-width: 540px) {
+    .sobre {
+        padding: 70px 30px;
+    }
+    .sobre h3 {
+        font-size: 1.6rem;
+    }
+    .sobre h1, #h1 {
+        font-size: 3rem;
+    }
+    .sobre h4 {
+        font-size: 1.9rem;
+    }
+    .sobre p {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    .emoji {
+        font-size: 26px;
+    }
+    ul li a {
+        padding: 0.5rem;
+    }
+    img {
+        width: 30px;
+    }
+    .footer__contact {
+        font-size: 1rem;
+    }
+    .conteinerTextoImg {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icones {
+        margin-top: 15px;
+    }
+    .sobre > p {
+        padding: 0;
     }
 }
