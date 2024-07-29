@@ -1,46 +1,59 @@
+/* Estilo do Rodapé */
 footer {
-    background-color: #493f53;
-  }
-  
-  footer .footer__content {
-    text-align: center;
-  }
-  
-  footer .footer__content .footer__contact span {
-    display: block;
-    font-weight: 500;
-  }
-  
-  footer .footer__content ul li {
-    display: inline-block;
-  }
-  
-  footer .footer__content ul a {
-    display: inline-block;
-    padding: 1rem;
-  }
-  
-  footer .footer__content .footer__copyright {
-    font-size: 1.4rem;
-  }
-  
-  footer .footer__content .mb-l li a > img {
-    width: 40px; /* Define a largura da imagem */
-    height: auto; /* Mantém a proporção original da imagem */
-  }
+  background-color: #493f53; /* Cor de fundo do rodapé */
+}
 
-  footer .footer{
-    padding: 1000px;
-  }
-  #footer{
-    padding: 150px 10px 400px 10px;
-  }
-  footer .footer__contact{
-    padding: 20px 0
-  }
-  footer .footer__content > .fim{
-    padding-top: 100px;
-  }
-  .footer__contact {
-    margin-bottom: 10px; /* Adiciona margem inferior */
+/* Conteúdo do Rodapé */
+footer .footerConteudo {
+  text-align: center; /* Centraliza o texto */
+  font-size: 1.4rem; /* Define o tamanho da fonte */
+}
+
+/* Contato no Rodapé */
+footer .footerConteudo .footerContato {
+  padding: 20px 0; /* Adiciona espaçamento acima e abaixo */
+}
+
+footer .footerConteudo .footerContato span {
+  display: block; /* Exibe cada elemento em uma linha separada */
+  font-weight: 500; /* Define o peso da fonte */
+}
+
+.footerContato {
+  margin-bottom: 10px; /* Adiciona margem inferior */
+}
+
+/* Imagens no Rodapé */
+footer .footerConteudo .footerImagens li a > img {
+  width: 40px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção original da imagem */
+}
+
+/* Lista de Links no Rodapé */
+footer .footerConteudo ul {
+  padding: 0; /* Remove o preenchimento padrão */
+  margin: 0; /* Remove a margem padrão */
+}
+
+footer .footerConteudo ul li {
+  display: inline-block; /* Exibe os itens da lista em linha */
+}
+
+footer .footerConteudo ul a {
+  display: inline-block; /* Exibe os links como blocos em linha */
+  padding: 1rem; /* Adiciona preenchimento aos links */
+}
+
+/* Espaçamento do Rodapé */
+footer .footer {
+  padding: 1000px; /* Espaçamento interno (a ser ajustado conforme necessário) */
+}
+
+#footer {
+  padding: 150px 10px 400px 10px; /* Espaçamento interno específico */
+}
+
+/* Direitos do Criador */
+footer .footerConteudo > .direitosCriador {
+  padding-top: 100px; /* Adiciona espaçamento acima */
 }

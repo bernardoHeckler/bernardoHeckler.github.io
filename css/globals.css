@@ -1,104 +1,33 @@
+/* Estilos Globais */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-family:  'DM Sans', sans-serif;;
-  /* border: 3px red solid; */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+  box-sizing: border-box; /* Inclui padding e border no tamanho total do elemento */
+  scroll-behavior: smooth; /* Suaviza o comportamento de rolagem */
+  font-family: 'DM Sans', sans-serif; /* Define a fonte padrão */
+  /* border: 3px red solid; */ /* Comentado: borda para depuração */
 }
-/* div, h4{
+
+/* Comentários para bordas de depuração */
+/* div, h4 {
   border: 1px blue solid;
 } */
 
-h1{
-  font-family: "Bungee", sans-serif; 
+/* Estilos para Títulos */
+h1 {
+  font-family: "Bungee", sans-serif; /* Fonte específica para h1 */
 }
 
-h2, h3, h4{
-  font-family: "Silkscreen", sans-serif;
-
-}
-span{
-  font-family: "Anton", sans-serif;
-}
-p, a{
-  font-family: "Oswald", sans-serif;
-
+h2, h3, h4 {
+  font-family: "Silkscreen", sans-serif; /* Fonte específica para h2, h3 e h4 */
 }
 
+/* Estilos para Span */
+span {
+  font-family: "Anton", sans-serif; /* Fonte específica para span */
+}
 
-/* Estilos para dispositivos móveis */
-/* @media (min-width: 768px) and (max-width: 1024px) {
-
-  .apresentacao {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-  }
-  
-  .centralizarH3 {
-    white-space: nowrap;
-    width: 53%;
-  }
-  
-  
-  .emoji {
-    display: inline-block;
-  }
-  .conteinerlinha1{
-    display: flex; 
-    justify-content: center;
-    flex-direction: column;
-    height: 150px;
-  }
-  .titulo > h1 {
-    font-size: 50px;
-    text-align: center;
-  }
-  .titulo {
-    width: 100%;
-    font-size: 10px;
-    height: 100px;
-  }
-
-  .conteinerlinha2{
-    width: 100%;
-    height: 70px;
-
-    padding-right: 0;
-
-  }
-  .conteinerlinha2 .titulo > h1{
-    width: 100%;
-    padding-right: 0;
-    }
-    .conteinerlinha3 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .conteudoProgramas {
-      width: 70%;
-      white-space: nowrap;
-    }
-    
-    .conteinerlinha4 {
-      display: flex;
-      justify-content: center; 
-      align-items: center; 
-    }
-    
-    .about {
-      text-align: center;
-    }
-    
-    .about p {
-      padding-top: 50px;
-      font-size: 1em;
-        }
-    #inicio{
-      height: 100vh;
-      padding: 10px;
-    }
-} */
+/* Estilos para Parágrafos e Links */
+p, a {
+  font-family: "Oswald", sans-serif; /* Fonte específica para parágrafos e links */
+}

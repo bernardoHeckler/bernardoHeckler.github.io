@@ -1,109 +1,107 @@
+/* Estilos para a Seção de Início */
 #inicio {
-    background-color: #232024; 
-    background-image: radial-gradient(circle at 50% 40%, #665577 -62%, transparent 83%);
-    color: #fff;
+    background-color: #232024; /* Cor de fundo */
+    background-image: radial-gradient(circle at 50% 40%, #665577 -62%, transparent 83%); /* Gradiente radial */
+    color: #fff; /* Cor do texto */
 }
 
+/* Estilos Gerais para a Seção Sobre */
 .sobre {
-    text-align: center;
+    text-align: center; /* Centraliza o texto */
 }
 
 .sobre h3 {
-    font-size: 30px;
-    text-align: center;
+    font-size: 30px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
 }
 
+/* Estilos para Emojis */
 .emoji {
-    display: inline-block;
-    font-size: 30px;
-    animation: wave 1s infinite alternate;
+    display: inline-block; /* Exibe o emoji em linha */
+    font-size: 30px; /* Tamanho do emoji */
+    animation: wave 1s infinite alternate; /* Animação de onda */
 }
 
 @keyframes wave {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(30deg); }
+    0% { transform: rotate(0deg); } /* Estado inicial da animação */
+    100% { transform: rotate(30deg); } /* Estado final da animação */
 }
 
+/* Estilos para Listas */
 ul {
-    padding: 0;
-    list-style: none;
+    padding: 0; /* Remove o preenchimento */
+    list-style: none; /* Remove a marcação padrão */
 }
 
 ul li {
-    display: inline-block;
-    margin: 0 10px;
+    display: inline-block; /* Exibe os itens em linha */
+    margin: 0 10px; /* Margem lateral */
 }
 
 ul li a {
-    display: inline-block;
-    padding: 1rem;
-    color: #fff;
-    transition: color 0.3s;
+    display: inline-block; /* Exibe os links como blocos em linha */
+    padding: 1rem; /* Preenchimento interno */
+    color: #fff; /* Cor do texto */
+    transition: color 0.3s; /* Transição suave para a cor do texto */
 }
 
 ul li a:hover {
-    color: #ccc;
+    color: #ccc; /* Cor do texto ao passar o mouse */
 }
-
-
 
 ul li a img {
     vertical-align: middle; /* Alinha verticalmente as imagens */
 }
 
+/* Estilos para o Container de Texto e Imagem */
 .conteinerTextoImg {
-    display: flex;
+    display: flex; /* Ativa o flexbox */
     justify-content: center; /* Alinha horizontalmente no centro da tela */
     align-items: center; /* Alinha verticalmente no centro da tela */
     flex-wrap: wrap; /* Permite que os elementos sejam quebrados em várias linhas */
 }
 
 .conteinerTextoImg h1 {
-    margin-right: 10px;
+    margin-right: 10px; /* Margem à direita do título */
 }
+
+/* Estilos para Ícones */
 .icones {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    flex-direction: row; /* Alinha as imagens em uma linha */
+    display: flex; /* Exibe os ícones em linha */
+    list-style: none; /* Remove a marcação padrão */
+    padding: 0; /* Remove o preenchimento */
+    flex-direction: row; /* Alinha os ícones em uma linha */
 }
 
 .icones li {
-    margin-right: 10px;
+    margin-right: 10px; /* Margem à direita dos ícones */
 }
 
 ul li a img {
-    vertical-align: middle;
+    vertical-align: middle; /* Alinha verticalmente as imagens */
     margin-right: 10px; /* Adiciona margem entre as imagens */
 }
 
 .conteinerTextoImg ul {
-    white-space: nowrap; /* Impede que os itens da lista sejam quebrados em várias linhas */
+    white-space: nowrap; /* Impede quebra de linha nos itens da lista */
 }
 
 .icones {
     display: inline-block; /* Faz com que os itens da lista fiquem em uma única linha */
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    list-style: none; /* Remove a marcação padrão */
+    padding: 0; /* Remove o preenchimento */
+    margin: 0; /* Remove a margem */
 }
 
-
+/* Estilos para Parágrafos na Seção Sobre */
 .sobre > p {
-    padding: 0 100px 0 100px; /* Adiciona padding horizontal de 20px */
+    padding: 0 100px; /* Adiciona padding horizontal de 100px */
 }
 
-
-
-
-
-
-
-
-
+/* Animações para Imagens */
 @keyframes descerParaBaixo {
     from {
-        transform: translateY(-15px); /* Começa 20 pixels acima do ponto inicial */
+        transform: translateY(-15px); /* Começa 15 pixels acima do ponto inicial */
     }
     to {
         transform: translateY(0); /* Termina no ponto inicial */
@@ -111,21 +109,12 @@ ul li a img {
 }
 
 img {
-    width: 50px;
-    animation: descerParaBaixo 0.3s forwards;
+    width: 50px; /* Largura das imagens */
+    animation: descerParaBaixo 0.3s forwards; /* Animação inicial */
 }
 
 img:hover {
-    animation: subirParaCima 0.3s forwards;
-}
-
-@keyframes descerParaBaixo {
-    from {
-        transform: translateY(-15px); /* Começa 20 pixels acima do ponto inicial */
-    }
-    to {
-        transform: translateY(0); /* Termina no ponto inicial */
-    }
+    animation: subirParaCima 0.3s forwards; /* Animação ao passar o mouse */
 }
 
 @keyframes subirParaCima {
@@ -133,6 +122,6 @@ img:hover {
         transform: translateY(0); /* Começa no ponto inicial */
     }
     to {
-        transform: translateY(-15px); /* Termina 20 pixels acima do ponto inicial */
+        transform: translateY(-15px); /* Termina 15 pixels acima do ponto inicial */
     }
 }

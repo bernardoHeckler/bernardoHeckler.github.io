@@ -1,32 +1,35 @@
+/* Estilos para Cabeçalhos e Parágrafos */
 h3 {
-    color: var(--primary-color);
-    font-size: 30px;
+    color: var(--primary-color); /* Cor do texto */
+    font-size: 30px; /* Tamanho da fonte */
 }
-h1{
-    color: var(--white);
-    font-size: 120px;
+
+h1 {
+    color: var(--white); /* Cor do texto */
+    font-size: 120px; /* Tamanho da fonte */
 }
-p{
+
+h4 {
+    padding: 0; /* Remove o preenchimento */
+    color: var(--primary-color); /* Cor do texto */
+    font-size: 25px; /* Tamanho da fonte */
+}
+
+/* Estilos para Parágrafos */
+p {
     font-weight: 100; /* Define a espessura da fonte como fina */
-}
-h4{
-    padding: 0;
-    color: var(--primary-color);
-    font-size: 25px;
-}
-p{
-    font-size: 15px;
-    padding: 0;
-    color: var(--white);
-    opacity: 0.8; /* Define a transparência do texto para 50% */
-
+    font-size: 15px; /* Tamanho da fonte */
+    padding: 0; /* Remove o preenchimento */
+    color: var(--white); /* Cor do texto */
+    opacity: 0.8; /* Define a transparência do texto para 80% */
 }
 
-.mb-s{
-    color: var(--white);
-  }
+/* Estilos para Texto no Rodapé */
+.footerTexto {
+    color: var(--white); /* Cor do texto */
+}
 
-  span{
-  
-    color: var(--white);
-  }
+/* Estilos para Span */
+span {
+    color: var(--white); /* Cor do texto */
+}
