@@ -3,9 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Espaçamento entre os itens */
+    gap: 20px;
     margin: 0 auto;
-    flex-wrap: nowrap; /* Não permite quebra de linha */
+    flex-wrap: nowrap;
 }
 
 .icones-container {
@@ -13,7 +13,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 10px; /* Espaçamento entre os ícones */
+    gap: 10px;
 }
 
 .icones {
@@ -41,96 +41,313 @@
 .descricao > p {
     font-size: 20px;
 }
-.footerMensagem{
+
+.footerMensagem {
     font-size: 60px;
 }
-.direitosCriador{
+
+.direitosCriador {
     margin: 90px 0;
 }
-/* Estilo para dispositivos com largura até 768px (tablets e celulares em modo paisagem) */
+
+/* Estilo para dispositivos com largura até 768px */
 @media screen and (max-width: 768px) {
     .saudacoes {
         font-size: 20px;
     }
+
     .preferencia {
-        font-size: 90px; /* Tamanho reduzido da fonte para tablets */
+        font-size: 90px;
     }
 
     .descricao > h1 {
-        font-size: 90px; /* Ajusta o tamanho da fonte para tablets */
+        font-size: 70px;
     }
 
     .descricao > h4 {
-        font-size: 24px; /* Ajusta o tamanho da fonte para tablets */
+        font-size: 24px;
     }
 
     .descricao > p {
-        font-size: 18px; /* Ajusta o tamanho da fonte para tablets */
+        font-size: 18px;
     }
 
     .conteinerTextoImg {
-        flex-direction: column; /* Alinha os itens na vertical em telas menores */
+        flex-direction: column;
         text-align: center;
     }
 
     .icones-container {
-        flex-direction: row; /* Mantém os ícones na horizontal em tablets */
-        justify-content: center; /* Centraliza ícones */
-        flex-wrap: wrap; /* Permite quebra de linha se necessário */
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .icones {
-        margin: 0 10px; /* Ajusta a margem para tablets */
+        margin: 0 10px;
     }
 
     .icones img {
-        width: 50px; /* Reduz o tamanho da imagem dos ícones para tablets */
-        height: 50px; /* Reduz a altura da imagem dos ícones para tablets */
+        width: 50px;
+        height: 50px;
     }
-    .footerMensagem{
+
+    .footerMensagem {
         font-size: 60px;
     }
-    .direitosCriador{
+
+    .direitosCriador {
         margin: 90px 0;
     }
-
 }
 
-/* Estilo para dispositivos com largura até 480px (celulares em modo retrato) */
+/* Estilo para dispositivos com largura até 480px */
 @media screen and (max-width: 480px) {
     .preferencia {
-        font-size: 60px; /* Reduz ainda mais o tamanho da fonte para celulares */
+        font-size: 60px;
     }
 
     .descricao > h1 {
-        font-size: 60px; /* Ajusta o tamanho da fonte para celulares */
+        font-size: 60px;
     }
 
     .descricao > h4 {
-        font-size: 30px; /* Ajusta o tamanho da fonte para celulares */
+        font-size: 24px;
     }
 
     .descricao > p {
-        font-size: 20px; /* Ajusta o tamanho da fonte para celulares */
+        font-size: 18px;
     }
 
     .icones-container {
-        flex-direction: column; /* Alinha ícones verticalmente em telas muito pequenas */
-        align-items: center; /* Centraliza os ícones */
+        flex-direction: column;
+        align-items: center;
     }
 
     .icones {
-        margin: 5px 0; /* Ajusta a margem dos ícones para telas pequenas */
+        margin: 5px 0;
     }
 
     .icones img {
-        width: 20px; /* Reduz o tamanho da imagem dos ícones para celulares */
-        height: 20px; /* Reduz a altura da imagem dos ícones para celulares */
+        width: 30px;
+        height: 30px;
     }
-    .footerMensagem{
-        font-size: 60px;
+
+    .footerMensagem {
+        font-size: 50px;
     }
-    .direitosCriador{
-        margin: 90px 0;
+
+    .direitosCriador {
+        margin: 60px 0;
+    }
+}
+
+
+/* Estilo para dispositivos com largura até 414px */
+@media screen and (max-width: 414px) {
+    .preferencia {
+        font-size: 70px;
+    }
+
+    .descricao > h1 {
+        font-size: 70px;
+    }
+
+    .descricao > h4 {
+        font-size: 26px;
+    }
+
+    .descricao > p {
+        font-size: 18px;
+    }
+
+    .icones-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icones {
+        margin: 5px 10px;
+    }
+
+    .icones img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footerMensagem {
+        font-size: 50px;
+    }
+
+    .direitosCriador {
+        margin: 60px 0;
+    }
+}
+
+/* Estilo para dispositivos com largura até 390px */
+@media screen and (max-width: 390px) {
+    .preferencia {
+        font-size: 65px;
+    }
+
+    .descricao > h1 {
+        font-size: 65px;
+    }
+
+    .descricao > h4 {
+        font-size: 28px;
+    }
+
+    .descricao > p {
+        font-size: 18px;
+    }
+
+    .icones-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icones {
+        margin: 5px 8px;
+    }
+
+    .icones img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footerMensagem {
+        font-size: 55px;
+    }
+
+    .direitosCriador {
+        margin: 70px 0;
+    }
+}
+
+/* Estilo para dispositivos com largura até 430px */
+@media screen and (max-width: 430px) {
+    .preferencia {
+        font-size: 75px;
+    }
+
+    .descricao > h1 {
+        font-size: 75px;
+    }
+
+    .descricao > h4 {
+        font-size: 32px;
+    }
+
+    .descricao > p {
+        font-size: 20px;
+    }
+
+    .icones-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icones {
+        margin: 5px 12px;
+    }
+
+    .icones img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footerMensagem {
+        font-size: 65px;
+    }
+
+    .direitosCriador {
+        margin: 80px 0;
+    }
+}
+
+/* Estilo para dispositivos com largura até 360px */
+@media screen and (max-width: 360px) {
+    .preferencia {
+        font-size: 65px;
+    }
+
+    .descricao > h1 {
+        font-size: 65px;
+    }
+
+    .descricao > h4 {
+        font-size: 28px;
+    }
+
+    .descricao > p {
+        font-size: 18px;
+    }
+
+    .icones-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icones {
+        margin: 5px 8px;
+    }
+
+    .icones img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footerMensagem {
+        font-size: 55px;
+    }
+
+    .direitosCriador {
+        margin: 70px 0;
+    }
+}
+/* Estilo para dispositivos com resolução de 375 x 667 pixels */
+@media screen and (max-width: 375px) {
+    .preferencia {
+        font-size: 60px; 
+    }
+
+    .descricao > h1 {
+        font-size: 60px; 
+    }
+
+    .descricao > h4 {
+        font-size: 24px; 
+    }
+
+    .descricao > p {
+        font-size: 18px; 
+    }
+
+    .icones-container {
+        flex-direction: row; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+
+    .icones {
+        margin: 5px 8px; 
+    }
+
+    .icones img {
+        width: 35px; 
+        height: 35px; 
+    }
+
+    .footerMensagem {
+        font-size: 50px; 
+    }
+
+    .direitosCriador {
+        margin: 60px 0; 
     }
 }
