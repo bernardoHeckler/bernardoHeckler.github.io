@@ -1,4 +1,4 @@
-aside{
+aside {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,4 +7,18 @@ aside{
     height: 15vh; 
     text-align: center;
     padding: 5px;
-}
+  }
+  
+  .asideMensagemAnimacao,
+  .asideChamadaAnimacao {
+    position: relative;
+    left: -100%; 
+    transition: left 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  .asideMensagemAnimacao.animated,
+  .asideChamadaAnimacao.animated {
+    left: 0; 
+    opacity: 1;
+  }
