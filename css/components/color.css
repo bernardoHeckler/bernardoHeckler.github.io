@@ -1,35 +1,49 @@
-/* Estilos para Cabeçalhos e Parágrafos */
-h3 {
-    color: var(--primary-color); /* Cor do texto */
-    font-size: 30px; /* Tamanho da fonte */
+header{
+    background-color: var(--primary-color);
 }
 
-h1 {
-    color: var(--white); /* Cor do texto */
-    font-size: 120px; /* Tamanho da fonte */
+.navLink {
+    color: var(--secondary-color);
 }
-
-h4 {
-    padding: 0; /* Remove o preenchimento */
-    color: var(--primary-color); /* Cor do texto */
-    font-size: 25px; /* Tamanho da fonte */
+.navLink:hover{
+    color: var(--primary-color);
 }
-
-/* Estilos para Parágrafos */
-p {
-    font-weight: 100; /* Define a espessura da fonte como fina */
-    font-size: 15px; /* Tamanho da fonte */
-    padding: 0; /* Remove o preenchimento */
-    color: var(--white); /* Cor do texto */
-    opacity: 0.8; /* Define a transparência do texto para 80% */
+.cabecalho:hover{
+    background-color: var(--secondary-color);
 }
-
-/* Estilos para Texto no Rodapé */
-.footerTexto {
-    color: var(--white); /* Cor do texto */
+main{
+    background-color: var(--primary-color);
+    background-image: radial-gradient(circle at 50% 40%, var(--purple) -62%, transparent 83%);
 }
+.saudacoes {
+    color: var(--secondary-color);
+}
+.preferencia{
+    color: var(--white);
+}
+.descricao > h1{
+    color: var(--white);
+}
+.descricao > h4{
+    color: var(--secondary-color);
 
-/* Estilos para Span */
-span {
-    color: var(--white); /* Cor do texto */
+}
+.descricao > p{
+    color: var(--lightgray);
+}
+footer{
+    background-color: var(--lightpurplue);
+}
+.footerTexto{
+    color: var(--white);
+}
+.footerMensagem{
+    color: var(--lightgray);
+
+}
+.footerContato{
+    color: var(--white);
+}
+.direitosCriador{
+    color: var(--lightgray);
 }

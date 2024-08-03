@@ -7,27 +7,7 @@
   font-family: 'DM Sans', sans-serif; /* Define a fonte padrão */
   /* border: 3px red solid; */ /* Comentado: borda para depuração */
 }
-
-/* Comentários para bordas de depuração */
-/* div, h4 {
-  border: 1px blue solid;
-} */
-
-/* Estilos para Títulos */
-h1 {
-  font-family: "Bungee", sans-serif; /* Fonte específica para h1 */
-}
-
-h2, h3, h4 {
-  font-family: "Silkscreen", sans-serif; /* Fonte específica para h2, h3 e h4 */
-}
-
-/* Estilos para Span */
-span {
-  font-family: "Anton", sans-serif; /* Fonte específica para span */
-}
-
-/* Estilos para Parágrafos e Links */
-p, a {
-  font-family: "Oswald", sans-serif; /* Fonte específica para parágrafos e links */
+html, body {
+  height: 100%;
+  margin: 0;
 }

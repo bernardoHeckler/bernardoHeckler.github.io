@@ -1,59 +1,50 @@
-/* Estilo do Rodapé */
 footer {
-  background-color: #493f53; /* Cor de fundo do rodapé */
+  background-color: var(--lightpurplue);
+  text-align: center;
+  padding: 100px 10px 0px 10px;
+  height: auto; /* Ajustar altura automaticamente com base no conteúdo */
 }
 
-/* Conteúdo do Rodapé */
-footer .footerConteudo {
-  text-align: center; /* Centraliza o texto */
-  font-size: 1.4rem; /* Define o tamanho da fonte */
+.footerConteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Contato no Rodapé */
-footer .footerConteudo .footerContato {
-  padding: 20px 0; /* Adiciona espaçamento acima e abaixo */
+.footerTexto {
+  font-size: 1.8em;
+  margin-bottom: 10px;
 }
+.footerMensagem {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  letter-spacing: 0.2em;
 
-footer .footerConteudo .footerContato span {
-  display: block; /* Exibe cada elemento em uma linha separada */
-  font-weight: 500; /* Define o peso da fonte */
 }
-
 .footerContato {
-  margin-bottom: 10px; /* Adiciona margem inferior */
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-bottom: 20px;
 }
 
-/* Imagens no Rodapé */
-footer .footerConteudo .footerImagens li a > img {
-  width: 40px; /* Define a largura da imagem */
-  height: auto; /* Mantém a proporção original da imagem */
+.footerContato span {
+  margin-bottom: 10px;
+  font-size: 1em; 
+}
+.footerImagens {
+  list-style: none;
+  padding: 100px 0 ;
+  margin-bottom: 20px;
 }
 
-/* Lista de Links no Rodapé */
-footer .footerConteudo ul {
-  padding: 0; /* Remove o preenchimento padrão */
-  margin: 0; /* Remove a margem padrão */
+.footerImagens li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
-footer .footerConteudo ul li {
-  display: inline-block; /* Exibe os itens da lista em linha */
-}
-
-footer .footerConteudo ul a {
-  display: inline-block; /* Exibe os links como blocos em linha */
-  padding: 1rem; /* Adiciona preenchimento aos links */
-}
-
-/* Espaçamento do Rodapé */
-footer .footer {
-  padding: 1000px; /* Espaçamento interno (a ser ajustado conforme necessário) */
-}
-
-#footer {
-  padding: 150px 10px 400px 10px; /* Espaçamento interno específico */
-}
-
-/* Direitos do Criador */
-footer .footerConteudo > .direitosCriador {
-  padding-top: 100px; /* Adiciona espaçamento acima */
+.direitosCriador {
+  letter-spacing: -0.1em;
+  font-size: 0.9em;
 }

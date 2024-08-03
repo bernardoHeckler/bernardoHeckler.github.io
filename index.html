@@ -4,35 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio - berna.hcklr</title>
+    <title>Bernardo Heckler - Portfólio</title>
     <link rel="icon" href="assets/HLogo.png" type="image/x-icon">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/extends.css" />
-
     <!-- Conexão com Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Oswald:wght@200..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
-<body style="background-color: var(--primary-color);">
+<body>
 
     <!-- Cabeçalho e Navegação -->
     <header>
-        <nav class="navbar">
-            <a href="#inicio">Início</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#contato">Contato</a>
+        <nav class="navBar">
+            <li class="cabecalho"><a class="navLink" href="#inicio">Início</a></li>
+            <li class="cabecalho"><a class="navLink" href="#sobre">Sobre</a></li>
+            <li class="cabecalho"><a class="navLink" href="#contato">Contato</a></li>
         </nav>
     </header>
 
     <!-- Conteúdo Principal -->
-    <main>
+    <main id="inicio">
         <!-- Seção Sobre -->
-        <section class="sobre" id="inicio">
-            <h3>Oi <span class="emoji">👋</span> Eu sou o Bernardo Heckler</h3>
+        <section class="sobre">
+            <div class="saudacoes">
+                <h3>Oi <span class="emoji">👋</span> Eu sou o Bernardo Heckler</h3>
+            </div>
             <div class="conteinerTextoImg">
-                <h1>Python</h1>
+                <h1 class="preferencia">FrontEnd</h1>
                 <ul>
                     <!-- Links com ícones -->
                     <li class="icones"><a href="https://www.linkedin.com/in/bernardo-heckler-645153305/" target="_blank"><img src="assets/linkedin-svgrepo-com.svg" alt="Link para LinkedIn do Bernardo"></a></li>
@@ -40,18 +42,46 @@
                     <li class="icones"><a href="assets/pdf/currículo Bernardo Antunes Heckler.pdf" target="_blank" type="application/pdf"><img src="assets/copy-svgrepo-com.svg" alt="PDF do currículo do Bernardo"></a></li>
                 </ul>
             </div>
-            <h1 id="h1">Developer</h1>
-            <h4>html, css, javaScript, python, java, sql...</h4>
-            <p id="sobre">
-                Tenho 20 anos sou um desenvolvedor python recente, 
-                atualmente matriculado no curso de Ciências da Computação
-                já no segundo semestre (2/8)
-                com previsão de conclusão para 2027. 
-                Tenho grande interesse em tecnologia e na resolução de problemas, 
-                e estou em busca de primeiras oportunidades para atuar na área de TI.
-            </p>
+            <div class="descricao">
+                <h1>Developer</h1>
+                <h4>html, css, javaScript, python, java, sql...</h4>
+                <p id="sobre">
+                    Tenho 20 anos sou um desenvolvedor python recente, 
+                    atualmente matriculado no curso de Ciências da Computação
+                    já no segundo semestre (2/8)
+                    com previsão de conclusão para 2027. 
+                    Tenho grande interesse em tecnologia e na resolução de problemas, 
+                    e estou em busca de primeiras oportunidades para atuar na área de TI.
+                </p>
+            </div>
         </section>
     </main>
+    <!-- <section>
+        <h2>Nossos Serviços</h2>
+        <p>Detalhes sobre os serviços oferecidos.</p>
+    </section>
+    <article>
+        <h2>Post do Blog</h2>
+        <p>Conteúdo do post.</p>
+    </article>
+    <aside>
+        <h3>Notícias Relacionadas</h3>
+        <ul>
+            <li><a href="#">Notícia 1</a></li>
+            <li><a href="#">Notícia 2</a></li>
+        </ul>
+    </aside>
+    <figure>
+        <img src="imagem.jpg" alt="Descrição da imagem">
+        <figcaption>Legenda da imagem.</figcaption>
+    </figure>
+    <form action="/submit" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Enviar">
+    </form>
+    <button type="button">Clique Aqui</button>
+                     -->
         
     <!-- Rodapé -->
     <footer id="footer">

@@ -1,31 +1,24 @@
-/* Estilos da Barra de Navegação */
-.conteinerNavbar {
-    display: block; /* Exibe o contêiner como bloco */
+.navBar {
+    display: flex;
+    list-style-type: none; /* Remove os marcadores das listas */
 }
 
-.navbar {
-    width: 100%; /* Largura total da barra de navegação */
-    height: 10vh; /* Altura da barra de navegação */
-    background-color: var(--secondary-color); /* Cor de fundo */
-    overflow: hidden; /* Oculta qualquer conteúdo que exceda o tamanho da barra */
-    align-items: center; /* Alinha itens verticalmente no centro */
-    display: flex; /* Ativa o modo flexbox */
-    justify-content: center; /* Alinha itens horizontalmente no centro */
+.cabecalho {
+    padding: 10px;
+    margin: 10px 15px; /* Espaçamento entre os itens de navegação */
+    border-radius: 20px;
+    transition: 1s ease;
 }
 
-/* Estilos dos Links na Barra de Navegação */
-.navbar a {
-    float: left; /* Alinha os links à esquerda (não necessário com flexbox, pode ser removido) */
-    display: block; /* Exibe os links como blocos */
-    color: var(--primary-color); /* Cor do texto dos links */
-    padding: 14px 20px; /* Preenchimento interno dos links */
-    text-decoration: none; /* Remove o sublinhado dos links */
+.navLink {
+    text-decoration: none; /* Remove a sublinha dos links */
+    font-size: 1.2em; /* Tamanho da fonte */
 }
 
-/* Estilos dos Links ao Passar o Mouse */
-.navbar a:hover {
-    cursor: pointer; /* Muda o cursor para indicar que o link é clicável */
-    background-color: var(--primary-color); /* Cor de fundo ao passar o mouse */
-    border-radius: 10px; /* Arredonda os cantos do fundo */
-    color: var(--secondary-color); /* Cor do texto ao passar o mouse */
+.cabecalho:hover{
+    border-radius: 10px;
+    transition: 1s;
+}
+.navLink:hover{
+    transition: 1s;
 }

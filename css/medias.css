@@ -1,369 +1,136 @@
-/* Estilos gerais para dispositivos móveis */
-@media only screen and (max-width: 768px) {
-    /* Ajusta o padding da seção 'sobre' para telas menores */
-    .sobre {
-        padding: 60px 20px;
-    }
-    /* Ajusta o tamanho da fonte do título h3 */
-    .sobre h3 {
-        font-size: 1.5rem;
-    }
-    /* Ajusta o padding dos links da lista */
-    ul li a {
-        padding: 0.5rem;
-    }
-    /* Ajusta a largura das imagens */
-    img {
-        width: 30px;
-    }
-    /* Ajusta o tamanho da fonte no rodapé de contato */
-    .footerContato {
-        font-size: 0.9rem;
-    }
+/* Estilos padrão */
+.conteinerTextoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os itens */
+    margin: 0 auto;
+    flex-wrap: nowrap; /* Não permite quebra de linha */
 }
 
-/* Estilos para tablets */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Ajusta o padding da seção 'sobre' para tablets */
-    .sobre {
-        padding: 80px 40px;
-    }
-    /* Ajusta o tamanho da fonte do título h3 */
-    .sobre h3 {
-        font-size: 2rem;
-    }
-    /* Ajusta o tamanho da fonte do título h1 */
-    .sobre h1, #h1 {
-        font-size: 5rem;
-    }
-    /* Ajusta o tamanho da fonte e padding do parágrafo na seção 'sobre' */
-    .sobre p {
-        font-size: 1rem;
-        padding: 0 20px;
-    }
-    /* Ajusta o tamanho da fonte no rodapé de contato */
-    .footerContato {
-        font-size: 1rem;
-    }
-    /* Ajusta a largura das imagens */
-    img {
-        width: 40px;
-    }
-    /* Ajusta a direção e alinhamento dos itens na seção 'conteinerTextoImg' */
-    .conteinerTextoImg {
-        flex-direction: column;
-        text-align: center;
-    }
-    /* Ajusta a margem superior dos ícones */
-    .icones {
-        margin-top: 20px;
-    }
+.icones-container {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px; /* Espaçamento entre os ícones */
 }
 
-/* Estilos para telas grandes (monitores) */
-@media only screen and (min-width: 1025px) {
-    /* Ajusta o padding da seção 'sobre' para monitores grandes */
-    .sobre {
-        padding: 190px 50px;
-    }
-    /* Ajusta o tamanho da fonte do título h3 */
-    .sobre h3 {
-        font-size: 2.5rem;
-    }
-    /* Ajusta o tamanho da fonte do título h1 */
-    .sobre h1, #h1 {
-        font-size: 6rem;
-    }
-    /* Ajusta o tamanho da fonte e padding do parágrafo na seção 'sobre' */
-    .sobre p {
-        font-size: 1.2rem;
-        padding: 0 50px;
-    }
-    /* Ajusta o tamanho da fonte no rodapé de contato */
-    .footerContato {
-        font-size: 1.2rem;
-    }
-    /* Ajusta a largura das imagens */
-    img {
-        width: 50px;
-    }
-    /* Ajusta a direção e alinhamento dos itens na seção 'conteinerTextoImg' */
-    .conteinerTextoImg {
-        flex-direction: row;
-        text-align: left;
-    }
-    /* Remove a margem superior dos ícones */
-    .icones {
-        margin-top: 0;
-    }
+.icones {
+    display: inline-block;
+    padding: 0 10px;
 }
 
-/* Estilos para dispositivos móveis com resolução 375 x 667 */
-@media only screen and (max-width: 375px) {
-    /* Ajusta o padding da seção 'sobre' para esta resolução */
-    .sobre {
-        padding: 40px 10px;
-    }
-    /* Ajusta o tamanho da fonte do título h3 */
-    .sobre h3 {
-        font-size: 1.2rem;
-    }
-    /* Ajusta o tamanho da fonte do título h1 */
-    .sobre h1, #h1 {
-        font-size: 2.5rem;
-    }
-    /* Ajusta o tamanho da fonte do título h4 */
-    .sobre h4 {
-        font-size: 1.5rem;
-    }
-    /* Ajusta o tamanho da fonte e padding do parágrafo na seção 'sobre' */
-    .sobre p {
-        font-size: 0.9rem;
-        padding: 0 10px;
-    }
-    /* Ajusta o tamanho da fonte dos emojis */
-    .emoji {
+/* Estilo da saudacoes e preferencia */
+.saudacoes {
+    font-size: 30px;
+}
+
+.preferencia {
+    font-size: 100px;
+}
+
+.descricao > h1 {
+    font-size: 90px;
+}
+
+.descricao > h4 {
+    font-size: 30px;
+}
+
+.descricao > p {
+    font-size: 20px;
+}
+.footerMensagem{
+    font-size: 60px;
+}
+.direitosCriador{
+    margin: 90px 0;
+}
+/* Estilo para dispositivos com largura até 768px (tablets e celulares em modo paisagem) */
+@media screen and (max-width: 768px) {
+    .saudacoes {
         font-size: 20px;
     }
-    /* Ajusta o padding dos links da lista */
-    ul li a {
-        padding: 0.3rem;
+    .preferencia {
+        font-size: 90px; /* Tamanho reduzido da fonte para tablets */
     }
-    /* Ajusta a largura das imagens */
-    img {
-        width: 25px;
+
+    .descricao > h1 {
+        font-size: 90px; /* Ajusta o tamanho da fonte para tablets */
     }
-    /* Ajusta o tamanho da fonte no rodapé de contato */
-    .footerContato {
-        font-size: 0.8rem;
+
+    .descricao > h4 {
+        font-size: 24px; /* Ajusta o tamanho da fonte para tablets */
     }
-    /* Ajusta a direção e alinhamento dos itens na seção 'conteinerTextoImg' */
+
+    .descricao > p {
+        font-size: 18px; /* Ajusta o tamanho da fonte para tablets */
+    }
+
     .conteinerTextoImg {
-        flex-direction: column;
+        flex-direction: column; /* Alinha os itens na vertical em telas menores */
         text-align: center;
     }
-    /* Ajusta a margem superior dos ícones */
+
+    .icones-container {
+        flex-direction: row; /* Mantém os ícones na horizontal em tablets */
+        justify-content: center; /* Centraliza ícones */
+        flex-wrap: wrap; /* Permite quebra de linha se necessário */
+    }
+
     .icones {
-        margin-top: 10px;
+        margin: 0 10px; /* Ajusta a margem para tablets */
     }
-    /* Remove o padding do parágrafo na seção 'sobre' */
-    .sobre > p {
-        padding: 0;
+
+    .icones img {
+        width: 50px; /* Reduz o tamanho da imagem dos ícones para tablets */
+        height: 50px; /* Reduz a altura da imagem dos ícones para tablets */
     }
+    .footerMensagem{
+        font-size: 60px;
+    }
+    .direitosCriador{
+        margin: 90px 0;
+    }
+
 }
 
-/* Estilos para dispositivos móveis com resolução 414 x 896 */
-@media only screen and (max-width: 414px) {
-    /* Ajusta o padding da seção 'sobre' para esta resolução */
-    .sobre {
-        padding: 60px 20px;
+/* Estilo para dispositivos com largura até 480px (celulares em modo retrato) */
+@media screen and (max-width: 480px) {
+    .preferencia {
+        font-size: 60px; /* Reduz ainda mais o tamanho da fonte para celulares */
     }
-    /* Ajusta o tamanho da fonte do título h3 */
-    .sobre h3 {
-        font-size: 1.4rem;
-    }
-    /* Ajusta o tamanho da fonte do título h1 */
-    .sobre h1, #h1 {
-        font-size: 3rem;
-    }
-    /* Ajusta o tamanho da fonte do título h4 */
-    .sobre h4 {
-        font-size: 1.8rem;
-    }
-    /* Ajusta o tamanho da fonte e padding do parágrafo na seção 'sobre' */
-    .sobre p {
-        font-size: 1rem;
-        padding: 0 20px;
-    }
-    /* Ajusta o tamanho da fonte dos emojis */
-    .emoji {
-        font-size: 24px;
-    }
-    /* Ajusta o padding dos links da lista */
-    ul li a {
-        padding: 0.4rem;
-    }
-    /* Ajusta a largura das imagens */
-    img {
-        width: 30px;
-    }
-    /* Ajusta o tamanho da fonte no rodapé de contato */
-    .footerContato {
-        font-size: 0.9rem;
-    }
-    /* Ajusta a direção e alinhamento dos itens na seção 'conteinerTextoImg' */
-    .conteinerTextoImg {
-        flex-direction: column;
-        text-align: center;
-    }
-    /* Ajusta a margem superior dos ícones */
-    .icones {
-        margin-top: 10px;
-    }
-    /* Remove o padding do parágrafo na seção 'sobre' */
-    .sobre > p {
-        padding: 0;
-    }
-}
 
-/* Estilos para dispositivos móveis com resolução 430 x 932 */
-@media only screen and (max-width: 430px) {
-    /* Ajusta o padding da seção 'sobre' para esta resolução */
-    .sobre {
-        padding: 70px 20px;
+    .descricao > h1 {
+        font-size: 60px; /* Ajusta o tamanho da fonte para celulares */
     }
-    /* Ajusta o tamanho da fonte do título h3 */
-    .sobre h3 {
-        font-size: 1.5rem;
-    }
-    /* Ajusta o tamanho da fonte do título h1 */
-    .sobre h1, #h1 {
-        font-size: 3.5rem;
-    }
-    /* Ajusta o tamanho da fonte do título h4 */
-    .sobre h4 {
-        font-size: 2rem;
-    }
-    /* Ajusta o tamanho da fonte e padding do parágrafo na seção 'sobre' */
-    .sobre p {
-        font-size: 1.1rem;
-        padding: 0 20px;
-    }
-    /* Ajusta o tamanho da fonte dos emojis */
-    .emoji {
-        font-size: 28px;
-    }
-    /* Ajusta o padding dos links da lista */
-    ul li a {
-        padding: 0.5rem;
-    }
-    /* Ajusta a largura das imagens */
-    img {
-        width: 35px;
-    }
-    /* Ajusta o tamanho da fonte no rodapé de contato */
-    .footerContato {
-        font-size: 1rem;
-    }
-    /* Ajusta a direção e alinhamento dos itens na seção 'conteinerTextoImg' */
-    .conteinerTextoImg {
-        flex-direction: column;
-        text-align: center;
-    }
-    /* Ajusta a margem superior dos ícones */
-    .icones {
-        margin-top: 15px;
-    }
-    /* Remove o padding do parágrafo na seção 'sobre' */
-    .sobre > p {
-        padding: 0;
-    }
-}
 
-/* Estilos para dispositivos móveis com resolução 360 x 740 */
-@media only screen and (max-width: 360px) {
-    /* Ajusta o padding da seção 'sobre' para esta resolução */
-    .sobre {
-        padding: 60px 15px;
+    .descricao > h4 {
+        font-size: 30px; /* Ajusta o tamanho da fonte para celulares */
     }
-    /* Ajusta o tamanho da fonte do título h3 */
-    .sobre h3 {
-        font-size: 1.4rem;
-    }
-    /* Ajusta o tamanho da fonte do título h1 */
-    .sobre h1, #h1 {
-        font-size: 3rem;
-    }
-    /* Ajusta o tamanho da fonte do título h4 */
-    .sobre h4 {
-        font-size: 1.8rem;
-    }
-    /* Ajusta o tamanho da fonte e padding do parágrafo na seção 'sobre' */
-    .sobre p {
-        font-size: 1rem;
-        padding: 0 15px;
-    }
-    /* Ajusta o tamanho da fonte dos emojis */
-    .emoji {
-        font-size: 24px;
-    }
-    /* Ajusta o padding dos links da lista */
-    ul li a {
-        padding: 0.4rem;
-    }
-    /* Ajusta a largura das imagens */
-    img {
-        width: 30px;
-    }
-    /* Ajusta o tamanho da fonte no rodapé de contato */
-    .footerContato {
-        font-size: 0.9rem;
-    }
-    /* Ajusta a direção e alinhamento dos itens na seção 'conteinerTextoImg' */
-    .conteinerTextoImg {
-        flex-direction: column;
-        text-align: center;
-    }
-    /* Ajusta a margem superior dos ícones */
-    .icones {
-        margin-top: 10px;
-    }
-    /* Remove o padding do parágrafo na seção 'sobre' */
-    .sobre > p {
-        padding: 0;
-    }
-}
 
-/* Estilos para dispositivos móveis com resolução 540 x 720 */
-@media only screen and (max-width: 540px) {
-    /* Ajusta o padding da seção 'sobre' para esta resolução */
-    .sobre {
-        padding: 70px 30px;
+    .descricao > p {
+        font-size: 20px; /* Ajusta o tamanho da fonte para celulares */
     }
-    /* Ajusta o tamanho da fonte do título h3 */
-    .sobre h3 {
-        font-size: 1.6rem;
+
+    .icones-container {
+        flex-direction: column; /* Alinha ícones verticalmente em telas muito pequenas */
+        align-items: center; /* Centraliza os ícones */
     }
-    /* Ajusta o tamanho da fonte do título h1 */
-    .sobre h1, #h1 {
-        font-size: 3rem;
-    }
-    /* Ajusta o tamanho da fonte do título h4 */
-    .sobre h4 {
-        font-size: 1.9rem;
-    }
-    /* Ajusta o tamanho da fonte e padding do parágrafo na seção 'sobre' */
-    .sobre p {
-        font-size: 1rem;
-        padding: 0 15px;
-    }
-    /* Ajusta o tamanho da fonte dos emojis */
-    .emoji {
-        font-size: 26px;
-    }
-    /* Ajusta o padding dos links da lista */
-    ul li a {
-        padding: 0.5rem;
-    }
-    /* Ajusta a largura das imagens */
-    img {
-        width: 30px;
-    }
-    /* Ajusta o tamanho da fonte no rodapé de contato */
-    .footerContato {
-        font-size: 1rem;
-    }
-    /* Ajusta a direção e alinhamento dos itens na seção 'conteinerTextoImg' */
-    .conteinerTextoImg {
-        flex-direction: column;
-        text-align: center;
-    }
-    /* Ajusta a margem superior dos ícones */
+
     .icones {
-        margin-top: 15px;
+        margin: 5px 0; /* Ajusta a margem dos ícones para telas pequenas */
     }
-    /* Remove o padding do parágrafo na seção 'sobre' */
-    .sobre > p {
-        padding: 0;
+
+    .icones img {
+        width: 20px; /* Reduz o tamanho da imagem dos ícones para celulares */
+        height: 20px; /* Reduz a altura da imagem dos ícones para celulares */
+    }
+    .footerMensagem{
+        font-size: 60px;
+    }
+    .direitosCriador{
+        margin: 90px 0;
     }
 }

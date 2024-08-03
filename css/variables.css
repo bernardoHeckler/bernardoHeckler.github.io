@@ -1,12 +1,9 @@
 :root {
+  --primary-color: #232024;
+  --secondary-color: #A58BBE;
+  --purple: #665577;
+  --lightgray: #C2C0C3;
   --white: #ffffff;
-  --gray: #a0a0a0;
-  --black: #000000;
-  --primary-color: #a58bbe;
-  --secondary-color: #232024;
-  --dark-secondary-color: #000000;
-  --tertiary-color: #ffffff;
-  --light-tertiary-color: #222222;
-  --text-color: #000000;
+  --lightpurplue: #493F53;
 
 }

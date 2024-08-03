@@ -1,127 +1,58 @@
-/* Estilos para a Seção de Início */
-#inicio {
-    background-color: #232024; /* Cor de fundo */
-    background-image: radial-gradient(circle at 50% 40%, #665577 -62%, transparent 83%); /* Gradiente radial */
-    color: #fff; /* Cor do texto */
-}
-
-/* Estilos Gerais para a Seção Sobre */
 .sobre {
-    text-align: center; /* Centraliza o texto */
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    padding: 20px;
 }
 
-.sobre h3 {
-    font-size: 30px; /* Tamanho da fonte */
-    text-align: center; /* Centraliza o texto */
-}
 
-/* Estilos para Emojis */
 .emoji {
-    display: inline-block; /* Exibe o emoji em linha */
-    font-size: 30px; /* Tamanho do emoji */
-    animation: wave 1s infinite alternate; /* Animação de onda */
+    display: inline-block;
+    font-size: 30px;
+    animation: wave 1s infinite alternate;
 }
 
 @keyframes wave {
-    0% { transform: rotate(0deg); } /* Estado inicial da animação */
-    100% { transform: rotate(30deg); } /* Estado final da animação */
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(30deg); }
 }
 
-/* Estilos para Listas */
-ul {
-    padding: 0; /* Remove o preenchimento */
-    list-style: none; /* Remove a marcação padrão */
-}
-
-ul li {
-    display: inline-block; /* Exibe os itens em linha */
-    margin: 0 10px; /* Margem lateral */
-}
-
-ul li a {
-    display: inline-block; /* Exibe os links como blocos em linha */
-    padding: 1rem; /* Preenchimento interno */
-    color: #fff; /* Cor do texto */
-    transition: color 0.3s; /* Transição suave para a cor do texto */
-}
-
-ul li a:hover {
-    color: #ccc; /* Cor do texto ao passar o mouse */
-}
-
-ul li a img {
-    vertical-align: middle; /* Alinha verticalmente as imagens */
-}
-
-/* Estilos para o Container de Texto e Imagem */
-.conteinerTextoImg {
-    display: flex; /* Ativa o flexbox */
-    justify-content: center; /* Alinha horizontalmente no centro da tela */
-    align-items: center; /* Alinha verticalmente no centro da tela */
-    flex-wrap: wrap; /* Permite que os elementos sejam quebrados em várias linhas */
-}
-
-.conteinerTextoImg h1 {
-    margin-right: 10px; /* Margem à direita do título */
-}
-
-/* Estilos para Ícones */
-.icones {
-    display: flex; /* Exibe os ícones em linha */
-    list-style: none; /* Remove a marcação padrão */
-    padding: 0; /* Remove o preenchimento */
-    flex-direction: row; /* Alinha os ícones em uma linha */
-}
-
-.icones li {
-    margin-right: 10px; /* Margem à direita dos ícones */
-}
-
-ul li a img {
-    vertical-align: middle; /* Alinha verticalmente as imagens */
-    margin-right: 10px; /* Adiciona margem entre as imagens */
-}
-
-.conteinerTextoImg ul {
-    white-space: nowrap; /* Impede quebra de linha nos itens da lista */
+.icones-container {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
 
 .icones {
-    display: inline-block; /* Faz com que os itens da lista fiquem em uma única linha */
-    list-style: none; /* Remove a marcação padrão */
-    padding: 0; /* Remove o preenchimento */
-    margin: 0; /* Remove a margem */
+    display: inline-block;
 }
 
-/* Estilos para Parágrafos na Seção Sobre */
-.sobre > p {
-    padding: 0 100px; /* Adiciona padding horizontal de 100px */
+.icones img {
+    width: 60px;
+    height: 60px;
 }
 
-/* Animações para Imagens */
 @keyframes descerParaBaixo {
-    from {
-        transform: translateY(-15px); /* Começa 15 pixels acima do ponto inicial */
-    }
-    to {
-        transform: translateY(0); /* Termina no ponto inicial */
-    }
+    from { transform: translateY(-15px); }
+    to { transform: translateY(0); }
 }
 
 img {
-    width: 50px; /* Largura das imagens */
-    animation: descerParaBaixo 0.3s forwards; /* Animação inicial */
+    width: 50px;
+    animation: descerParaBaixo 0.7s forwards;
 }
 
 img:hover {
-    animation: subirParaCima 0.3s forwards; /* Animação ao passar o mouse */
+    animation: subirParaCima 0.6s forwards;
 }
 
 @keyframes subirParaCima {
-    from {
-        transform: translateY(0); /* Começa no ponto inicial */
-    }
-    to {
-        transform: translateY(-15px); /* Termina 15 pixels acima do ponto inicial */
-    }
+    from { transform: translateY(0); }
+    to { transform: translateY(-15px); }
 }
