@@ -1,6 +1,7 @@
 @import './variables.css';
 @import './globals.css';
 @import './medias.css';
+@import './fonts.css';
 
 @import './components/color.css';
 @import './components/navbar.css';

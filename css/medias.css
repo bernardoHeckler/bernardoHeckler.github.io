@@ -27,7 +27,7 @@
 }
 
 .preferencia {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .descricao > h1 {
@@ -272,19 +272,19 @@
 /* Estilo para dispositivos com largura até 360px */
 @media screen and (max-width: 360px) {
     .preferencia {
-        font-size: 65px;
+        font-size: 50px;
     }
 
     .descricao > h1 {
-        font-size: 65px;
+        font-size: 50px;
     }
 
     .descricao > h4 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .descricao > p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .icones-container {
@@ -312,8 +312,10 @@
 }
 /* Estilo para dispositivos com resolução de 375 x 667 pixels */
 @media screen and (max-width: 375px) {
+    
     .preferencia {
         font-size: 60px; 
+        
     }
 
     .descricao > h1 {
@@ -339,16 +341,16 @@
     }
 
     .icones img {
-        width: 35px; 
-        height: 35px; 
+        width: 30px; 
+        height: 30px; 
     }
 
     .footerMensagem {
-        font-size: 50px; 
+        font-size: 40px; 
     }
 
     .direitosCriador {
-        margin: 60px 0; 
+        margin: 40px 0; 
     }
 }
 /* Estilo para dispositivos com resolução de 667 x 375 pixels */
