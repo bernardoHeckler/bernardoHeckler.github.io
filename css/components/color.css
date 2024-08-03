@@ -31,6 +31,10 @@ main{
 .descricao > p{
     color: var(--lightgray);
 }
+aside{
+    background-image: linear-gradient(var(--yellow),var(--lightyellow));
+    color: var(--ly);
+}
 footer{
     background-color: var(--lightpurplue);
 }

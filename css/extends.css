@@ -3,6 +3,7 @@
 @import './medias.css';
 @import './fonts.css';
 
+@import './components/aside.css';
 @import './components/color.css';
 @import './components/navbar.css';
 @import './components/header.css';
