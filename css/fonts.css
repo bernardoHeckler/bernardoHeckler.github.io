@@ -22,3 +22,10 @@ h1, h2, .footerContato > span{
   font-weight: 400;
   font-style: normal;
 }
+
+.navBar > li > a{
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}

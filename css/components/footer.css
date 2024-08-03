@@ -2,7 +2,7 @@ footer {
   background-color: var(--lightpurplue);
   text-align: center;
   padding: 100px 10px 0px 10px;
-  height: auto; /* Ajustar altura automaticamente com base no conteúdo */
+  height: 100vh;
 }
 
 .footerConteudo {
