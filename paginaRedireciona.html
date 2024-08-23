@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionar para o Navegador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #007BFF;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Abra o portfólio em seu navegador</h1>
+        <p>Parece que você está abrindo este link no Instagram. Clique no botão abaixo para abrir o portfólio em seu navegador padrão.</p>
+        <button onclick="openInBrowser()">Abrir no Navegador</button>
+    </div>
+
+    <script>
+        function openInBrowser() {
+            var url = "index.html";  // Substitua pelo link do seu portfólio
+            window.open(url, '_self');
+        }
+    </script>
+</body>
+</html>
