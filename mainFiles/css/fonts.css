@@ -1,12 +1,16 @@
 
-h3, h4{
-  font-family: "Nabla", system-ui;
+h3{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-transform: uppercase;
+}
+h4{
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "EDPT" 100,
-    "EHLT" 12;
 }
 
 p {
@@ -24,8 +28,7 @@ h1, h2, .footerContato > span{
 }
 
 .navBar > li > a{
-  font-family: "Edu NSW ACT Foundation", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
