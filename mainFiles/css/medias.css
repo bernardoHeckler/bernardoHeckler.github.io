@@ -1,0 +1,384 @@
+/* Estilos padrão */
+.conteinerTextoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.icones-container {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.icones {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* Estilo da saudacoes e preferencia */
+.saudacoes {
+    font-size: 30px;
+}
+
+.preferencia {
+    font-size: 80px;
+}
+
+.descricao > h1 {
+    font-size: 90px;
+}
+
+.descricao > h4 {
+    font-size: 30px;
+}
+
+.descricao > p {
+    font-size: 20px;
+}
+
+aside > h5{
+    font-size: 35px;
+}
+
+
+/* Estilo para dispositivos com largura até 768px */
+@media screen and (max-width: 768px) {
+    .saudacoes {
+        font-size: 20px;
+    }
+
+    .preferencia {
+        font-size: 90px;
+    }
+
+    .descricao > h1 {
+        font-size: 70px;
+    }
+
+    .descricao > h4 {
+        font-size: 24px;
+    }
+
+    .descricao > p {
+        font-size: 18px;
+    }
+
+    .conteinerTextoImg {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icones-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icones {
+        margin: 0 10px;
+    }
+
+    .icones img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    aside > h5{
+        font-size: 25px;
+    }   
+
+   
+}
+
+/* Estilo para dispositivos com largura até 480px */
+@media screen and (max-width: 480px) {
+    .preferencia {
+        font-size: 60px;
+    }
+
+    .descricao > h1 {
+        font-size: 60px;
+    }
+
+    .descricao > h4 {
+        font-size: 24px;
+    }
+
+    .descricao > p {
+        font-size: 18px;
+    }
+
+    .icones-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icones {
+        margin: 5px 0;
+    }
+
+    .icones img {
+        width: 30px;
+        height: 30px;
+    }
+
+    
+}
+
+
+/* Estilo para dispositivos com largura até 414px */
+@media screen and (max-width: 414px) {
+    .preferencia {
+        font-size: 70px;
+    }
+
+    .descricao > h1 {
+        font-size: 70px;
+    }
+
+    .descricao > h4 {
+        font-size: 26px;
+    }
+
+    .descricao > p {
+        font-size: 18px;
+    }
+
+    .icones-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icones {
+        margin: 5px 10px;
+    }
+
+    .icones img {
+        width: 40px;
+        height: 40px;
+    }
+
+    
+}
+
+/* Estilo para dispositivos com largura até 390px */
+@media screen and (max-width: 390px) {
+    .preferencia {
+        font-size: 65px;
+    }
+
+    .descricao > h1 {
+        font-size: 65px;
+    }
+
+    .descricao > h4 {
+        font-size: 28px;
+    }
+
+    .descricao > p {
+        font-size: 18px;
+    }
+
+    .icones-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icones {
+        margin: 5px 8px;
+    }
+
+    .icones img {
+        width: 35px;
+        height: 35px;
+    }
+
+    
+}
+
+/* Estilo para dispositivos com largura até 430px */
+@media screen and (max-width: 430px) {
+    .preferencia {
+        font-size: 75px;
+    }
+
+    .descricao > h1 {
+        font-size: 75px;
+    }
+
+    .descricao > h4 {
+        font-size: 32px;
+    }
+
+    .descricao > p {
+        font-size: 20px;
+    }
+
+    .icones-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icones {
+        margin: 5px 12px;
+    }
+
+    .icones img {
+        width: 40px;
+        height: 40px;
+    }
+
+    
+}
+
+/* Estilo para dispositivos com largura até 360px */
+@media screen and (max-width: 360px) {
+    .preferencia {
+        font-size: 50px;
+    }
+
+    .descricao > h1 {
+        font-size: 50px;
+    }
+
+    .descricao > h4 {
+        font-size: 24px;
+    }
+
+    .descricao > p {
+        font-size: 14px;
+    }
+
+    .icones-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icones {
+        margin: 5px 8px;
+    }
+
+    .icones img {
+        width: 30px;
+        height: 30px;
+    }
+
+    
+}
+/* Estilo para dispositivos com resolução de 375 x 667 pixels */
+@media screen and (max-width: 375px) {
+    
+    .preferencia {
+        font-size: 60px; 
+        
+    }
+
+    .descricao > h1 {
+        font-size: 60px; 
+    }
+
+    .descricao > h4 {
+        font-size: 24px; 
+    }
+
+    .descricao > p {
+        font-size: 18px; 
+    }
+
+    .icones-container {
+        flex-direction: row; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+
+    .icones {
+        margin: 5px 8px; 
+    }
+
+    .icones img {
+        width: 30px; 
+        height: 30px; 
+    }
+
+    
+}
+/* Estilo para dispositivos com resolução de 667 x 375 pixels */
+@media screen and (max-width: 667px) and (min-width: 375px) {
+    .preferencia {
+        font-size: 50px; 
+    }
+
+    .descricao > h1 {
+        font-size: 50px; 
+    }
+
+    .descricao > h4 {
+        font-size: 20px;
+    }
+
+    .descricao > p {
+        font-size: 16px; 
+    }
+
+    .icones-container {
+        flex-direction: row; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+
+    .icones {
+        margin: 5px 8px; 
+    }
+
+    .icones img {
+        width: 30px; 
+        height: 30px; 
+    }
+
+    
+}
+/* Estilo para dispositivos com resolução de 740 x 360 pixels */
+@media screen and (max-width: 740px) and (min-width: 360px) {
+    .preferencia {
+        font-size: 55px;
+    }
+
+    .descricao > h1 {
+        font-size: 55px; 
+    }
+
+    .descricao > h4 {
+        font-size: 24px; 
+    }
+
+    .descricao > p {
+        font-size: 18px;
+    }
+
+    .icones-container {
+        flex-direction: row; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+
+    .icones {
+        margin: 5px 10px; 
+    }
+
+    .icones img {
+        width: 35px; 
+        height: 35px; 
+    }
+
+    
+}

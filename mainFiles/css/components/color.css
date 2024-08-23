@@ -1,0 +1,53 @@
+header{
+    background-color: var(--primary-color);
+}
+
+.navLink {
+    color: var(--secondary-color);
+}
+.navLink:hover{
+    color: var(--primary-color);
+}
+.cabecalho:hover{
+    background-color: var(--secondary-color);
+}
+main{
+    background-color: var(--primary-color);
+    background-image: radial-gradient(circle at 50% 40%, var(--purple) -62%, transparent 83%);
+}
+.saudacoes {
+    color: var(--secondary-color);
+}
+.preferencia{
+    color: var(--white);
+}
+.descricao > h1{
+    color: var(--white);
+}
+.descricao > h4{
+    color: var(--secondary-color);
+
+}
+.descricao > p{
+    color: var(--lightgray);
+}
+aside{
+    background-image: linear-gradient(var(--yellow),var(--lightyellow));
+    color: var(--ly);
+}
+footer{
+    background-color: var(--lightpurplue);
+}
+.footerTexto{
+    color: var(--white);
+}
+.footerMensagem{
+    color: var(--lightgray);
+
+}
+.footerContato{
+    color: var(--white);
+}
+.direitosCriador{
+    color: var(--lightgray);
+}
