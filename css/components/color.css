@@ -13,7 +13,6 @@ header{
 }
 main{
     background-color: var(--primary-color);
-    background-image: radial-gradient(circle at 50% 40%, var(--purple) -62%, transparent 83%);
 }
 .saudacoes {
     color: var(--secondary-color);

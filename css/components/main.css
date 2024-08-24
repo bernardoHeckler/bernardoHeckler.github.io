@@ -7,5 +7,7 @@ main {
     height: 100vh; 
     text-align: center;
     background-color: var(--primary-color);
-    background-image: radial-gradient(circle at 50% 40%, var(--purple) -62%, transparent 83%);
+}
+main{
+    background-image: radial-gradient(circle at 50% 115%, var(--purple) -15%, transparent 78%);
 }
