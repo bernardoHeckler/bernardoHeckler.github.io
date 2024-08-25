@@ -40,8 +40,14 @@ main{
 }
 
 .projetos{
-    background-image: linear-gradient(var(--yellow),var(--lightyellow));
-    color: var(--ly)
+    
+    color: var(--primary)
+}
+#projeto1{
+    background-image: linear-gradient(var(--lightgray),var(--secondary-color));
+}
+#projeto2{
+    background-image: linear-gradient(var(--secondary-color),var(--lightgray));
 }
 .botaoProjeto{
     background-color: var(--black);

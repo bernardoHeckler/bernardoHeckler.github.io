@@ -92,6 +92,13 @@ aside > h5{
         flex-direction: column;
         justify-content: center !important;
     }
+    .containerDescricaoProjeto2 {
+        max-width: 600px;
+        padding: 0 0 0 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+    }
     .tituloDoProjeto{
         display: flex;
         justify-content: center !important;
@@ -472,6 +479,10 @@ aside > h5{
         font-size: 25px;
     
     }
+    .containerDescricaoProjeto2 > p{
+        font-size: 25px;
+    
+    }
     .containerTextoImagem{
         max-width: 300px !important;
     }
@@ -489,6 +500,10 @@ aside > h5{
         font-size: 23px !important;
     }
     .containerDescricaoProjeto1 > p {
+        font-size: 17px;
+        padding: 0 0 0px 0;     
+    }
+    .containerDescricaoProjeto2 > p {
         font-size: 17px;
         padding: 0 0 0px 0;     
     }
@@ -510,6 +525,10 @@ aside > h5{
         font-size: 23px !important;
     }
     .containerDescricaoProjeto1 > p {
+        font-size: 14px;
+        padding: 0 0 0px 0;     
+    }
+    .containerDescricaoProjeto2 > p {
         font-size: 14px;
         padding: 0 0 0px 0;     
     }
