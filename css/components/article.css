@@ -23,7 +23,7 @@
 
 .topicos:hover{
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .topicos > h2 {
