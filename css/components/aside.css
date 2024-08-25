@@ -1,4 +1,4 @@
-aside {
+/* aside {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,4 +21,4 @@ aside {
   .asideChamadaAnimacao.animated {
     left: 0; 
     opacity: 1;
-  }
+  } */

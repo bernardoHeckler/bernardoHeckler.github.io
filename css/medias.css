@@ -155,8 +155,13 @@ aside > h5{
         width: 30px;
         height: 30px;
     }
-
-    
+    .topicos{
+        box-shadow: none !important;
+        transition: none !important;
+    }
+    .topicos:hover{
+        transform: none !important;
+    }
 }
 
 
@@ -199,6 +204,11 @@ aside > h5{
 
     .topicos {
         font-size: 14px;
+        box-shadow: none !important;
+        transition: none !important;
+    }
+    .topicos:hover{
+        transform: none !important;
     }
 }
 
@@ -247,8 +257,12 @@ aside > h5{
         max-width: 100% !important;
         margin: 15px 0 !important;
         padding: 12px !important;
+        box-shadow: none !important;
+        transition: none !important;
     }
-    
+    .topicos:hover{
+        transform: none !important;
+    }
 }
 
 @media screen and (max-width: 334px) {
@@ -272,6 +286,11 @@ aside > h5{
         max-width: 100% !important;
         margin: 20px 0 !important;
         padding: 10px !important;
+        box-shadow: none !important;
+        transition: none !important;
+    }
+    .topicos:hover{
+        transform: none !important;
     }
 }
 
