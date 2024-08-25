@@ -1,0 +1,84 @@
+.sobreMim {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; 
+    text-align: center; 
+    padding: 250px 0;
+}
+
+.topicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    max-width: 580px;
+    padding: 20px 35px;
+    text-align: center;
+    margin: 0 15px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.topicos:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.topicos > h2 {
+    text-align: left; 
+    padding-bottom: 10px;
+}
+
+.topicos > p {
+    text-align: justify;
+}
+.configButton{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    margin-top: 74px;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    transition: background-color 1s;
+}
+
+.button-color {
+    background-color: var(--green); 
+}
+
+.ball {
+    position: absolute;
+    top: 50%; 
+    left: 5px;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transition: left 1s;
+    transform: translateY(-50%); 
+    transform: background-color 2s;
+
+}
+.ball-color{
+    background-color: var(--black);
+}
+.ball-move {
+    left: calc(100% - 35px);
+}
+
+.black {
+    background-color: var(--black);
+}
+.green{
+    color: var(--green);
+    box-shadow: none;
+
+}

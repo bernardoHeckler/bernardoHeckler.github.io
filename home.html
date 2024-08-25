@@ -60,7 +60,7 @@
             <div class="descricao">
                 <h1>Developer</h1>
                 <h4>html, css, javaScript, python, java, sql...</h4>
-                <p id="sobre">
+                <p>
                     Tenho 20 anos sou um desenvolvedor python recente, 
                     atualmente matriculado no curso de Ciências da Computação
                     já no segundo semestre (2/8)
@@ -71,7 +71,58 @@
             </div>
         </section>
     </main>
+    
+    <article  id="sobre" class="sobreMim">
+        <div id="topico1" class="topicos">
+            <h2>Resuminho meu...</h2>
+            <p>Criei um site inspirado no da Prefeitura de PF e
+                desenvolvi um site de portfólio meu online, tudo
+                que fiz está disponível no GitHub. Tenho
+                experiência com designs usando Photoshop para
+                criação de interfaces baseadas em sites existentes e
+                também algumas fotos. Atualmente, estou cursando
+                Ciências da Computação e vejo o Frontend como
+                uma forte opção de carreira. Além disso, tenho
+                experiência em atendimento ao público há quase
+                um ano. Minha especialidade inclui: Photoshop,
+                JavaScript, Python, HTML, CSS e Git.
+            </p>
+        </div>
+        <div id="topico2" class="topicos">
+            <h2>Sendo desenvolvedor FrontEnd</h2>
+            <p>
+                <strong>Eu</strong> Melhorei principalmente a organização, 
+                análise de requisitos, design, UX UI,
+                hospedagem, testes, manutenção, backup e
+                recuperação, APIs e integrações
+            </p>
+            <div class="configButton">
+                <div class="button">
+                    <div class="ball"></div>
+                </div>
+                <script>
+                    document.querySelector('.ball').addEventListener('click', (event) => {
+                    event.target.classList.toggle('ball-move');
 
+                    const article = document.getElementById('sobre');
+                    const topico1 = document.getElementById('topico1');
+                    const topico2 = document.getElementById('topico2');
+                    const button = document.querySelector('.button');
+                    const ball = document.querySelector('.ball');
+
+                    article.classList.toggle('black');
+                    topico1.classList.toggle('green');
+                    topico2.classList.toggle('green');
+                    button.classList.toggle('button-color');
+                    ball.classList.toggle('ball-color');
+                });
+
+                </script>
+            </div>
+        </div>
+        
+    </article>
+    
 
     <!-- <section>
         <h2>Resuminho meu...</h2>
