@@ -106,6 +106,12 @@ aside > h5{
     figcaption{
         text-align: center !important;
     }
+    .footer{
+        height: auto !important;
+    }
+    .direitosCriador{
+        padding: 50px 5px 50px 5px;
+    }
 }
 
 /* Estilo para dispositivos com largura até 768px */
