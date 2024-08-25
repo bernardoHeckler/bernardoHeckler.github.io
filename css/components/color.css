@@ -39,6 +39,20 @@ main{
     color: var(--white);
 }
 
+.projetos{
+    background-image: linear-gradient(var(--yellow),var(--lightyellow));
+    color: var(--ly)
+}
+.botaoProjeto{
+    background-color: var(--black);
+}
+.botaoProjeto > a{
+    color: var(--white);
+}
+
+
+
+
 
 aside{
     background-image: linear-gradient(var(--yellow),var(--lightyellow));
