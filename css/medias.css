@@ -47,6 +47,29 @@ aside > h5{
 }
 
 
+@media (max-width: 1240px) {
+    .sobreMim {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 20px 50px !important;
+    }
+
+    .topicos {
+        font-size: 14px;
+        max-width: 100% !important;
+        margin: 15px 0 !important;
+        padding: 20px !important;
+    }
+    .configButton {
+        display: flex !important;
+        justify-content: center !important; 
+        width: 100% !important; 
+    }
+    .button {
+        margin-top: 20px !important; 
+    }
+}
+
 /* Estilo para dispositivos com largura até 768px */
 @media screen and (max-width: 768px) {
    
@@ -174,7 +197,9 @@ aside > h5{
         height: 40px;
     }
 
-    
+    .topicos {
+        font-size: 14px;
+    }
 }
 
 /* Estilo para dispositivos com largura até 390px */
@@ -213,9 +238,43 @@ aside > h5{
         width: 35px;
         height: 35px;
     }
+    .sobreMim {
+        padding: 20px 50px !important;
+    }
 
+    .topicos {
+        font-size: 14px;
+        max-width: 100% !important;
+        margin: 15px 0 !important;
+        padding: 12px !important;
+    }
     
 }
+
+@media screen and (max-width: 334px) {
+    .sobreMim {
+        padding: 25px 18px !important;    }
+
+    .topicos {
+        font-size: 16px;
+        max-width: 100% !important;
+        margin: 14px 0 !important;
+        padding: 10px !important;
+    }
+} 
+@media screen and (max-width: 312px) and (min-width: 294px){
+    .sobreMim {
+        padding: 0px 6px !important;
+    }
+
+    .topicos {
+        font-size: 15px;
+        max-width: 100% !important;
+        margin: 20px 0 !important;
+        padding: 10px !important;
+    }
+}
+
 
 /* Estilo para dispositivos com largura até 430px */
 @media screen and (max-width: 430px) {
