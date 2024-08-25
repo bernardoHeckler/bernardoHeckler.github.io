@@ -1,16 +1,16 @@
-document.addEventListener('scroll', () => {
-    const elements = document.querySelectorAll('.asideMensagemAnimacao, .asideChamadaAnimacao');
+// document.addEventListener('scroll', () => {
+//     const elements = document.querySelectorAll('.asideMensagemAnimacao, .asideChamadaAnimacao');
   
-    elements.forEach(element => {
-      const rect = element.getBoundingClientRect();
+//     elements.forEach(element => {
+//       const rect = element.getBoundingClientRect();
       
-      const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
+//       const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
       
-      if (isInViewport) {
-        element.classList.add('animated');
+//       if (isInViewport) {
+//         element.classList.add('animated');
       
-      } else {
-        element.classList.remove('animated');      }
-    });
-  });
+//       } else {
+//         element.classList.remove('animated');      }
+//     });
+//   });
   
