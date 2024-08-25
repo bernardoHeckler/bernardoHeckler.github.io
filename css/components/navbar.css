@@ -1,6 +1,23 @@
+/* Estilos existentes e novos combinados */
+header {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo do header */
+    align-items: center; /* Alinha verticalmente ao centro */
+    position: relative;
+    z-index: 1;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+
 .navBar {
     display: flex;
     list-style-type: none; /* Remove os marcadores das listas */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    position: relative; /* Mantém o posicionamento em relação ao header */
+    z-index: 1; /* Garante que o menu fique abaixo do botão hambúrguer */
 }
 
 .cabecalho {
@@ -15,10 +32,89 @@
     font-size: 1.2em; /* Tamanho da fonte */
 }
 
-.cabecalho:hover{
+.cabecalho:hover {
     border-radius: 10px;
     transition: 1s;
 }
-.navLink:hover{
+
+.navLink:hover {
     transition: 1s;
+}
+
+/* Estilos para o menu hambúrguer */
+.menuHamburguer {
+    display: none; /* Oculto por padrão */
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10; /* Garante que o botão fique acima do menu */
+}
+
+.barra {
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Animação do ícone do menu hambúrguer */
+.menuHamburguer.active .barra:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menuHamburguer.active .barra:nth-child(2) {
+    opacity: 0;
+}
+
+.menuHamburguer.active .barra:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Estilos responsivos */
+@media (max-width: 409px) {
+    header{
+        position: fixed;
+        width: 100%;
+        padding: 10px;
+    }
+    .menuHamburguer {
+        display: flex; /* Mostra o botão hambúrguer em telas pequenas */
+    }
+
+    .navBar {
+        display: none; /* Oculta o menu de navegação por padrão em telas pequenas */
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        transition: max-height 0.3s ease-in-out;
+        overflow: hidden;
+        max-height: 0; /* Inicialmente oculto */
+    }
+
+    .navBar.active {
+        display: flex;
+        max-height: 500px; /* Altura suficiente para mostrar o menu */
+        position: static; /* Faz o menu ocupar o espaço normal */
+        z-index: 2;
+        padding: 0 25px 0 0;
+    }
+
+    .cabecalho {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navLink {
+        font-size: 1.2em;
+    }
 }

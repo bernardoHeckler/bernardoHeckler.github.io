@@ -34,12 +34,27 @@
 
     <!-- Cabeçalho e Navegação -->
     <header>
+        <button class="menuHamburguer" aria-label="Abrir menu">
+            <div class="barra"></div>
+            <div class="barra"></div>
+            <div class="barra"></div>
+        </button>
         <nav class="navBar">
             <li class="cabecalho"><a class="navLink" href="#inicio">Início</a></li>
             <li class="cabecalho"><a class="navLink" href="#sobre">Sobre</a></li>
+            <li class="cabecalho"><a class="navLink" href="#projetos">Projetos</a></li>
             <li class="cabecalho"><a class="navLink" href="#contato">Contato</a></li>
         </nav>
     </header>
+    
+    <script>
+        document.querySelector('.menuHamburguer').addEventListener('click', function() {
+            document.querySelector('.navBar').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+
+    </script>
 
     <!-- Conteúdo Principal -->
     <main id="inicio">
@@ -123,7 +138,7 @@
         
     </article>
     
-
+    <div id="projetos"></div>
     <article id="projeto1" class="projetos">
         <div class="tamanhoProjeto">
             <div class="tituloDoProjeto">
@@ -244,8 +259,9 @@
     
         
     <!-- Rodapé -->
+    <div id="contato"></div>
     <footer id="footer" class="footer">
-        <div class="footerConteudo" id="contato">
+        <div class="footerConteudo">
             <h2 class="footerTexto">
                 Interessado em me conhecer melhor e discutir oportunidades de trabalho? 
                 <br>Vamos conversar!

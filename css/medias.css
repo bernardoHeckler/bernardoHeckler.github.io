@@ -46,7 +46,6 @@ aside > h5{
     font-size: 35px;
 }
 
-
 @media (max-width: 1240px) {
     .sobreMim {
         flex-direction: column !important;

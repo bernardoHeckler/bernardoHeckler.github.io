@@ -1,7 +1,10 @@
 header{
     background-color: var(--primary-color);
 }
-
+.barra{
+    background-color: #fff;
+    color: #000;
+}
 .navLink {
     color: var(--secondary-color);
 }
