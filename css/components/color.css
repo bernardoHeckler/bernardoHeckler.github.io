@@ -20,6 +20,9 @@ main{
 .saudacoes {
     color: var(--secondary-color);
 }
+.nome{
+    color: var(--white);
+}
 .preferencia{
     color: var(--white);
 }

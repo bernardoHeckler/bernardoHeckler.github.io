@@ -8,7 +8,15 @@
     padding: 0px 10px;
 }
 
-
+.saudacoes > h3{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.nome{
+    margin: 10px;
+    align-self: center;
+}
 .emoji {
     display: inline-block;
     font-size: 30px;
