@@ -77,7 +77,7 @@ footer{
     color: var(--lightgray);
 
 }
-.footerContato{
+.footerContato, a{
     color: var(--white);
 }
 .direitosCriador{
