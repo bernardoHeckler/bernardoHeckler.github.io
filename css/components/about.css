@@ -17,10 +17,11 @@
     margin: 10px;
     align-self: center;
 }
-.emoji {
+span.emoji {
     display: inline-block;
     font-size: 30px;
     animation: wave 1s infinite alternate;
+    align-items: center;
 }
 
 @keyframes wave {

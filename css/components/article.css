@@ -11,6 +11,7 @@
 
 .topicos {
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: flex-start; 
     max-width: 580px;
@@ -37,6 +38,8 @@
 .configButton{
     display: flex;
     justify-content: flex-start;
+    align-items: end;
+    height: 100%;
 }
 
 .button {

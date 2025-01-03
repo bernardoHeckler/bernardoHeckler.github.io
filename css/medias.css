@@ -166,10 +166,13 @@ aside > h5{
 
 /* Estilo para dispositivos com largura até 480px */
 @media screen and (max-width: 480px) {
-    
+    #inicio{
+        height: 100vh;
+    }
     .saudacoes {
         font-size: 20px;
     }
+    
     .preferencia {
         font-size: 60px;
     }
@@ -222,9 +225,12 @@ aside > h5{
 
 /* Estilo para dispositivos com largura até 414px */
 @media screen and (max-width: 414px) {
-    
+    #inicio{
+        height: 100vh;
+    }
     .saudacoes {
         font-size: 18px;
+        
     }
     .preferencia {
         font-size: 70px;
@@ -269,7 +275,9 @@ aside > h5{
 
 /* Estilo para dispositivos com largura até 390px */
 @media screen and (max-width: 390px) {
-    
+    #inicio{
+        height: 100vh;
+    }
     .saudacoes {
         font-size: 18px;
     }
@@ -470,9 +478,9 @@ aside > h5{
         margin: 0px -5px;
     }
 
-    .icones img {
-        width: 10px; 
-        height: 10px; 
+    .icones > a img {
+        width: 40px; 
+        height: 40px; 
     }
     .projetos{
         font-size: 18px !important;
@@ -498,6 +506,10 @@ aside > h5{
 }
 
 @media screen and (max-width: 325px) and (min-width: 310px){
+    .icones > a img {
+        width: 40px;
+        height: 40px;
+    }
     .projetos{
         font-size: 18px !important;
     }
@@ -553,8 +565,13 @@ aside > h5{
     .saudacoes {
         font-size: 17px;
     }
+
     .preferencia {
-        font-size: 50px; 
+        font-size: 60px; 
+    }
+    .icones > a img {
+        width: 50px;
+        height: 50px;
     }
 
     .descricao > h1 {
@@ -579,9 +596,9 @@ aside > h5{
         margin: 5px 8px; 
     }
 
-    .icones img {
-        width: 30px; 
-        height: 30px; 
+    .icones > a img {
+        width: 50px; 
+        height: 50px; 
     }
     .projetos{
         font-size: 23px !important;
@@ -607,7 +624,7 @@ aside > h5{
         font-size: 17px;
     }
     .preferencia {
-        font-size: 55px;
+        font-size: 70px;
     }
 
     .descricao > h1 {
