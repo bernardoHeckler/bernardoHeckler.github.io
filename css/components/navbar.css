@@ -81,7 +81,7 @@ header{
     header{
         position: fixed;
         width: 100%;
-        height: 20vh;
+        height: auto;
         padding: 10px;
     }
     .menuHamburguer {
@@ -118,5 +118,9 @@ header{
 
     .navLink {
         font-size: 1.2em;
+    }
+    .about{
+        height: auto;
+        max-width: 100%;
     }
 }

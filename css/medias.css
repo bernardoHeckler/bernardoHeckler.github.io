@@ -499,5 +499,62 @@ aside > h5{
     } */
      .mensagemApresentacao{
         font-size: 28px;
-     }
+    }
+    .containerDescricao{
+        padding: 0 16px;
+    }
+    .topicos{
+        font-size: 15px !important;
+    }
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 409px) {
+    header{
+        position: fixed;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .menuHamburguer {
+        display: flex; /* Mostra o botão hambúrguer em telas pequenas */
+    }
+
+    .navBar {
+        display: none; /* Oculta o menu de navegação por padrão em telas pequenas */
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        transition: max-height 0.3s ease-in-out;
+        overflow: hidden;
+        max-height: 0; /* Inicialmente oculto */
+    }
+
+    .navBar.active {
+        display: flex;
+        max-height: 500px; /* Altura suficiente para mostrar o menu */
+        position: static; /* Faz o menu ocupar o espaço normal */
+        z-index: 2;
+        padding: 0 25px 0 0;
+    }
+
+    .cabecalho {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navLink {
+        font-size: 1.2em;
+    }
+    .about{
+        height: auto;
+        max-width: 100%;
+    }
+    
 }
