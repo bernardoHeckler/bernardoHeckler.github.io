@@ -91,7 +91,7 @@ aside > h5{
 
 /* Estilo para dispositivos com largura até 768px */
 @media screen and (max-width: 768px) {
-   
+    
     
 
     .descricao > h1 {
@@ -557,4 +557,74 @@ aside > h5{
         max-width: 100%;
     }
     
+}
+/* Resolução para dispositivos grandes (Desktop) */
+@media (min-width: 1200px) {
+    /* Estilos para desktop */
+    .faleComigo{
+        display: flex !important;
+        }
+    }
+    
+    /* Resolução para dispositivos médios (Tablets e alguns pequenos desktops) */
+    @media (min-width: 768px) and (max-width: 1199px) {
+    /* Estilos para tablets */
+    .faleComigo{
+        display: flex!important;
+        }
+        .colunaMensagem > h2 {
+            font-size: 48px;
+        }
+        .colunaTexto > h2{
+            font-size: 48px;
+        }
+    }
+    
+    /* Resolução para dispositivos pequenos (Smartphones maiores) */
+    @media (min-width: 576px) and (max-width: 767px) {
+    .faleComigo{
+        display: block!important;
+        margin: 0 !important;
+        }
+        .colunaMensagem{
+            border-radius: 0!important;
+        }
+        .colunaTexto{
+            border-radius: 0!important;
+            padding: 100px;
+        }
+        .colunaMensagem > h2 {
+            font-size: 48px;
+        }
+        .colunaTexto > h2{
+            font-size: 48px;
+        }
+        #botaoEnviar{
+            padding: 0 !important;
+        }
+    }
+    
+    /* Resolução para dispositivos muito pequenos (Smartphones menores) */
+    @media (max-width: 575px) {
+    .faleComigo{
+        display: block!important;
+        width: auto;
+        justify-items: center;
+        margin: 0 !important;
+    }
+    .colunaMensagem{
+        border-radius: 0!important;
+    }
+    .colunaTexto{
+        border-radius: 0!important;
+    }
+    .colunaMensagem > h2 {
+        font-size: 48px;
+    }
+    .colunaTexto > h2{
+        font-size: 48px;
+    }
+    #botaoEnviar{
+        padding: 0 !important;
+    }   
 }

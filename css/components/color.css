@@ -86,3 +86,24 @@ footer{
 .direitosCriador{
     color: var(--lightgray);
 }
+.colunaTexto > h2{
+    color: var(--primary-color);
+}
+
+.colunaMensagem > h2{
+    color: var(--secondary-color);
+}
+input::placeholder{
+    color: var(--black);
+}
+.botaoEnviar #botaEviar{
+    background-color: var(--primary);
+    color: var(--secondary-color);
+}
+#inputFile{
+    background-color: var(--gray);
+    color: var(--black);
+}
+.colunaMensagem{
+    background-color: var(--gray-lb);
+}

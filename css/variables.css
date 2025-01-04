@@ -10,4 +10,12 @@
   --yellow: #FFD214;
   --ly: #FFF8C0;
   --green: #09ff00;
+  --black: #000000;
+  --white: #FFFFFF;
+  --red: #DD0426;
+  --gray: #7C7C7F;
+  --gray-lb: #272D2D;
+  --white-lb: #EDF5FC;
+  --gradient: linear-gradient(45deg, var(--red), var(--black));
+
 }

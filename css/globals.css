@@ -12,3 +12,15 @@ html, body {
   margin: 0;
   display: block;
 }
+
+li{
+  list-style: none;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  letter-spacing: 1px;
+  border: 0px;
+  border-radius: 8px;
+}
