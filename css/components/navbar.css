@@ -10,6 +10,7 @@ header {
 header{
     position: fixed;
     width: 100%;
+    /* border: 1px solid red; */
 }
 
 .navBar {
@@ -80,6 +81,7 @@ header{
     header{
         position: fixed;
         width: 100%;
+        height: 20vh;
         padding: 10px;
     }
     .menuHamburguer {

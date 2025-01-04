@@ -1,34 +1,9 @@
 /* Estilos padrão */
-.conteinerTextoImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin: 0 auto;
-    flex-wrap: nowrap;
-}
 
-.icones-container {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 10px;
-}
 
-.icones {
-    display: inline-block;
-    padding: 0 10px;
-}
+
 
 /* Estilo da saudacoes e preferencia */
-.saudacoes {
-    font-size: 30px;
-}
-
-.preferencia {
-    font-size: 80px;
-}
 
 .descricao > h1 {
     font-size: 90px;
@@ -117,13 +92,7 @@ aside > h5{
 /* Estilo para dispositivos com largura até 768px */
 @media screen and (max-width: 768px) {
    
-    .saudacoes {
-        font-size: 20px;
-    }
-
-    .preferencia {
-        font-size: 90px;
-    }
+    
 
     .descricao > h1 {
         font-size: 70px;
@@ -142,20 +111,8 @@ aside > h5{
         text-align: center;
     }
 
-    .icones-container {
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 
-    .icones {
-        margin: 0 10px;
-    }
-
-    .icones img {
-        width: 50px;
-        height: 50px;
-    }
+    
     
     aside > h5{
         font-size: 25px;
@@ -166,17 +123,7 @@ aside > h5{
 
 /* Estilo para dispositivos com largura até 480px */
 @media screen and (max-width: 480px) {
-    #inicio{
-        height: 100vh;
-    }
-    .saudacoes {
-        font-size: 20px;
-    }
     
-    .preferencia {
-        font-size: 60px;
-    }
-
     .descricao > h1 {
         font-size: 60px;
     }
@@ -189,19 +136,8 @@ aside > h5{
         font-size: 18px;
     }
 
-    .icones-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .icones {
-        margin: 5px 0;
-    }
-
-    .icones img {
-        width: 30px;
-        height: 30px;
-    }
+    
+    
     .topicos{
         box-shadow: none !important;
         transition: none !important;
@@ -225,17 +161,7 @@ aside > h5{
 
 /* Estilo para dispositivos com largura até 414px */
 @media screen and (max-width: 414px) {
-    #inicio{
-        height: 100vh;
-    }
-    .saudacoes {
-        font-size: 18px;
-        
-    }
-    .preferencia {
-        font-size: 70px;
-    }
-
+    
     .descricao > h1 {
         font-size: 70px;
     }
@@ -248,20 +174,7 @@ aside > h5{
         font-size: 18px;
     }
 
-    .icones-container {
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .icones {
-        margin: 5px 10px;
-    }
-
-    .icones img {
-        width: 40px;
-        height: 40px;
-    }
+    
 
     .topicos {
         font-size: 14px;
@@ -275,15 +188,7 @@ aside > h5{
 
 /* Estilo para dispositivos com largura até 390px */
 @media screen and (max-width: 390px) {
-    #inicio{
-        height: 100vh;
-    }
-    .saudacoes {
-        font-size: 18px;
-    }
-    .preferencia {
-        font-size: 65px;
-    }
+    
 
     .descricao > h1 {
         font-size: 65px;
@@ -297,20 +202,7 @@ aside > h5{
         font-size: 18px;
     }
 
-    .icones-container {
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .icones {
-        margin: 5px 8px;
-    }
-
-    .icones img {
-        width: 35px;
-        height: 35px;
-    }
+    
     .sobreMim {
         padding: 20px 50px !important;
     }
@@ -361,12 +253,7 @@ aside > h5{
 /* Estilo para dispositivos com largura até 430px */
 @media screen and (max-width: 430px) {
     
-    .saudacoes {
-        font-size: 18px;
-    }
-    .preferencia {
-        font-size: 75px;
-    }
+    
 
     .descricao > h1 {
         font-size: 75px;
@@ -380,19 +267,20 @@ aside > h5{
         font-size: 20px;
     }
 
-    .icones-container {
-        flex-direction: row;
-        justify-content: center;
+    .mensagemApresentacao{
+        display: block !important;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .name{
+        display: flex !important;
+        padding: 0 !important;
         flex-wrap: wrap;
+        align-content: flex-start;
+        justify-self: center;
     }
-
-    .icones {
-        margin: 5px 12px;
-    }
-
-    .icones img {
-        width: 40px;
-        height: 40px;
+    .emojiHand {
+        justify-content: center;;
     }
 
     
@@ -401,12 +289,7 @@ aside > h5{
 /* Estilo para dispositivos com largura até 360px */
 @media screen and (max-width: 360px) {
     
-    .saudacoes {
-        font-size: 18px;
-    }
-    .preferencia {
-        font-size: 50px;
-    }
+    
 
     .descricao > h1 {
         font-size: 50px;
@@ -420,34 +303,14 @@ aside > h5{
         font-size: 14px;
     }
 
-    .icones-container {
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .icones {
-        margin: 5px 8px;
-    }
-
-    .icones img {
-        width: 30px;
-        height: 30px;
-    }
+    
 
     
 }
 /* Estilo para dispositivos com resolução de 375 x 667 pixels */
 @media screen and (max-width: 375px) {
     
-    .saudacoes {
-        margin-top: 0px;
-        font-size: 19px;
-    }
-    
-    .preferencia {
-        font-size: 85px;
-    }
+   
 
     .descricao > h1 {
         font-size: 73px;
@@ -468,20 +331,7 @@ aside > h5{
     }
     
 
-    .icones-container {
-        flex-direction: row; 
-        justify-content: center; 
-        flex-wrap: wrap; 
-    }
-
-    .icones {
-        margin: 0px -5px;
-    }
-
-    .icones > a img {
-        width: 40px; 
-        height: 40px; 
-    }
+    
     .projetos{
         font-size: 18px !important;
     }
@@ -506,10 +356,7 @@ aside > h5{
 }
 
 @media screen and (max-width: 325px) and (min-width: 310px){
-    .icones > a img {
-        width: 40px;
-        height: 40px;
-    }
+    
     .projetos{
         font-size: 18px !important;
     }
@@ -562,17 +409,7 @@ aside > h5{
     /* Estilo para dispositivos com resolução de 667 x 375 pixels */
 @media screen and (max-width: 667px) and (min-width: 375px) {
     
-    .saudacoes {
-        font-size: 17px;
-    }
-
-    .preferencia {
-        font-size: 60px; 
-    }
-    .icones > a img {
-        width: 50px;
-        height: 50px;
-    }
+    
 
     .descricao > h1 {
         font-size: 50px; 
@@ -586,20 +423,9 @@ aside > h5{
         font-size: 16px; 
     }
 
-    .icones-container {
-        flex-direction: row; 
-        justify-content: center; 
-        flex-wrap: wrap; 
-    }
+    
 
-    .icones {
-        margin: 5px 8px; 
-    }
-
-    .icones > a img {
-        width: 50px; 
-        height: 50px; 
-    }
+    
     .projetos{
         font-size: 23px !important;
     }
@@ -619,14 +445,7 @@ aside > h5{
 /* Estilo para dispositivos com resolução de 740 x 360 pixels */
 @media screen and (max-width: 740px) and (min-width: 360px) {
     
-    .saudacoes {
-        margin-top: 4px;
-        font-size: 17px;
-    }
-    .preferencia {
-        font-size: 70px;
-    }
-
+    
     .descricao > h1 {
         font-size: 55px; 
     }
@@ -646,15 +465,39 @@ aside > h5{
         flex-wrap: wrap; 
     }
 
-    .icones {
-        margin: 5px 10px; 
-    }
-
-    .icones img {
-        width: 35px; 
-        height: 35px; 
-    }
 
     
 }
+/* Estilo para dispositivos com resolução de 553 pixels */
 
+@media screen and (max-width: 560px){
+    .containerApresentacao,
+    .containerProfissao,
+    .nomeProfissaoTopo,
+    .nomeProfissaoBaixo,
+    .containerProfissao{
+        display: block !important;
+    }
+    .nomeProfissaoTopo,
+    .nomeProfissaoBaixo{
+        font-size: 80px;
+        text-align: center;
+    }
+    .containerApresentacao{
+        width: 100%;
+    }
+    .containerProfissao{
+        width: 100%;
+        justify-items: center;
+        justify-self: center;
+    }
+    /* .name{
+        display: flex !important;
+        padding: 0 !important;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    } */
+     .mensagemApresentacao{
+        font-size: 28px;
+     }
+}

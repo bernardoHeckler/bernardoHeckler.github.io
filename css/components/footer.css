@@ -31,7 +31,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.footerContato span {
+.footerContato > span {
   font-size: 1em; 
 }
 .footerImagens {
@@ -39,7 +39,7 @@ footer {
   padding: 44px 0;
 }
 
-.footerImagens li {
+.footerImagens > li {
   display: inline-block;
   margin: 0 10px;
 }
@@ -47,4 +47,10 @@ footer {
 .direitosCriador {
   font-size: 1em;
   margin-top: 60px;
+}
+
+.redessociais{
+  width: 50px;
+  margin-top: 28px;
+  height: auto;
 }
