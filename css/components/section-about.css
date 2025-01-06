@@ -146,3 +146,25 @@
 .descricaoMinha {
     color: var(--lightpurplue);
 }
+
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 1.6em; /* Tamanho do texto ajustado para caber na tela */
+        text-align: center; /* Garante alinhamento no centro */
+    }
+
+    .icones {
+        gap: 8px; /* Reduz o espaçamento entre os ícones */
+    }
+
+    .icones .icone img {
+        width: 28px; /* Reduz o tamanho dos ícones em telas pequenas */
+        height: 28px;
+    }
+
+    .descricaoMinha {
+        font-size: 0.9em; /* Diminui a fonte para caber melhor em telas pequenas */
+        text-align: center;
+    }
+}

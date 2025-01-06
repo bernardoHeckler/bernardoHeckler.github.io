@@ -7,10 +7,11 @@
 @import './components/color.css';
 @import './components/navbar.css';
 @import './components/header.css';
-@import './components/about.css';
+@import './components/section-about.css';
 @import './components/footer.css';
 @import './components/main.css';
 @import './components/article.css';
 @import './components/section-falecomigo.css';
 
-@import './components/obrigado.css'
+@import './components/obrigado.css';
+@import './components/article-topicos.css'

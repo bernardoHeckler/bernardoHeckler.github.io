@@ -1,0 +1,197 @@
+
+/* Estilo do container geral */
+.sobreMim {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background: var(--lightgray);
+}
+
+/* Estilo dos tópicos */
+.containerTopicos {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    height: auto;
+    gap: 16px;
+}
+
+/* Hover para os tópicos */
+.topicos {
+    margin-top: 10px;
+    max-width: 330px;
+    height: auto;
+    text-align: justify;
+    padding: 16px;
+    border: 4px solid var(--white);
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out; 
+}
+
+.topicos:hover {
+    border-color: var(--blue); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02); 
+    border-radius: 32px; 
+}
+
+#topicoCentral{
+    margin-top: 0;
+    max-width: 360px;
+}
+.tituloTopico {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: var(--blue);
+    text-align: center;
+}
+.descricaoTopico {
+    color: var(--white-lb);
+    font-size: 1em;
+    line-height: 1.4;
+}
+.descricaoTopico > strong{
+    color: var(--gray-lb);
+}
+.descricaoTopico > li {
+    color: var(--white);
+}
+/* Botão interativo */
+/* .configButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.configButton h4 {
+    font-size: 1.2em;
+    color: #444;
+}
+
+.button {
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-color {
+    background-color: #0056b3;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.ball-move {
+    transform: translateX(25px);
+}
+
+.ball-color {
+    background-color: #ffd700;
+}*/
+
+/* Classes para interação */
+/* .green {
+    background-color: #d4edda; /* Verde claro */
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .sobreMim{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .containerTopicos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .topicos{
+        margin-top: 10px;
+        max-width: 100%;
+        height: auto;
+        margin-top: 0;
+        padding: 46px 16px;
+    }
+    #topicoCentral{
+        max-width: 100%;
+    }
+    .descricaoTopico{
+        padding: 24px 16px;
+    }
+/* 
+    .configButton {
+        align-items: flex-start;
+    }
+
+    .button {
+        width: 40px;
+        height: 20px;
+    }
+
+    .ball {
+        width: 15px;
+        height: 15px;
+        top: 2.5px;
+        left: 2.5px;
+    }
+
+    .ball-move {
+        transform: translateX(20px);
+    } */
+}
+
+@media (max-width: 480px) {
+    .sobreMim{
+        padding: 4px;
+    }
+    .topicos{
+        padding: 32px 16px;
+    }
+    .tituloTopico{
+        font-size: 40px;
+    }
+    /* .configButton {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .button {
+        width: 35px;
+        height: 18px;
+    }
+
+    .ball {
+        width: 12px;
+        height: 12px;
+        top: 3px;
+        left: 3px;
+    }
+
+    .ball-move {
+        transform: translateX(17px);
+    } */
+}

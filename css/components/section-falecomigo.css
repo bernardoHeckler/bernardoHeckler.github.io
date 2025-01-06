@@ -17,12 +17,16 @@
 
 .colunaTexto>h2 {
     text-align: center;
+    color: var(--primary-color);
+}
+.colunaTexto> h2> span{
+    color: var(--blue);
 }
 
 .colunaMensagem {
     width: 100%;
     height: auto;
-    background-color: var(--gray-lb);
+    background-color: var(--gray-bb);
     display: block;
     justify-content: center;
     align-content: center;
@@ -33,6 +37,7 @@
 .colunaMensagem>h2 {
     text-align: center;
     font-size: 80px;
+    color: var(--blue);
 }
 
 form {
@@ -55,8 +60,8 @@ input {
 
 button {
     background-color: transparent;
-    border: 4px solid var(--secondary-color);
-    color: var(--secondary-color);
+    border: 4px solid var(--blue);
+    color: var(--blue);
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 8px;

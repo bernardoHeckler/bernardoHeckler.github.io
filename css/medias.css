@@ -28,13 +28,7 @@ aside>h5 {
         padding: 20px 50px !important;
     }
 
-    .topicos {
-        font-size: 14px;
-        max-width: 100% !important;
-        margin: 15px 0 !important;
-        padding: 20px !important;
-    }
-
+    
     .configButton {
         display: flex !important;
         justify-content: center !important;
@@ -147,12 +141,12 @@ aside>h5 {
 
 
 
-    .topicos {
+    .containerTopicos {
         box-shadow: none !important;
         transition: none !important;
     }
 
-    .topicos:hover {
+    .containerTopicos:hover {
         transform: none !important;
     }
 
@@ -188,13 +182,13 @@ aside>h5 {
 
 
 
-    .topicos {
+    .containerTopicos {
         font-size: 14px;
         box-shadow: none !important;
         transition: none !important;
     }
 
-    .topicos:hover {
+    .containerTopicos:hover {
         transform: none !important;
     }
 }
@@ -220,7 +214,7 @@ aside>h5 {
         padding: 20px 50px !important;
     }
 
-    .topicos {
+    .containerTopicos {
         font-size: 14px;
         max-width: 100% !important;
         margin: 15px 0 !important;
@@ -229,7 +223,7 @@ aside>h5 {
         transition: none !important;
     }
 
-    .topicos:hover {
+    .containerTopicos:hover {
         transform: none !important;
     }
 }
@@ -239,7 +233,7 @@ aside>h5 {
         padding: 25px 18px !important;
     }
 
-    .topicos {
+    .containerTopicos {
         font-size: 16px;
         max-width: 100% !important;
         margin: 14px 0 !important;
@@ -252,7 +246,7 @@ aside>h5 {
         padding: 0px 6px !important;
     }
 
-    .topicos {
+    .containerTopicos {
         font-size: 15px;
         max-width: 100% !important;
         margin: 20px 0 !important;
@@ -261,7 +255,7 @@ aside>h5 {
         transition: none !important;
     }
 
-    .topicos:hover {
+    .containerTopicos:hover {
         transform: none !important;
     }
 }
@@ -565,7 +559,7 @@ aside>h5 {
         padding: 0 16px;
     }
 
-    .topicos {
+    .containerTopicos {
         font-size: 15px !important;
     }
 }

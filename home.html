@@ -110,62 +110,85 @@
     </section>
 
     <article id="sobre" class="sobreMim">
-        <div id="topico1" class="topicos">
-            <h3>Resuminho meu...</h3>
-            <p>
-                Criei um site inspirado no da Prefeitura de PF e
-                desenvolvi um site de portfólio meu online, tudo
-                que fiz está disponível no GitHub. Tenho
-                experiência com designs usando Photoshop e Figma para
-                criação de interfaces baseadas em sites existentes e
-                também algumas fotos. Atualmente, estou cursando
-                Ciências da Computação e vejo o Frontend e BackEnd como
-                uma forte opção de carreira. Além disso, tenho
-                experiência em atendimento ao público há quase
-                um ano. Minha especialidade inclui: Photoshop, Figma
-                JavaScript, ReactJS, Python, HTML, CSS, Linux e Git.
-            </p>
-            <p>
-                Atualmente, estou estágiando na Prefeitura de Passo Fundo RS
-                como TI. Papel de ir nas escolas municipais resolver problemas de Redes, Impressoras,
-                Formatação de Computadores, Manutenções no Hardware, Instalação e organização
-                de sistemas...
-            </p>
+        <div class="containerTopicos">
+            <!-- Onde Atuo -->
+            <article class="topicos">  
+                <h3 class="tituloTopico">Onde Atuo</h3>
+                <section>
+                    <p class="descricaoTopico">
+                        Atualmente, estou estagiando na <strong>Prefeitura de Passo Fundo, RS</strong>, na área de
+                        <strong>TI</strong>. Meu papel inclui resolver problemas de <strong>Redes</strong>, configurar e
+                        consertar <strong>impressoras</strong>, realizar formatações de computadores,
+                        <strong>manutenções de hardware</strong>, além de instalar e organizar sistemas em escolas
+                        municipais.
+                    </p>
+                </section>
+            </article>
+            <!-- Resumo -->
+            <article class="topicos" id="topicoCentral">
+                <h3 class="tituloTopico">Resumo</h3>
+                <section>
+                    <p class="descricaoTopico">
+                        Criei um site inspirado no <strong>site da Prefeitura de Passo Fundo</strong> e desenvolvi um
+                        <strong>portfólio online</strong>, com todos os projetos disponíveis no meu <a
+                            href="https://github.com/bernardoHeckler" target="_blank" rel="noopener">GitHub</a>. Tenho
+                        experiência em design de interfaces utilizando <strong>Photoshop</strong> e
+                        <strong>Figma</strong>, criando layouts baseados em sites existentes e editando imagens.
+                        Atualmente, estou cursando <strong>Ciências da Computação</strong> e considero o
+                        <strong>Frontend</strong> e o <strong>Backend</strong> como fortes opções de carreira.
+                    </p>
+                    <ul class="descricaoTopico">
+                        <li>Especialidades: Photoshop, Figma, JavaScript, ReactJS, Python, HTML, CSS, Linux e Git.</li>
+                    </ul>
+                </section>
+            </article>
+            <!-- O Que Aprendi -->
+            <article class="topicos">
+                <h3 class="tituloTopico">O Que Aprendi</h3>
+                <section>
+                    <p class="descricaoTopico">
+                        Eu melhorei principalmente a <strong>organização</strong>, <strong>análise de
+                            requisitos</strong>,
+                        <strong>design</strong>, <strong>UX/UI</strong>, <strong>hospedagem</strong>,
+                        <strong>testes</strong>,
+                        <strong>manutenção</strong>, <strong>backup</strong> e <strong>recuperação</strong>, além de
+                        trabalhar
+                        com <strong>APIs e integrações</strong>.
+                    </p>
+                </section>
+            </article>
         </div>
-        <div id="topico2" class="topicos">
-            <h3>Sendo desenvolvedor FrontEnd</h3>
-            <p>
-                <strong>Eu</strong> Melhorei principalmente a organização,
-                análise de requisitos, design, UX UI,
-                hospedagem, testes, manutenção, backup e
-                recuperação, APIs e integrações...
-            </p>
-            <div class="configButton">
-                <div class="button">
-                    <div class="ball"></div>
-                </div>
-                <script>
-                    document.querySelector('.ball').addEventListener('click', (event) => {
-                        event.target.classList.toggle('ball-move');
 
-                        const article = document.getElementById('sobre');
-                        const topico1 = document.getElementById('topico1');
-                        const topico2 = document.getElementById('topico2');
-                        const button = document.querySelector('.button');
-                        const ball = document.querySelector('.ball');
-
-                        article.classList.toggle('black');
-                        topico1.classList.toggle('green');
-                        topico2.classList.toggle('green');
-                        button.classList.toggle('button-color');
-                        ball.classList.toggle('ball-color');
-                    });
-
-                </script>
+        <!-- Botão para mudar as cores -->
+        <!-- <div class="configButton">
+            <h4>Personalizar Estilo:</h4>
+            <div class="button">
+                <div class="ball"></div>
             </div>
-        </div>
+        </div> -->
 
+        <!-- Script para interatividade -->
+        <!-- <script>
+            document.querySelector('.ball').addEventListener('click', (event) => {
+                event.target.classList.toggle('ball-move');
+    
+                // Selecionando os elementos
+                const topicos = document.querySelectorAll('.containerTopicos');
+                const button = document.querySelector('.button');
+                const ball = document.querySelector('.ball');
+    
+                // Alterando as cores
+                topicos.forEach(topico => {
+                    topico.classList.toggle('green'); // Classe para alterar cor dos tópicos
+                });
+    
+                // Alterando cores do botão
+                button.classList.toggle('button-color');
+                ball.classList.toggle('ball-color');
+            });
+        </script> -->
     </article>
+
 
     <div id="projetos"></div>
     <article id="projeto1" class="projetos">
@@ -176,13 +199,10 @@
             <div class="containerTextoImagem">
                 <div class="containerDescricaoProjeto1">
                     <p>
-                        O site foi um projeto que eu tinha que copiar o
-                        original, nele oferece uma interface para navegar
-                        pelas abas, ver as recentes postagens, um mapa
-                        guiado para o usuário, e também uma janela que
-                        o cliente possa contatar suas dúvidas junto uma
-                        tabela com dados das informações da nossa
-                        cidade.
+                        O site foi desenvolvido como um projeto para replicar um modelo original. Ele oferece uma
+                        interface intuitiva com navegação por abas, acesso às postagens recentes, um mapa interativo
+                        para orientar os usuários, além de uma janela para contato direto com suporte e uma tabela
+                        informativa com dados relevantes sobre a cidade.
                     </p>
                     <p>
                         Tecnologias: <i> HTML5, CSS3, Photoshop, Google
@@ -212,11 +232,10 @@
             <div class="containerTextoImagem">
                 <div class="containerDescricaoProjeto2">
                     <p>
-                        Meu primeiro site como porfólio que fiz, por todo o ano de 2023
-                        foi meu principal portfólio online, nele há toda a
-                        minha descrição, onde eu uso muito a função de
-                        botões, permite aos visitantes mais interações na
-                        tela, facilitando a leitura de suas escolhas.
+                        Meu primeiro site de portfólio, criado ao longo de 2023, foi meu principal portfólio online
+                        durante o ano. Ele apresenta minha descrição completa e faz amplo uso de botões interativos,
+                        proporcionando aos visitantes uma navegação mais dinâmica e facilitando a leitura conforme suas
+                        escolhas.
                     </p>
                     <p>
                         Tecnologias: <i> HTML5, CSS3, JavaScript, Photoshop, Google
