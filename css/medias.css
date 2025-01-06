@@ -5,19 +5,19 @@
 
 /* Estilo da saudacoes e preferencia */
 
-.descricao > h1 {
+.descricao>h1 {
     font-size: 90px;
 }
 
-.descricao > h4 {
+.descricao>h4 {
     font-size: 30px;
 }
 
-.descricao > p {
+.descricao>p {
     font-size: 20px;
 }
 
-aside > h5{
+aside>h5 {
     font-size: 35px;
 }
 
@@ -34,26 +34,30 @@ aside > h5{
         margin: 15px 0 !important;
         padding: 20px !important;
     }
+
     .configButton {
         display: flex !important;
-        justify-content: center !important; 
-        width: 100% !important; 
+        justify-content: center !important;
+        width: 100% !important;
     }
+
     .button {
-        margin-top: 20px !important; 
+        margin-top: 20px !important;
     }
-    .projetos{
+
+    .projetos {
         height: auto !important;
         flex-direction: column !important;
         align-items: center !important;
         padding: 50px 50px !important;
     }
-   
-    .containerTextoImagem{
+
+    .containerTextoImagem {
         flex-direction: column !important;
         align-items: center !important;
     }
-    .botaoProjeto{
+
+    .botaoProjeto {
         width: 100% !important;
         margin-bottom: 20px;
 
@@ -66,6 +70,7 @@ aside > h5{
         flex-direction: column;
         justify-content: center !important;
     }
+
     .containerDescricaoProjeto2 {
         max-width: 600px;
         padding: 0 0 0 0 !important;
@@ -73,36 +78,40 @@ aside > h5{
         flex-direction: column;
         justify-content: center !important;
     }
-    .tituloDoProjeto{
+
+    .tituloDoProjeto {
         display: flex;
         justify-content: center !important;
         padding: 10px;
     }
-    figcaption{
+
+    figcaption {
         text-align: center !important;
     }
-    .footer{
+
+    .footer {
         height: auto !important;
     }
-    .direitosCriador{
+
+    .direitosCriador {
         padding: 50px 5px 50px 5px;
     }
 }
 
 /* Estilo para dispositivos com largura até 768px */
 @media screen and (max-width: 768px) {
-    
-    
 
-    .descricao > h1 {
+
+
+    .descricao>h1 {
         font-size: 70px;
     }
 
-    .descricao > h4 {
+    .descricao>h4 {
         font-size: 24px;
     }
 
-    .descricao > p {
+    .descricao>p {
         font-size: 18px;
     }
 
@@ -112,97 +121,101 @@ aside > h5{
     }
 
 
-    
-    
-    aside > h5{
-        font-size: 25px;
-    }   
 
-   
+
+    aside>h5 {
+        font-size: 25px;
+    }
+
+
 }
 
 /* Estilo para dispositivos com largura até 480px */
 @media screen and (max-width: 480px) {
-    
-    .descricao > h1 {
+
+    .descricao>h1 {
         font-size: 60px;
     }
 
-    .descricao > h4 {
+    .descricao>h4 {
         font-size: 24px;
     }
 
-    .descricao > p {
+    .descricao>p {
         font-size: 18px;
     }
 
-    
-    
-    .topicos{
+
+
+    .topicos {
         box-shadow: none !important;
         transition: none !important;
     }
-    .topicos:hover{
+
+    .topicos:hover {
         transform: none !important;
     }
-    .projetos{
+
+    .projetos {
         font-size: 23px !important;
     }
-    
-    .containerTextoImagem{
+
+    .containerTextoImagem {
         max-width: 370px !important;
     }
-    .containerImagem > figure > img{
+
+    .containerImagem>figure>img {
         max-width: 370px !important;
-        
+
     }
 }
 
 
 /* Estilo para dispositivos com largura até 414px */
 @media screen and (max-width: 414px) {
-    
-    .descricao > h1 {
+
+    .descricao>h1 {
         font-size: 70px;
     }
 
-    .descricao > h4 {
+    .descricao>h4 {
         font-size: 26px;
     }
 
-    .descricao > p {
+    .descricao>p {
         font-size: 18px;
     }
 
-    
+
 
     .topicos {
         font-size: 14px;
         box-shadow: none !important;
         transition: none !important;
     }
-    .topicos:hover{
+
+    .topicos:hover {
         transform: none !important;
     }
 }
 
 /* Estilo para dispositivos com largura até 390px */
 @media screen and (max-width: 390px) {
-    
 
-    .descricao > h1 {
+
+    .descricao>h1 {
         font-size: 65px;
     }
 
-    .descricao > h4 {
+    .descricao>h4 {
         font-size: 28px;
     }
 
-    .descricao > p {
+    .descricao>p {
         font-size: 18px;
     }
 
-    
+
     .sobreMim {
         padding: 20px 50px !important;
     }
@@ -215,14 +228,16 @@ aside > h5{
         box-shadow: none !important;
         transition: none !important;
     }
-    .topicos:hover{
+
+    .topicos:hover {
         transform: none !important;
     }
 }
 
 @media screen and (max-width: 334px) {
     .sobreMim {
-        padding: 25px 18px !important;    }
+        padding: 25px 18px !important;
+    }
 
     .topicos {
         font-size: 16px;
@@ -230,8 +245,9 @@ aside > h5{
         margin: 14px 0 !important;
         padding: 10px !important;
     }
-} 
-@media screen and (max-width: 312px) and (min-width: 294px){
+}
+
+@media screen and (max-width: 312px) and (min-width: 294px) {
     .sobreMim {
         padding: 0px 6px !important;
     }
@@ -244,7 +260,8 @@ aside > h5{
         box-shadow: none !important;
         transition: none !important;
     }
-    .topicos:hover{
+
+    .topicos:hover {
         transform: none !important;
     }
 }
@@ -252,258 +269,303 @@ aside > h5{
 
 /* Estilo para dispositivos com largura até 430px */
 @media screen and (max-width: 430px) {
-    
-    
 
-    .descricao > h1 {
+
+
+    .descricao>h1 {
         font-size: 75px;
     }
 
-    .descricao > h4 {
+    .descricao>h4 {
         font-size: 32px;
     }
 
-    .descricao > p {
+    .descricao>p {
         font-size: 20px;
     }
 
-    .mensagemApresentacao{
+    .mensagemApresentacao {
         display: block !important;
         padding-top: 10px;
         text-align: center;
     }
-    .name{
+
+    .name {
         display: flex !important;
         padding: 0 !important;
         flex-wrap: wrap;
         align-content: flex-start;
         justify-self: center;
     }
+
     .emojiHand {
-        justify-content: center;;
+        justify-content: center;
+        ;
     }
 
-    
+
 }
 
 /* Estilo para dispositivos com largura até 360px */
 @media screen and (max-width: 360px) {
-    
-    
 
-    .descricao > h1 {
+
+
+    .descricao>h1 {
         font-size: 50px;
     }
 
-    .descricao > h4 {
+    .descricao>h4 {
         font-size: 24px;
     }
 
-    .descricao > p {
+    .descricao>p {
         font-size: 14px;
     }
 
-    
 
-    
+
+
 }
+
 /* Estilo para dispositivos com resolução de 375 x 667 pixels */
 @media screen and (max-width: 375px) {
-    
-   
 
-    .descricao > h1 {
+
+
+    .descricao>h1 {
         font-size: 73px;
     }
 
-    .descricao > h4 {
+    .descricao>h4 {
         font-size: 18px;
     }
 
-    .descricao > p {
+    .descricao>p {
         font-size: 18px;
     }
-    .aviso > h5 {
+
+    .aviso>h5 {
         font-size: 21px;
     }
-    .aviso > p {
+
+    .aviso>p {
         font-size: 12px;
     }
-    
 
-    
-    .projetos{
+
+
+    .projetos {
         font-size: 18px !important;
     }
-    .projetos > .tituloDoProjeto > h2{
+
+    .projetos>.tituloDoProjeto>h2 {
         font-size: 23px !important;
     }
-    .containerDescricaoProjeto1 > p{
+
+    .containerDescricaoProjeto1>p {
         font-size: 25px;
-    
+
     }
-    .containerDescricaoProjeto2 > p{
+
+    .containerDescricaoProjeto2>p {
         font-size: 25px;
-    
+
     }
-    .containerTextoImagem{
+
+    .containerTextoImagem {
         max-width: 300px !important;
     }
-    .containerImagem > figure > img{
+
+    .containerImagem>figure>img {
         max-width: 300px !important;
-        
+
     }
 }
 
-@media screen and (max-width: 325px) and (min-width: 310px){
-    
-    .projetos{
+@media screen and (max-width: 325px) and (min-width: 310px) {
+
+    .projetos {
         font-size: 18px !important;
     }
-    .projetos > .tituloDoProjeto > h2{
+
+    .projetos>.tituloDoProjeto>h2 {
         font-size: 23px !important;
     }
-    .containerDescricaoProjeto1 > p {
+
+    .containerDescricaoProjeto1>p {
         font-size: 17px;
-        padding: 0 0 0px 0;     
+        padding: 0 0 0px 0;
     }
-    .containerDescricaoProjeto2 > p {
+
+    .containerDescricaoProjeto2>p {
         font-size: 17px;
-        padding: 0 0 0px 0;     
+        padding: 0 0 0px 0;
     }
-    .containerTextoImagem{
+
+    .containerTextoImagem {
         max-width: 300px !important;
-        
+
     }
-    .containerImagem > figure > img{
+
+    .containerImagem>figure>img {
         max-width: 300px !important;
-        
+
     }
 }
 
-@media screen and (max-width: 310px){
-    .projetos{
+@media screen and (max-width: 310px) {
+    .projetos {
         font-size: 15px !important;
     }
-    .projetos > .tituloDoProjeto > h2{
+
+    .projetos>.tituloDoProjeto>h2 {
         font-size: 23px !important;
     }
-    .containerDescricaoProjeto1 > p {
+
+    .containerDescricaoProjeto1>p {
         font-size: 14px;
-        padding: 0 0 0px 0;     
+        padding: 0 0 0px 0;
     }
-    .containerDescricaoProjeto2 > p {
+
+    .containerDescricaoProjeto2>p {
         font-size: 14px;
-        padding: 0 0 0px 0;     
+        padding: 0 0 0px 0;
     }
-    .containerTextoImagem{
+
+    .containerTextoImagem {
         max-width: 255px !important;
-        
+
     }
-    .containerImagem > figure > img{
+
+    .containerImagem>figure>img {
         max-width: 255px !important;
-        
+
     }
 }
 
-    /* Estilo para dispositivos com resolução de 667 x 375 pixels */
+/* Estilo para dispositivos com resolução de 667 x 375 pixels */
 @media screen and (max-width: 667px) and (min-width: 375px) {
-    
-    
 
-    .descricao > h1 {
-        font-size: 50px; 
+
+
+    .descricao>h1 {
+        font-size: 50px;
     }
 
-    .descricao > h4 {
+    .descricao>h4 {
         font-size: 20px;
     }
 
-    .descricao > p {
-        font-size: 16px; 
+    .descricao>p {
+        font-size: 16px;
     }
 
-    
 
-    
-    .projetos{
+
+
+    .projetos {
         font-size: 23px !important;
     }
-    
 
-    
-    .containerTextoImagem{
+
+
+    .containerTextoImagem {
         max-width: 450px;
     }
-    .containerImagem > figure > img{
+
+    .containerImagem>figure>img {
         max-width: 450px;
-        
+
     }
 
-    
+
 }
+
 /* Estilo para dispositivos com resolução de 740 x 360 pixels */
 @media screen and (max-width: 740px) and (min-width: 360px) {
-    
-    
-    .descricao > h1 {
-        font-size: 55px; 
+
+
+    .descricao>h1 {
+        font-size: 55px;
     }
 
-    .descricao > h4 {
-        font-size: 24px; 
+    .descricao>h4 {
+        font-size: 24px;
     }
 
-    .descricao > p {
+    .descricao>p {
         font-size: 18px;
     }
 
     .icones-container {
-     
-        flex-direction: row; 
-        justify-content: center; 
-        flex-wrap: wrap; 
+
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
 
-    
+
 }
+
 /* Estilo para dispositivos com resolução de 553 pixels */
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 560px) {
+    .containerApresentacao {
+        padding: 10px;
+    }
+
     .containerApresentacao,
     .containerProfissao,
     .nomeProfissaoTopo,
     .nomeProfissaoBaixo,
-    .containerProfissao{
+    .containerProfissao {
         display: block !important;
+        justify-content: center;
+        justify-items: center;
     }
+
     .nomeProfissaoTopo,
-    .nomeProfissaoBaixo{
-        font-size: 80px;
+    .nomeProfissaoBaixo {
+        font-size: 75px;
         text-align: center;
     }
-    .containerApresentacao{
+
+    .containerProfissao>ul>li>a {
+        padding: 0;
+    }
+
+    .containerProfissao>ul>li>a>img {
+        width: 38px;
+        margin-top: 0;
+    }
+
+    .containerApresentacao {
         width: 100%;
     }
-    .containerProfissao{
+
+    .containerProfissao {
         width: 100%;
         justify-items: center;
         justify-self: center;
     }
+
     /* .name{
         display: flex !important;
         padding: 0 !important;
         flex-wrap: wrap;
         align-content: flex-start;
     } */
-     .mensagemApresentacao{
+    .mensagemApresentacao {
         font-size: 28px;
     }
-    .containerDescricao{
+
+    .containerDescricao {
         padding: 0 16px;
     }
-    .topicos{
+
+    .topicos {
         font-size: 15px !important;
     }
 }
@@ -511,18 +573,21 @@ aside > h5{
 
 /* Estilos responsivos */
 @media (max-width: 409px) {
-    header{
+    header {
         position: fixed;
         width: 100%;
         height: auto;
         padding: 10px;
     }
+
     .menuHamburguer {
-        display: flex; /* Mostra o botão hambúrguer em telas pequenas */
+        display: flex;
+        /* Mostra o botão hambúrguer em telas pequenas */
     }
 
     .navBar {
-        display: none; /* Oculta o menu de navegação por padrão em telas pequenas */
+        display: none;
+        /* Oculta o menu de navegação por padrão em telas pequenas */
         flex-direction: column;
         align-items: center;
         position: absolute;
@@ -531,13 +596,16 @@ aside > h5{
         width: 100%;
         transition: max-height 0.3s ease-in-out;
         overflow: hidden;
-        max-height: 0; /* Inicialmente oculto */
+        max-height: 0;
+        /* Inicialmente oculto */
     }
 
     .navBar.active {
         display: flex;
-        max-height: 500px; /* Altura suficiente para mostrar o menu */
-        position: static; /* Faz o menu ocupar o espaço normal */
+        max-height: 500px;
+        /* Altura suficiente para mostrar o menu */
+        position: static;
+        /* Faz o menu ocupar o espaço normal */
         z-index: 2;
         padding: 0 25px 0 0;
     }
@@ -552,79 +620,96 @@ aside > h5{
     .navLink {
         font-size: 1.2em;
     }
-    .about{
+
+    .about {
         height: auto;
         max-width: 100%;
     }
-    
+
 }
+
 /* Resolução para dispositivos grandes (Desktop) */
 @media (min-width: 1200px) {
+
     /* Estilos para desktop */
-    .faleComigo{
+    .faleComigo {
         display: flex !important;
-        }
     }
-    
-    /* Resolução para dispositivos médios (Tablets e alguns pequenos desktops) */
-    @media (min-width: 768px) and (max-width: 1199px) {
+}
+
+/* Resolução para dispositivos médios (Tablets e alguns pequenos desktops) */
+@media (min-width: 768px) and (max-width: 1199px) {
+
     /* Estilos para tablets */
-    .faleComigo{
-        display: flex!important;
-        }
-        .colunaMensagem > h2 {
-            font-size: 48px;
-        }
-        .colunaTexto > h2{
-            font-size: 48px;
-        }
+    .faleComigo {
+        display: flex !important;
     }
-    
-    /* Resolução para dispositivos pequenos (Smartphones maiores) */
-    @media (min-width: 576px) and (max-width: 767px) {
-    .faleComigo{
-        display: block!important;
+
+    .colunaMensagem>h2 {
+        font-size: 48px;
+    }
+
+    .colunaTexto>h2 {
+        font-size: 48px;
+    }
+}
+
+/* Resolução para dispositivos pequenos (Smartphones maiores) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .faleComigo {
+        display: block !important;
         margin: 0 !important;
-        }
-        .colunaMensagem{
-            border-radius: 0!important;
-        }
-        .colunaTexto{
-            border-radius: 0!important;
-            padding: 100px;
-        }
-        .colunaMensagem > h2 {
-            font-size: 48px;
-        }
-        .colunaTexto > h2{
-            font-size: 48px;
-        }
-        #botaoEnviar{
-            padding: 0 !important;
-        }
     }
-    
-    /* Resolução para dispositivos muito pequenos (Smartphones menores) */
-    @media (max-width: 575px) {
-    .faleComigo{
-        display: block!important;
+
+    .colunaMensagem {
+        border-radius: 0 !important;
+    }
+
+    .colunaTexto {
+        border-radius: 0 !important;
+        padding: 100px;
+    }
+
+    .colunaMensagem>h2 {
+        font-size: 48px;
+    }
+
+    .colunaTexto>h2 {
+        font-size: 48px;
+    }
+
+    #botaoEnviar {
+        padding: 0 !important;
+    }
+}
+
+/* Resolução para dispositivos muito pequenos (Smartphones menores) */
+@media (max-width: 575px) {
+    .faleComigo {
+        display: block !important;
         width: auto;
         justify-items: center;
         margin: 0 !important;
     }
-    .colunaMensagem{
-        border-radius: 0!important;
+
+    .colunaMensagem {
+        border-radius: 0 !important;
     }
-    .colunaTexto{
-        border-radius: 0!important;
+
+    .colunaTexto {
+        border-radius: 0 !important;
     }
-    .colunaMensagem > h2 {
+
+    .colunaMensagem>h2 {
         font-size: 48px;
     }
-    .colunaTexto > h2{
+
+    .colunaTexto>h2 {
         font-size: 48px;
     }
-    #botaoEnviar{
+
+    #botaoEnviar {
         padding: 0 !important;
-    }   
+    }
+
 }

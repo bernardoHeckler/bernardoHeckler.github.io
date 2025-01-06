@@ -1,64 +1,80 @@
-header{
+header {
     background-color: var(--primary-color);
 }
-.barra{
+
+.barra {
     background-color: #fff;
     color: #000;
 }
+
 .navLink {
     color: var(--secondary-color);
 }
-.navLink:hover{
+
+.navLink:hover {
     color: var(--primary-color);
 }
-.cabecalho:hover{
+
+.cabecalho:hover {
     background-color: var(--secondary-color);
 }
-main{
+
+main {
     background-color: var(--primary-color);
 }
+
 .saudacoes {
     color: var(--secondary-color);
 }
-.nome{
+
+.nome {
     color: var(--white);
 }
-.preferencia{
+
+.preferencia {
     color: var(--white);
 }
-.descricao > h1{
+
+.descricao>h1 {
     color: var(--white);
 }
-.descricao > h4{
+
+.descricao>h4 {
     color: var(--secondary-color);
 
 }
-.descricao > p{
+
+.descricao>p {
     color: var(--lightgray);
 }
 
-.sobreMim{
+.sobreMim {
     background-color: var(--secondary-color);
 }
-.topicos{
+
+.topicos {
     box-shadow: 1px 1px 12px var(--primary-color);
     color: var(--white);
 }
 
-.projetos{
-    
+.projetos {
+
     color: var(--primary)
 }
-#projeto1{
-    background-image: linear-gradient(var(--lightgray),var(--secondary-color));
+
+#projeto1 {
+    background-image: linear-gradient(var(--lightgray), var(--secondary-color));
 }
-#projeto2{
-    background-image: linear-gradient(var(--secondary-color),var(--lightgray));
+
+#projeto2 {
+    background-image: linear-gradient(var(--secondary-color), var(--lightgray));
 }
-.botaoProjeto{
+
+.botaoProjeto {
     background-color: var(--black);
 }
-.botaoProjeto > a{
+
+.botaoProjeto>a {
     color: var(--white);
 }
 
@@ -66,44 +82,46 @@ main{
 
 
 
-aside{
-    background-image: linear-gradient(var(--yellow),var(--lightyellow));
+aside {
+    background-image: linear-gradient(var(--yellow), var(--lightyellow));
     color: var(--ly);
 }
-footer{
+
+footer {
     background-color: var(--lightpurplue);
 }
-.footerTexto{
+
+.footerTexto {
     color: var(--white);
 }
-.footerMensagem{
+
+.footerMensagem {
     color: var(--lightgray);
 
 }
-.footerContato, a{
+
+.footerContato,
+a {
     color: var(--white);
 }
-.direitosCriador{
+
+.direitosCriador {
     color: var(--lightgray);
 }
-.colunaTexto > h2{
+
+.colunaTexto>h2 {
     color: var(--primary-color);
 }
 
-.colunaMensagem > h2{
+.colunaMensagem>h2 {
     color: var(--secondary-color);
 }
-input::placeholder{
-    color: var(--black);
-}
-.botaoEnviar #botaEviar{
-    background-color: var(--primary);
-    color: var(--secondary-color);
-}
-#inputFile{
+
+#inputFile {
     background-color: var(--gray);
     color: var(--black);
 }
-.colunaMensagem{
+
+.colunaMensagem {
     background-color: var(--gray-lb);
 }

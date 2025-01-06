@@ -66,34 +66,6 @@
     </script>
 
     <!-- Conteúdo Principal -->
-
-    <!-- Seção Sobre -->
-    <!-- <section class="sobre">
-            <div class="saudacoes">
-                <h3>Oi <span class="emoji">👋</span>Eu sou o  <div class="nome">Bernardo Heckler</div></h3>
-            </div>
-            <div class="conteinerTextoImg">
-                <h1 class="preferencia">FrontEnd</h1>
-                <ul>
-                    
-                    <li class="icones"><a href="https://www.linkedin.com/in/bernardo-heckler-645153305/" target="_blank"><img src="assets/linkedin-svgrepo-com.svg" alt="Link para LinkedIn do Bernardo"></a></li>
-                    <li class="icones"><a href="https://github.com/bernardoHeckler" target="_blank"><img src="assets/github-142-svgrepo-com.svg" alt="Link para GitHub do Bernardo"></a></li>
-                    <li class="icones"><a href="assets/pdf/BERNARDO ANTUNES HECKLER CURRICULO .pdf" target="_blank" type="application/pdf"><img src="assets/copy-svgrepo-com.svg" alt="PDF do currículo do Bernardo"></a></li>
-                </ul>
-            </div>
-            <div class="descricao">
-                <h1 class="pre">Developer</h1>
-                <h4>html, css, javaScript, reactjs, python, figma, photoshop...</h4>
-                <p>
-                    Tenho 20 anos sou um desenvolvedor junior, 
-                    atualmente matriículado no curso de Ciências da Computação
-                    já a caminho do Terceiro semestre (3/8)
-                    com previsão de conclusão para 2027. 
-                    Tenho grande interesse em tecnologia e na resolução de problemas, 
-                    e estou em busca de primeiras oportunidades para atuar na área de TI.
-                </p>
-            </div>
-        </section> -->
     <section id="inicio" class="about">
         <div class="containerApresentacao">
             <h3 class="mensagemApresentacao">
@@ -127,7 +99,7 @@
                 </h4>
                 <p class="descricaoMinha">
                     Tenho 20 anos sou um desenvolvedor junior,
-                    atualmente matriículado no curso de Ciências da Computação
+                    atualmente matrículado no curso de Ciências da Computação
                     já a caminho do Terceiro semestre (3/8)
                     com previsão de conclusão para 2027.
                     Tenho grande interesse em tecnologia e na resolução de problemas,
@@ -277,20 +249,25 @@
         </div>
         <div class="colunaMensagem">
             <h2>Fale Comigo!</h2>
-            <div class="linha">
-                <input type="text" name="NomeCompleto" id="inputNome" placeholder="Nome completo">
-                <input type="email" name="Email de contato" id="inputEmail" placeholder="E-mail">
-            </div>
-            <div class="linha">
+            <form action="https://api.staticforms.xyz/submit" method="POST">
+
+                <input type="hidden" name="accessKey" value="b2a5561d-5e65-4f40-ac4c-b877267cc0a8">
+
+                <label>Nome</label>
+                <input type="text" name="name" id="inputNome" placeholder="Digite seu nome" autocomplete="off" required>
+                <label>Email</label>
+                <input type="email" name="email" id="inputEmail" placeholder="Digite seu email" autocomplete="off"
+                    required>
+                <!-- <div class="linha">
                 <input type="number" name="Numero de Celular" id="inputPhone" placeholder="Número de Celular">
                 <input type="file" name="Arquivo para enviar" id="inputFile" placeholder="Enviar arquivo">
-            </div>
-            <div class="caixaMensagem">
-                <input type="text" name="Mensagem" id="caixaMensagem" placeholder="Mensagem">
-            </div>
-            <div class="botaoEnviar">
-                <input type="submit" id="botaoEnviar" value="Enviar Mensagem">
-            </div>
+            </div> -->
+                <label>Mensagem</label>
+                <textarea name="message" placeholder="Me envie uma mensagem" autocomplete="off" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+                <!-- Redirecionando usuário -->
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+            </form>
         </div>
     </section>
     <footer id="footer" class="footer">

@@ -1,13 +1,13 @@
-.about{
+.about {
     justify-content: center;
     align-content: center;
     flex-direction: column;
     height: 106vh;
 }
 
-.containerApresentacao{
+.containerApresentacao {
     justify-self: center;
-    
+
     width: auto;
     padding: 2px 10px 2px 10px;
     display: block;
@@ -16,61 +16,63 @@
     align-content: center;
 }
 
-.mensagemApresentacao{
+.mensagemApresentacao {
     display: flex;
     justify-content: center;
     align-content: center;
     height: auto;
     color: var(--secondary-color);
 }
-.containerProfissao{
+
+.containerProfissao {
     display: flex;
     height: auto;
     list-style: none;
-    justify-content: center ;
-    
-}
-.nomeProfissaoTopo{
-    
-    justify-content: stretch;
-    align-content: end;
-    height: 114px;
-    width: auto;
-    color: var(--white);
-    padding-top: 10px;
+    justify-content: space-between;
+    align-items: stretch;
 
 }
-.nomeProfissaoBaixo{
+
+.nomeProfissaoTopo {
+
+    justify-items: center;
+    align-content: center;
+    width: auto;
+    color: var(--white);
+}
+
+.nomeProfissaoBaixo {
     display: flex;
-    
+
     justify-content: center;
     align-content: flex-start;
     height: auto;
     width: auto;
     color: var(--white);
 }
- .icones{
+
+.icones {
     display: flex;
     list-style: none;
     gap: 10px;
     height: auto;
-    align-items: end;
+    align-items: center;
 }
-.containerProfissao > ul > li > a {
+
+
+.containerProfissao>ul>li>a {
     padding: 0 2px;
     height: auto;
 }
-.containerProfissao > ul > li > a > img{
-    width: 50px;
-    margin-top: 28px;
-    height: auto;
-}
-.emojiHand{
+
+
+.emojiHand {
     display: flex;
     padding: 0 2px 0 2px;
-    
+
 }
-.name{
+
+.name {
     display: flex;
     padding: 0 5px 0 5px;
     align-items: center;
@@ -84,37 +86,63 @@
 }
 
 @keyframes wave {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(30deg); }
-}
-@keyframes descerParaBaixo {
-    from { transform: translateY(-15px); }
-    to { transform: translateY(0); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
 }
 
-.icone > a > img {
+@keyframes descerParaBaixo {
+    from {
+        transform: translateY(-15px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.icones {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    height: auto;
+    align-items: center;
+}
+
+.icone>a>img {
     width: 50px;
     animation: descerParaBaixo 0.7s forwards;
 }
 
-.icone > a > img:hover {
+.icone>a>img:hover {
     animation: subirParaCima 0.6s forwards;
 }
 
 @keyframes subirParaCima {
-    from { transform: translateY(0); }
-    to { transform: translateY(-15px); }
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-15px);
+    }
 }
 
-.containerDescricao{
+.containerDescricao {
     display: block;
     width: 100%;
     height: auto;
-    text-align:  justify;
+    text-align: justify;
 }
-.nomeProgramas{
+
+.nomeProgramas {
     color: var(--secondary-color);
 }
-.descricaoMinha{
+
+.descricaoMinha {
     color: var(--lightpurplue);
 }

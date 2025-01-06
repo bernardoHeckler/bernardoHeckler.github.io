@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
             margin: 0;
             background-color: #f0f0f0;
         }
+
         .container {
             text-align: center;
             background-color: #ffffff;
@@ -21,10 +23,12 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
+
         h1 {
             font-size: 24px;
             margin-bottom: 20px;
         }
+
         button {
             background-color: #007BFF;
             color: #ffffff;
@@ -34,12 +38,13 @@
             cursor: pointer;
             border-radius: 5px;
         }
+
         button:hover {
             background-color: #0056b3;
         }
-        
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Abra o portfólio em seu navegador</h1>
@@ -47,11 +52,12 @@
         <button onclick="openInBrowser()">Abrir no Navegador</button>
     </div>
 
-<script>
+    <script>
         function openInBrowser() {
             var url = "./home.html";  // Substitua pelo link do seu portfólio
             window.open(url, '_self');
         }
     </script>
 </body>
+
 </html>
