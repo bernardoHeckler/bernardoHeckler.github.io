@@ -707,3 +707,10 @@ aside>h5 {
     }
 
 }
+@media (max-width: 411px) {
+    /* Estilos para Pixel 1 ou dispositivos menores */
+    .icones{
+        justify-content: center;
+    }
+  }
+  
