@@ -1,60 +1,83 @@
 footer {
-  background-color: var(--lightpurplue);
-  text-align: center;
-  padding: 30px 4px 0px 4px;
   width: 100%;
-  height: 100vh;
-}
-
-.footerConteudo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 100px 0 0 0;
-}
-
-.footerTexto {
-  font-size: 1.8em;
-  margin-bottom: 10px;
-}
-
-.footerMensagem {
-  font-size: 0.8em;
-  margin-bottom: 10px;
-  letter-spacing: 0.2em;
-  padding: 0 10px 0 10px;
-
-}
-
-.footerContato {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.footerContato>span {
-  font-size: 1em;
-}
-
-.footerImagens {
-  list-style: none;
-  padding: 44px 0;
-}
-
-.footerImagens>li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.direitosCriador {
-  font-size: 1em;
-  margin-top: 60px;
-}
-
-.redessociais {
-  width: 50px;
-  margin-top: 28px;
   height: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.barraFooter {
+  margin: 80px 0;
+  width: 100%;
+}
+
+.linhaFooter {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  gap: 300px;
+}
+
+.coluna1 {
+  display: block;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+
+.coluna2 {
+  display: flex;
+  width: auto;
+  height: auto;
+  gap: 100px;
+  text-align: center;
+}
+
+.coluna2>.container>.navbar>ul>li {
+  margin: 4px 0;
+}
+
+.coluna2>.container>.redesSociaisNavBar>ul>li {
+  margin: 4px 0;
+}
+
+
+.colunaFooter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.colunaFooter>.redesSociais>ul {
+  display: flex;
+  gap: 24px;
+}
+
+.redesSociais {
+  display: flex;
+  padding: 16px 0;
+}
+.Copyright{
+  margin: 32px 0;
+}
+
+.redesSociais ul {
+  display: flex;
+  gap: 24px;
+}
+
+.redesSociais ul li {
+  display: inline-block;
+}
+
+.redesSociais ul li a {
+  display: inline-block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.redesSociais ul li a:hover {
+  transform: scale(1.2); 
+  filter: brightness(1.3); 
 }

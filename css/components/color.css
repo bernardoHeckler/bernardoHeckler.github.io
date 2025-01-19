@@ -83,27 +83,6 @@ aside {
     color: var(--ly);
 }
 
-footer {
-    background-color: var(--lightpurplue);
-}
-
-.footerTexto {
-    color: var(--white);
-}
-
-.footerMensagem {
-    color: var(--lightgray);
-
-}
-
-.footerContato,
-a {
-    color: var(--white);
-}
-
-.direitosCriador {
-    color: var(--lightgray);
-}
 
 .colunaTexto>h2 {
     color: var(--primary-color);
@@ -120,4 +99,64 @@ a {
 
 .colunaMensagem {
     background-color: var(--gray-lb);
+}
+
+
+
+footer>.linhaFooter>.coluna1>.nome {
+    font-size: 50px;
+}
+
+footer>.linhaFooter>.coluna1>.texto {
+    font-size: 16px;
+    color: var(--gray-footer);
+}
+
+footer>.linhaFooter>.coluna1>.texto>a {
+    color: var(--b);
+}
+
+footer>.linhaFooter>.coluna1>.texto>a:hover {
+    color: var(--blue);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.emailFooter {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.emailFooter:hover {
+    color: var(--blue-n);
+    transition: 0.5s;
+}
+
+
+footer>.linhaFooter>.coluna2>.container>h4 {
+    font-size: 32px;
+    color: var(--blue-n);
+}
+
+footer>.linhaFooter>.coluna2>.container>.navbar>ul>li>a {
+    color: var(--gray-footer);
+    text-decoration: none;
+}
+footer>.linhaFooter>.coluna2>.container>.navbar>ul>li>a:hover{
+    color: var(--white);
+    transition: 0.5s;
+}
+footer>.linhaFooter>.coluna2>.container>.redesSociaisNavBar>ul>li>a {
+    color: var(--gray-footer);
+    text-decoration: none;
+}
+footer>.linhaFooter>.coluna2>.container>.redesSociaisNavBar>ul>li>a:hover{
+    color: var(--white);
+    transition: 0.5s;
+}
+footer .Copyright {
+    color: var(--gray-footer);
+    font-weight: bold;
+    font-size: 16px;
 }

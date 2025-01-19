@@ -94,8 +94,7 @@
             <h1 class="nomeProfissaoBaixo">Developer</h1>
             <div class="containerDescricao">
                 <h4 class="nomeProgramas">
-                    html, css, javaScript, reactjs,
-                    python, figma, photoshop...
+                    html | css | javaScript | reactjs | python | figma | photoshop
                 </h4>
                 <p class="descricaoMinha">
                     Tenho 20 anos sou um desenvolvedor junior,
@@ -112,7 +111,7 @@
     <article id="sobre" class="sobreMim">
         <div class="containerTopicos">
             <!-- Onde Atuo -->
-            <article class="topicos">  
+            <article class="topicos">
                 <h3 class="tituloTopico">Onde Atuo</h3>
                 <section>
                     <p class="descricaoTopico">
@@ -158,35 +157,6 @@
                 </section>
             </article>
         </div>
-
-        <!-- Botão para mudar as cores -->
-        <!-- <div class="configButton">
-            <h4>Personalizar Estilo:</h4>
-            <div class="button">
-                <div class="ball"></div>
-            </div>
-        </div> -->
-
-        <!-- Script para interatividade -->
-        <!-- <script>
-            document.querySelector('.ball').addEventListener('click', (event) => {
-                event.target.classList.toggle('ball-move');
-    
-                // Selecionando os elementos
-                const topicos = document.querySelectorAll('.containerTopicos');
-                const button = document.querySelector('.button');
-                const ball = document.querySelector('.ball');
-    
-                // Alterando as cores
-                topicos.forEach(topico => {
-                    topico.classList.toggle('green'); // Classe para alterar cor dos tópicos
-                });
-    
-                // Alterando cores do botão
-                button.classList.toggle('button-color');
-                ball.classList.toggle('ball-color');
-            });
-        </script> -->
     </article>
 
 
@@ -289,47 +259,58 @@
             </form>
         </div>
     </section>
-    <footer id="footer" class="footer">
-        <div class="footerConteudo">
-            <h2 class="footerTexto">
-                Interessado em conhecer meu trabalho ou discutir novas oportunidades?
-                <br>
-                Entre em contato, será um prazer conversar!
-            </h2>
-            <p class="footerMensagem">
-                Vamos agendar uma conversa?
-                <br>
-                Estou aqui para ajudar a impulsionar o sucesso da sua empresa,
-                <br>
-                seja ela uma grande organização ou um pequeno negócio iniciando sua jornada.
-                <br>
-                Juntos, podemos transformar ideias em soluções eficazes,
-                <br>
-                independentemente do setor.
-                <br>
-                Conte comigo para alcançar seus objetivos e levar sua empresa a novos patamares.
-                <br>
-                Vamos conversar sobre como posso contribuir para o seu sucesso!
-            </p>
-            <div class="footerContato">
-                <span class="footerEmail">bernaheckler1@gmail.com</span>
-                <span><a href="tel:+(54) 9 9641-8356">(54) 9 9641-8356</a></span>
+    <footer>
+        <div class="barraFooter">
+            <img src="assets/barra.svg" alt="#">
+        </div>
+        <div class="linhaFooter">
+            <div class="coluna1" id="colunaFooter">
+                <h2 class="nome">Bernardo H.</h2>
+                <p class="texto">Encontrou algum problema na página?<br>
+                    <a href="https://github.com/bernardoHeckler/bernardoHeckler.github.io" target="_blank"
+                        rel="noopener noreferrer">ver Git Hub</a>
+                </p>
+                <p class="texto">Precisa de Ajuda?</p>
+                <p><a href="mailto:bernaheckler1@gmail.com" class="emailFooter">bernaheckler1@gmail.com</a></p>
             </div>
-            <ul class="footerImagens">
-
-                <!-- Links para redes sociais -->
-                <li>
-                    <a href="https://www.instagram.com/berna.hcklr/" target="_blank"><img
-                            src="assets/instagram-2016-logo-svgrepo-com.svg" class="redessociais" alt="Instagram" /></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/bernardo-heckler-645153305/" target="_blank"><img
-                            src="assets/linkedinbranco-svgrepo-com.svg" class="redessociais" alt="LinkedIn" /></a>
-                </li>
-            </ul>
-            <p class="direitosCriador">
-                © 2025 Bernardo Antunes Heckler. Todos os direitos reservados.
-            </p>
+            <div class="coluna2">
+                <div class="container">
+                    <h4>MENU</h4>
+                    <div class="navbar">
+                        <ul>
+                            <li><a href="#inicio" id="">início</a></li>
+                            <li><a href="#projetos" id="">projetos</a></li>
+                            <li><a href="#sobre" id="">sobre</a></li>
+                            <li><a href="#contato" id="">contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container">
+                    <h4>SOCIAL</h4>
+                    <div class="redesSociaisNavBar">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/bernardo-heckler-645153305/" id="">LinkedIn</a>
+                            </li>
+                            <li><a href="https://github.com/bernardoHeckler" id="">GitHub</a></li>
+                            <li><a href="https://www.figma.com/design/koC9cc5OO6by74aIBBJJzv/meu-projeto?node-id=225-111&t=WYM2kKYkTpnRxGPr-1"
+                                    id="">Figma</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="colunaFooter">
+            <div class="redesSociais">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/bernardo-heckler-645153305/" target="_blank"
+                            rel="noopener noreferrer"><img src="assets/LinkedIn.svg" alt="LinkedIn"></a></li>
+                    <li><a href="https://github.com/bernardoHeckler" target="_blank" rel="noopener noreferrer"><img
+                                src="assets/GitHub.svg" alt="GitHub"></a></li>
+                    <li><a href="https://www.figma.com/design/koC9cc5OO6by74aIBBJJzv/meu-projeto?node-id=225-111&t=WYM2kKYkTpnRxGPr-1"
+                            target="_blank" rel="noopener noreferrer"><img src="assets/Figma.svg" alt="Figma"></a></li>
+                </ul>
+            </div>
+            <p class="Copyright">Copyright © 2025 Bernardo Heckler - Portfólio Online</p>
         </div>
     </footer>
 

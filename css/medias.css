@@ -712,5 +712,96 @@ aside>h5 {
     .icones{
         justify-content: center;
     }
+    .barraFooter{
+        margin: 10px 0 50px 0 !important;
+    }
+    .linhaFooter{
+        display: flex !important;
+        gap: 10px !important;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .coluna1{
+        text-align: center !important;
+        gap: 10px !important;
+    }
+    .coluna2{
+        display: block !important;
+    }
+    .Copyright{
+        padding: 0 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    .icones{
+        justify-content: center;
+    }
+    .barraFooter{
+        margin: 10px 0 50px 0 !important;
+    }
+    .linhaFooter{
+        display: flex !important;
+        gap: 10px !important;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .coluna1{
+        text-align: center !important;
+        gap: 10px !important;
+    }
+    .coluna2{
+        display: block !important;
+    }
+    .Copyright{
+        padding: 0 16px;
+    }
+  }
+  @media (max-width: 768px) {
+    .icones{
+        justify-content: center;
+    }
+    .barraFooter{
+        margin: 10px 0 50px 0 !important;
+    }
+    .linhaFooter{
+        display: flex !important;
+        gap: 10px !important;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .coluna1{
+        text-align: center !important;
+        gap: 10px !important;
+    }
+    .coluna2{
+        display: block !important;
+    }
+    .Copyright{
+        padding: 0 16px;
+    }
   }
   
+  @media (min-width: 769px) and (max-width: 1199px) {
+    .icones{
+        justify-content: center;
+    }
+    .barraFooter{
+        margin: 10px 0 50px 0 !important;
+    }
+    .linhaFooter{
+        display: flex !important;
+        gap: 10px !important;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .coluna1{
+        text-align: center !important;
+        gap: 10px !important;
+    }
+    .coluna2{
+        display: block !important;
+    }
+    .Copyright{
+        padding: 0 16px;
+    }
+  }

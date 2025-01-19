@@ -19,4 +19,7 @@
   --gradient: linear-gradient(45deg, var(--red), var(--black));
   --blue: rgb(20, 183, 233);
   --gray-bb: #272D2D;
+  --b : blue;
+  --gray-footer: #B2BECD;
+  --blue-n: #26B7FF;
 }
