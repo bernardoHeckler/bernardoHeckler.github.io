@@ -239,24 +239,29 @@
         <div class="colunaMensagem">
             <h2>Fale Comigo!</h2>
             <form action="https://api.staticforms.xyz/submit" method="POST">
-
                 <input type="hidden" name="accessKey" value="b2a5561d-5e65-4f40-ac4c-b877267cc0a8">
-
+            
                 <label>Nome</label>
                 <input type="text" name="name" id="inputNome" placeholder="Digite seu nome" autocomplete="off" required>
+            
                 <label>Email</label>
-                <input type="email" name="email" id="inputEmail" placeholder="Digite seu email" autocomplete="off"
-                    required>
-                <!-- <div class="linha">
-                <input type="number" name="Numero de Celular" id="inputPhone" placeholder="Número de Celular">
-                <input type="file" name="Arquivo para enviar" id="inputFile" placeholder="Enviar arquivo">
-            </div> -->
+                <input type="email" name="email" id="inputEmail" placeholder="Digite seu email" autocomplete="off" required>
+            
                 <label>Mensagem</label>
                 <textarea name="message" placeholder="Me envie uma mensagem" autocomplete="off" required></textarea>
+            
+                <input type="hidden" name="redirectTo" value="https://bernardoheckler.github.io/obrigado.html">
                 <button type="submit">Enviar Mensagem</button>
-                <!-- Redirecionando usuário -->
-                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
             </form>
+            
+            <script>
+                // Redireciona rapidamente se o site for para o endereço da API
+                if (window.location.href === "https://api.staticforms.xyz/submit") {
+                    window.location.href = "https://bernardoheckler.github.io/obrigado.html";
+                }
+            </script>
+            
+            
         </div>
     </section>
     <footer>
