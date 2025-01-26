@@ -2,9 +2,7 @@
 header {
     display: flex;
     justify-content: center;
-    /* Centraliza o conteúdo do header */
     align-items: center;
-    /* Alinha verticalmente ao centro */
     position: relative;
     z-index: 1;
 
@@ -13,34 +11,26 @@ header {
 header {
     position: fixed;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 .navBar {
     display: flex;
     list-style-type: none;
-    /* Remove os marcadores das listas */
     justify-content: center;
-    /* Centraliza os itens horizontalmente */
     position: relative;
-    /* Mantém o posicionamento em relação ao header */
     z-index: 1;
-    /* Garante que o menu fique abaixo do botão hambúrguer */
 }
 
 .cabecalho {
     padding: 10px;
     margin: 10px 15px;
-    /* Espaçamento entre os itens de navegação */
     border-radius: 20px;
     transition: 1s ease;
 }
 
 .navLink {
     text-decoration: none;
-    /* Remove a sublinha dos links */
     font-size: 1.2em;
-    /* Tamanho da fonte */
 }
 
 .cabecalho:hover {
@@ -55,7 +45,6 @@ header {
 /* Estilos para o menu hambúrguer */
 .menuHamburguer {
     display: none;
-    /* Oculto por padrão */
     flex-direction: column;
     justify-content: space-around;
     width: 30px;
@@ -65,7 +54,6 @@ header {
     cursor: pointer;
     padding: 0;
     z-index: 10;
-    /* Garante que o botão fique acima do menu */
 }
 
 .barra {
@@ -99,12 +87,10 @@ header {
 
     .menuHamburguer {
         display: flex;
-        /* Mostra o botão hambúrguer em telas pequenas */
     }
 
     .navBar {
         display: none;
-        /* Oculta o menu de navegação por padrão em telas pequenas */
         flex-direction: column;
         align-items: center;
         position: absolute;
@@ -114,15 +100,12 @@ header {
         transition: max-height 0.3s ease-in-out;
         overflow: hidden;
         max-height: 0;
-        /* Inicialmente oculto */
     }
 
     .navBar.active {
         display: flex;
         max-height: 500px;
-        /* Altura suficiente para mostrar o menu */
         position: static;
-        /* Faz o menu ocupar o espaço normal */
         z-index: 2;
         padding: 0 25px 0 0;
     }

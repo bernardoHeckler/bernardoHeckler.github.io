@@ -1,162 +1,193 @@
+/* body cores */
+body {
+    background-color: var(--darkgray) !important;
+}
+
+/* header cores */
 header {
-    background-color: var(--primary-color);
+    background-color: var(--bc) !important;
+    color: var(--blue) !important;
 }
 
 .barra {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--oceanblue) !important;
+    color: var(--oceanblue) !important;
 }
 
 .navLink {
-    color: var(--secondary-color);
+    color: var(--oceanblue) !important;
 }
 
 .navLink:hover {
-    color: var(--primary-color);
+    color: var(--white) !important;
 }
 
 .cabecalho:hover {
-    background-color: var(--secondary-color);
-}
-
-main {
-    background-color: var(--primary-color);
-}
-
-.saudacoes {
-    color: var(--secondary-color);
-}
-
-.nome {
-    color: var(--white);
-}
-
-.preferencia {
-    color: var(--white);
-}
-
-.descricao>h1 {
-    color: var(--white);
-}
-
-.descricao>h4 {
-    color: var(--secondary-color);
-
-}
-
-.descricao>p {
-    color: var(--lightgray);
-}
-
-.sobreMim {
-    background-color: var(--secondary-color);
+    background-color: var(--darkblue) !important;
 }
 
 
+/* section Conteúdo Principal cores */
+.mensagemApresentacao {
+    color: var(--textblue) !important;
+}
+
+.name {
+    color: var(--white) !important;
+}
+
+.nomeProfissaoTopo {
+    color: var(--white) !important;
+}
+
+.nomeProfissaoBaixo {
+    color: var(--white) !important;
+}
+
+.nomeProgramas {
+    color: var(--textblue) !important;
+
+}
+
+.descricaoMinha {
+    color: var(--darkblue) !important;
+}
+
+/* article Conteúdo Sobre mim cores */
+.topicos {
+    border: 2px solid var(--oceanblue) !important;
+    background-color: var(--white5opacity) !important;
+}
+
+.tituloTopico {
+    color: var(--brightblue) !important;
+}
+
+.descricaoTopico {
+    color: var(--white) !important;
+
+}
+
+.descricaoTopico>a {
+    color: var(--blue) !important;
+
+}
+
+.descricaoTopico>a:hover {
+    color: var(--brightblue) !important;
+}
+
+
+/* article Conteúdo Projetos cores */
 .projetos {
-
-    color: var(--primary)
+    border-top: 2px solid var(--brightblue);
 }
 
-#projeto1 {
-    background-image: linear-gradient(var(--lightgray), var(--secondary-color));
+.tituloDoProjeto {
+    color: var(--oceanblue);
 }
 
-#projeto2 {
-    background-image: linear-gradient(var(--secondary-color), var(--lightgray));
+.descricaoProjeto {
+    color: var(--white);
 }
 
-.botaoProjeto {
+.lg-class {
+    color: var(--darkblue);
+}
+
+.botaoProjeto{
+    background-color: var(--black50opacity);
+}
+.botaoProjeto:hover{
     background-color: var(--black);
 }
 
-.botaoProjeto>a {
+.botaoProjeto > a{
     color: var(--white);
 }
 
-
-
-
-
-aside {
-    background-image: linear-gradient(var(--yellow), var(--lightyellow));
-    color: var(--ly);
+.botaoProjeto > a:hover{
+    color: var(--oceanblue);
+}
+figcaption{
+    color: var(--gray);
 }
 
 
-.colunaTexto>h2 {
-    color: var(--primary-color);
+/* section Conteúdo Enviar mensagem cores */
+.colunaTexto{
+    background-color: var(--black50opacity) !important;
 }
 
-.colunaMensagem>h2 {
-    color: var(--secondary-color);
+.colunaTexto > h2{
+    color: var(--oceanblue);
+}
+.colunaTexto > h2 > span{
+    color: var(--white);
 }
 
-#inputFile {
-    background-color: var(--gray);
-    color: var(--black);
+.colunaMensagem{
+    background-color: var(--white5opacity);
+}
+.colunaMensagem > h2{
+    color: var(--oceanblue);
+}
+form > label{
+    color: var(--white);
+}
+form > button{
+    border: 4px solid var(--oceanblue);
+    background-color: var(--black50opacity);
+    color: var(--oceanblue);
+}
+form > button:hover{    
+    color: var(--brightblue);
+    border: 4px solid var(--brightblue);
+    background-color: var(--black);
 }
 
-.colunaMensagem {
-    background-color: var(--gray-lb);
-}
 
-
-
+/* section Conteúdo Footer cores */
 footer>.linhaFooter>.coluna1>.nome {
-    font-size: 50px;
+    color: var(--white);
 }
-
 footer>.linhaFooter>.coluna1>.texto {
-    font-size: 16px;
-    color: var(--gray-footer);
+    color: var(--gray);
 }
 
 footer>.linhaFooter>.coluna1>.texto>a {
-    color: var(--b);
+    color: var(--blue);
 }
 
 footer>.linhaFooter>.coluna1>.texto>a:hover {
-    color: var(--blue);
-    transition: 0.5s;
-    cursor: pointer;
+    color: var(--brightblue);
 }
-
 .emailFooter {
-    font-weight: bold;
-    text-decoration: none;
     color: var(--white);
 }
-
 .emailFooter:hover {
-    color: var(--blue-n);
-    transition: 0.5s;
+    color: var(--brightblue);
 }
-
-
 footer>.linhaFooter>.coluna2>.container>h4 {
-    font-size: 32px;
-    color: var(--blue-n);
+    color: var(--lightblue);
 }
 
 footer>.linhaFooter>.coluna2>.container>.navbar>ul>li>a {
-    color: var(--gray-footer);
-    text-decoration: none;
+    color: var(--gray);
 }
-footer>.linhaFooter>.coluna2>.container>.navbar>ul>li>a:hover{
+
+footer>.linhaFooter>.coluna2>.container>.navbar>ul>li>a:hover {
     color: var(--white);
-    transition: 0.5s;
 }
+
 footer>.linhaFooter>.coluna2>.container>.redesSociaisNavBar>ul>li>a {
-    color: var(--gray-footer);
-    text-decoration: none;
+    color: var(--gray);
 }
-footer>.linhaFooter>.coluna2>.container>.redesSociaisNavBar>ul>li>a:hover{
+
+footer>.linhaFooter>.coluna2>.container>.redesSociaisNavBar>ul>li>a:hover {
     color: var(--white);
-    transition: 0.5s;
 }
+
 footer .Copyright {
-    color: var(--gray-footer);
-    font-weight: bold;
-    font-size: 16px;
+    color: var(--gray);
 }

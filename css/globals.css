@@ -1,17 +1,11 @@
 /* Estilos Globais */
 * {
   margin: 0;
-  /* Remove a margem padrão */
   padding: 0;
-  /* Remove o preenchimento padrão */
   box-sizing: border-box;
-  /* Inclui padding e border no tamanho total do elemento */
   scroll-behavior: smooth;
-  /* Suaviza o comportamento de rolagem */
   font-family: 'DM Sans', sans-serif;
-  /* Define a fonte padrão */
-  /* border: 3px red solid; */
-  /* Comentado: borda para depuração */
+
 }
 
 html,

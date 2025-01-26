@@ -39,3 +39,52 @@ h1 {
   font-weight: weight;
   font-style: normal;
 }
+
+
+
+footer>.linhaFooter>.coluna1>.nome {
+  font-size: 50px;
+}
+
+footer>.linhaFooter>.coluna1>.texto {
+  font-size: 16px;
+}
+footer>.linhaFooter>.coluna1>.texto>a:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.emailFooter {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.emailFooter:hover {
+  transition: 0.5s;
+}
+
+
+footer>.linhaFooter>.coluna2>.container>h4 {
+  font-size: 32px;
+}
+
+footer>.linhaFooter>.coluna2>.container>.navbar>ul>li>a {
+  text-decoration: none;
+}
+
+footer>.linhaFooter>.coluna2>.container>.navbar>ul>li>a:hover {
+  transition: 0.5s;
+}
+
+footer>.linhaFooter>.coluna2>.container>.redesSociaisNavBar>ul>li>a {
+  text-decoration: none;
+}
+
+footer>.linhaFooter>.coluna2>.container>.redesSociaisNavBar>ul>li>a:hover {
+  transition: 0.5s;
+}
+
+footer .Copyright {
+  font-weight: bold;
+  font-size: 16px;
+}

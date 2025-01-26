@@ -8,7 +8,6 @@
 .colunaTexto {
     width: 100%;
     height: auto;
-    background-color: var(--white);
     display: block;
     justify-items: center;
     align-content: center;
@@ -17,16 +16,10 @@
 
 .colunaTexto>h2 {
     text-align: center;
-    color: var(--primary-color);
 }
-.colunaTexto> h2> span{
-    color: var(--blue);
-}
-
 .colunaMensagem {
     width: 100%;
     height: auto;
-    background-color: var(--gray-bb);
     display: block;
     justify-content: center;
     align-content: center;
@@ -37,7 +30,6 @@
 .colunaMensagem>h2 {
     text-align: center;
     font-size: 80px;
-    color: var(--blue);
 }
 
 form {
@@ -50,7 +42,6 @@ form {
 }
 
 label {
-    color: var(--white);
     margin-left: 2px;
 }
 
@@ -60,11 +51,9 @@ input {
 
 button {
     background-color: transparent;
-    border: 4px solid var(--blue);
-    color: var(--blue);
     padding: 10px 20px;
     font-size: 20px;
-    border-radius: 8px;
+    border-radius: 32px;
     cursor: pointer;
     width: 100%;
     margin-top: 10px;
@@ -73,7 +62,5 @@ button {
 }
 
 button:hover {
-    background-color: var(--secondary-color);
-    color: var(--white);
     border-radius: 16px;
 }
