@@ -58,7 +58,7 @@ header {
 }
 
 .tituloTopico {
-    color: var(--brightblue);
+    color: var(--brightblue) !important;
 }
 
 .descricaoTopico {
