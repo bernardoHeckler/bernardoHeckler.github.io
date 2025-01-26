@@ -1,80 +1,78 @@
 /* body cores */
-body {
-    background-color: var(--darkgray) !important;
-}
+
 
 /* header cores */
 header {
-    background-color: var(--bc) !important;
-    color: var(--blue) !important;
+    background-color: var(--bc);
+    color: var(--blue);
 }
 
 .barra {
-    background-color: var(--oceanblue) !important;
-    color: var(--oceanblue) !important;
+    background-color: var(--oceanblue);
+    color: var(--oceanblue);
 }
 
 .navLink {
-    color: var(--oceanblue) !important;
+    color: var(--oceanblue);
 }
 
 .navLink:hover {
-    color: var(--white) !important;
+    color: var(--white);
 }
 
 .cabecalho:hover {
-    background-color: var(--darkblue) !important;
+    background-color: var(--darkblue);
 }
 
 
 /* section Conteúdo Principal cores */
 .mensagemApresentacao {
-    color: var(--textblue) !important;
+    color: var(--textblue);
 }
 
 .name {
-    color: var(--white) !important;
+    color: var(--white);
 }
 
 .nomeProfissaoTopo {
-    color: var(--white) !important;
+    color: var(--white);
 }
 
 .nomeProfissaoBaixo {
-    color: var(--white) !important;
+    color: var(--white);
 }
 
 .nomeProgramas {
-    color: var(--textblue) !important;
+    color: var(--textblue);
 
 }
 
 .descricaoMinha {
-    color: var(--darkblue) !important;
+    color: var(--darkblue);
 }
 
 /* article Conteúdo Sobre mim cores */
 .topicos {
-    border: 2px solid var(--oceanblue) !important;
-    background-color: var(--white5opacity) !important;
+    border: 2px solid var(--oceanblue);
+    background-color: var(--white5opacity);
 }
 
 .tituloTopico {
-    color: var(--brightblue) !important;
+    color: var(--brightblue);
 }
 
 .descricaoTopico {
-    color: var(--white) !important;
+    color: var(--white);
 
 }
 
 .descricaoTopico>a {
-    color: var(--blue) !important;
+    color: var(--blue);
 
 }
 
 .descricaoTopico>a:hover {
-    color: var(--brightblue) !important;
+    color: var(--brightblue);
 }
 
 
@@ -116,7 +114,7 @@ figcaption{
 
 /* section Conteúdo Enviar mensagem cores */
 .colunaTexto{
-    background-color: var(--black50opacity) !important;
+    background-color: var(--black50opacity);
 }
 
 .colunaTexto > h2{

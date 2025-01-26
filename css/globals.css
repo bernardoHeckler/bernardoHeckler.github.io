@@ -34,3 +34,17 @@ textarea {
   border: 0px;
   border-radius: 8px;
 }
+
+body {
+  background-color: var(--darkgray) !important;
+  background-image: url(../assets/bg.png);
+  background-size: auto auto;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-image: url(../assets/bgfooter.png);
+  background-size: cover;
+  background-position: center;
+}
