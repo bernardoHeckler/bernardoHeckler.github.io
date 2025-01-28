@@ -34,9 +34,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
-
-
-
 </head>
 
 <body style="background-color: var(--primary-color);">
@@ -82,8 +79,8 @@
                 <h2 class="nomeProfissaoTopo">FrontEnd</h2>
                 <ul class="icones">
                     <li class="icone"><a href="https://www.linkedin.com/in/bernardo-heckler-645153305/"
-                            target="_blank"><img src="assets/LinkedIn.svg"
-                                alt="Link para LinkedIn do Bernardo"></a></li>
+                            target="_blank"><img src="assets/LinkedIn.svg" alt="Link para LinkedIn do Bernardo"></a>
+                    </li>
                     <li class="icone"><a href="https://github.com/bernardoHeckler" target="_blank"><img
                                 src="assets/GitHub.svg" alt="Link para GitHub do Bernardo"></a></li>
                     <li class="icone"><a href="assets/pdf/BERNARDO ANTUNES HECKLER CURRICULO .pdf" target="_blank"
@@ -162,7 +159,44 @@
 
     <!-- Conteúdo Projetos-->
     <div id="projetos"></div>
-        <!-- Conteúdo Projeto 1-->
+    <!-- Conteúdo Projeto -->
+    <article id="projeto1" class="projetos">
+        <div class="tamanhoProjeto">
+            <div class="tituloDoProjeto">
+                <h3>Projeto: Calculadora Simples Interativa</h3>
+            </div>
+            <div class="containerTextoImagem">
+                <div class="containerDescricaoProjeto1">
+                    <p class="descricaoProjeto">
+                        Desenvolvi uma calculadora simples com dois campos para inserir valores e escolher a operação
+                        matemática (adição, subtração, multiplicação ou divisão). A interface inclui botões interativos
+                        para calcular, apagar com o resultado exibido em tempo real. O objetivo foi fortalecer
+                        a lógica de programação em JavaScript e a manipulação de eventos. Projeto prático para aprimorar
+                        habilidades front-end e integração entre tecnologias web.
+                        
+                    </p>
+                    <p class="lg-class">
+                        Tecnologias: <i> HTML5, CSS3 e JavaScript</i>
+                        <br>
+                        Controle de Versão: <i>Git / Git Pages.</i>
+                    </p>
+                    <button type="button" class="botaoProjeto" id="linkProjeto1"><a
+                            href="https://bernardoheckler.github.io/basics-js.github.io/Projeto%231_CalculadoraSimples/index.html"
+                            target="_blank">
+                            Veja o Projeto!</a></button>
+
+                </div>
+                <div class="containerImagem">
+                    <figure>
+                        <img src="assets/imagens/imagemCalculadoraSimples.png"
+                            alt="Imagem do Projeto do Site da Prefeitura que copiei">
+                        <figcaption>Calculadora Simples</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Conteúdo Projeto -->
     <article id="projeto1" class="projetos">
         <div class="tamanhoProjeto">
             <div class="tituloDoProjeto">
@@ -195,7 +229,7 @@
             </div>
         </div>
     </article>
-        <!-- Conteúdo Projeto 1-->
+    <!-- Conteúdo Projeto -->
     <article id="projeto2" class="projetos">
         <div class="tamanhoProjeto">
             <div class="tituloDoProjeto">
@@ -242,28 +276,29 @@
             <h2>Fale Comigo!</h2>
             <form action="https://api.staticforms.xyz/submit" method="POST">
                 <input type="hidden" name="accessKey" value="b2a5561d-5e65-4f40-ac4c-b877267cc0a8">
-            
+
                 <label>Nome</label>
                 <input type="text" name="name" id="inputNome" placeholder="Digite seu nome" autocomplete="off" required>
-            
+
                 <label>Email</label>
-                <input type="email" name="email" id="inputEmail" placeholder="Digite seu email" autocomplete="off" required>
-            
+                <input type="email" name="email" id="inputEmail" placeholder="Digite seu email" autocomplete="off"
+                    required>
+
                 <label>Mensagem</label>
                 <textarea name="message" placeholder="Me envie uma mensagem" autocomplete="off" required></textarea>
-            
+
                 <input type="hidden" name="redirectTo" value="https://bernardoheckler.github.io/obrigado.html">
                 <button type="submit">Enviar Mensagem</button>
             </form>
-            
+
             <script>
                 // Redireciona rapidamente se o site for para o endereço da API
                 if (window.location.href === "https://api.staticforms.xyz/submit") {
                     window.location.href = "https://bernardoheckler.github.io/obrigado.html";
                 }
             </script>
-            
-            
+
+
         </div>
     </section>
 
