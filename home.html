@@ -1,402 +1,591 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bernardo Heckler - Portfólio</title>
-    <link rel="icon" href="assets/HLogo.png" type="image/x-icon">
+    <link rel="icon" href="assets/HLogo.png" type="image/x-icon" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/extends.css" />
 
     <!-- Conexão com Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Space+Grotesk:wght@300..700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      href="https://fonts.googleapis.com/css2?family=Nabla&display=swap"
+      rel="stylesheet"
+    />
     <link
-        href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Nabla&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- Cabeçalho e Navegação -->
     <header>
-        <button class="menuHamburguer" aria-label="Abrir menu">
-            <div class="barra"></div>
-            <div class="barra"></div>
-            <div class="barra"></div>
-        </button>
-        <nav class="navBar">
-            <li class="cabecalho"><a class="navLink" href="#inicio">Início</a></li>
-            <li class="cabecalho"><a class="navLink" href="#sobre">Sobre</a></li>
-            <li class="cabecalho"><a class="navLink" href="#projetos">Projetos</a></li>
-            <li class="cabecalho"><a class="navLink" href="#contato">Contato</a></li>
-        </nav>
+      <button class="menuHamburguer" aria-label="Abrir menu">
+        <div class="barra"></div>
+        <div class="barra"></div>
+        <div class="barra"></div>
+      </button>
+      <nav class="navBar">
+        <li class="cabecalho"><a class="navLink" href="#inicio">Início</a></li>
+        <li class="cabecalho"><a class="navLink" href="#sobre">Sobre</a></li>
+        <li class="cabecalho">
+          <a class="navLink" href="#projetos">Projetos</a>
+        </li>
+        <li class="cabecalho">
+          <a class="navLink" href="#contato">Contato</a>
+        </li>
+      </nav>
     </header>
 
     <script>
-        document.querySelector('.menuHamburguer').addEventListener('click', function () {
-            document.querySelector('.navBar').classList.toggle('active');
-            this.classList.toggle('active');
+      document
+        .querySelector(".menuHamburguer")
+        .addEventListener("click", function () {
+          document.querySelector(".navBar").classList.toggle("active");
+          this.classList.toggle("active");
         });
-
-
     </script>
 
     <!-- Conteúdo Principal -->
     <section id="inicio" class="about">
-        <div class="containerApresentacao">
-            <h3 class="mensagemApresentacao">
-                Oi
-                <div class="emojiHand">
-                    👋
-                </div>
-                Eu sou o
-                <span class="name">
-                    Bernardo Heckler
-                </span>
-            </h3>
-            <div class="containerProfissao">
-                <h2 class="nomeProfissaoTopo">FrontEnd</h2>
-                <ul class="icones">
-                    <li class="icone"><a href="https://www.linkedin.com/in/bernardo-heckler-645153305/"
-                            target="_blank"><img src="assets/LinkedIn.svg" alt="Link para LinkedIn do Bernardo"></a>
-                    </li>
-                    <li class="icone"><a href="https://github.com/bernardoHeckler" target="_blank"><img
-                                src="assets/GitHub.svg" alt="Link para GitHub do Bernardo"></a></li>
-                    <li class="icone"><a href="assets/pdf/BERNARDO ANTUNES HECKLER CURRICULO .pdf" target="_blank"
-                            type="application/pdf"><img src="assets/curriculo.svg"
-                                alt="PDF do currículo do Bernardo"></a></li>
-                </ul>
-            </div>
-            <h1 class="nomeProfissaoBaixo">Developer</h1>
-            <div class="containerDescricao">
-                <h4 class="nomeProgramas">
-                    html | css | javaScript | reactjs | python | figma | photoshop
-                </h4>
-                <p class="descricaoMinha">
-                    Tenho 20 anos sou um desenvolvedor junior,
-                    atualmente matrículado no curso de Ciências da Computação
-                    já a caminho do Terceiro semestre (3/8)
-                    com previsão de conclusão para 2027.
-                    Tenho grande interesse em tecnologia e na resolução de problemas,
-                    e estou em busca de primeiras oportunidades para atuar na área de TI.
-                </p>
-            </div>
+      <div class="containerApresentacao">
+        <h3 class="mensagemApresentacao">
+          Oi
+          <div class="emojiHand">👋</div>
+          Eu sou o
+          <span class="name"> Bernardo Heckler </span>
+        </h3>
+        <div class="containerProfissao">
+          <h2 class="nomeProfissaoTopo">FrontEnd</h2>
+          <ul class="icones">
+            <li class="icone">
+              <a
+                href="https://www.linkedin.com/in/bernardo-heckler-645153305/"
+                target="_blank"
+                ><img
+                  src="assets/LinkedIn.svg"
+                  alt="Link para LinkedIn do Bernardo"
+              /></a>
+            </li>
+            <li class="icone">
+              <a href="https://github.com/bernardoHeckler" target="_blank"
+                ><img
+                  src="assets/GitHub.svg"
+                  alt="Link para GitHub do Bernardo"
+              /></a>
+            </li>
+            <li class="icone">
+              <a
+                href="assets/pdf/BERNARDO ANTUNES HECKLER CURRICULO .pdf"
+                target="_blank"
+                type="application/pdf"
+                ><img
+                  src="assets/curriculo.svg"
+                  alt="PDF do currículo do Bernardo"
+              /></a>
+            </li>
+          </ul>
         </div>
+        <h1 class="nomeProfissaoBaixo">Developer</h1>
+        <div class="containerDescricao">
+          <h4 class="nomeProgramas">
+            html | css | javaScript | reactjs | python | figma | photoshop
+          </h4>
+          <p class="descricaoMinha">
+            Tenho 20 anos sou um desenvolvedor junior, atualmente matrículado no
+            curso de Ciências da Computação já a caminho do Terceiro semestre
+            (3/8) com previsão de conclusão para 2027. Tenho grande interesse em
+            tecnologia e na resolução de problemas, e estou em busca de
+            primeiras oportunidades para atuar na área de TI.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Conteúdo Sobre mim-->
     <article id="sobre" class="sobreMim">
-        <div class="containerTopicos">
-            <!-- Onde Atuo -->
-            <article class="topicos">
-                <h3 class="tituloTopico">Onde Atuo</h3>
-                <section>
-                    <p class="descricaoTopico">
-                        Atualmente, estou estagiando na <strong>Prefeitura de Passo Fundo, RS</strong>, na área de
-                        <strong>TI</strong>. Meu papel inclui resolver problemas de <strong>Redes</strong>, configurar e
-                        consertar <strong>impressoras</strong>, realizar formatações de computadores,
-                        <strong>manutenções de hardware</strong>, além de instalar e organizar sistemas em escolas
-                        municipais.
-                    </p>
-                </section>
-            </article>
-            <!-- Resumo -->
-            <article class="topicos" id="topicoCentral">
-                <h3 class="tituloTopico">Resumo</h3>
-                <section>
-                    <p class="descricaoTopico">
-                        Criei um site inspirado no <strong>site da Prefeitura de Passo Fundo</strong> e desenvolvi um
-                        <strong>portfólio online</strong>, com todos os projetos disponíveis no meu <a
-                            href="https://github.com/bernardoHeckler" target="_blank" rel="noopener">GitHub</a>. Tenho
-                        experiência em design de interfaces utilizando <strong>Photoshop</strong> e
-                        <strong>Figma</strong>, criando layouts baseados em sites existentes e editando imagens.
-                        Atualmente, estou cursando <strong>Ciências da Computação</strong> e considero o
-                        <strong>Frontend</strong> e o <strong>Backend</strong> como fortes opções de carreira.
-                    </p>
-                    <ul class="descricaoTopico">
-                        <li>Especialidades: Photoshop, Figma, JavaScript, ReactJS, Python, HTML, CSS, Linux e Git.</li>
-                    </ul>
-                </section>
-            </article>
-            <!-- O Que Aprendi -->
-            <article class="topicos">
-                <h3 class="tituloTopico">O Que Aprendi</h3>
-                <section>
-                    <p class="descricaoTopico">
-                        Eu melhorei principalmente a <strong>organização</strong>, <strong>análise de
-                            requisitos</strong>,
-                        <strong>design</strong>, <strong>UX/UI</strong>, <strong>hospedagem</strong>,
-                        <strong>testes</strong>,
-                        <strong>manutenção</strong>, <strong>backup</strong> e <strong>recuperação</strong>, além de
-                        trabalhar
-                        com <strong>APIs e integrações</strong>.
-                    </p>
-                </section>
-            </article>
-        </div>
+      <div class="containerTopicos">
+        <!-- Onde Atuo -->
+        <article class="topicos">
+          <h3 class="tituloTopico">Onde Atuo</h3>
+          <section>
+            <p class="descricaoTopico">
+              Atualmente, estou estagiando na
+              <strong>Prefeitura de Passo Fundo, RS</strong>, na área de
+              <strong>TI</strong>. Meu papel inclui resolver problemas de
+              <strong>Redes</strong>, configurar e consertar
+              <strong>impressoras</strong>, realizar formatações de
+              computadores, <strong>manutenções de hardware</strong>, além de
+              instalar e organizar sistemas em escolas municipais.
+            </p>
+          </section>
+        </article>
+        <!-- Resumo -->
+        <article class="topicos" id="topicoCentral">
+          <h3 class="tituloTopico">Resumo</h3>
+          <section>
+            <p class="descricaoTopico">
+              Criei um site inspirado no
+              <strong>site da Prefeitura de Passo Fundo</strong> e desenvolvi um
+              <strong>portfólio online</strong>, com todos os projetos
+              disponíveis no meu
+              <a
+                href="https://github.com/bernardoHeckler"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >. Tenho experiência em design de interfaces utilizando
+              <strong>Photoshop</strong> e <strong>Figma</strong>, criando
+              layouts baseados em sites existentes e editando imagens.
+              Atualmente, estou cursando
+              <strong>Ciências da Computação</strong> e considero o
+              <strong>Frontend</strong> e o <strong>Backend</strong> como fortes
+              opções de carreira.
+            </p>
+            <ul class="descricaoTopico">
+              <li>
+                Especialidades: Photoshop, Figma, JavaScript, ReactJS, Python,
+                HTML, CSS, Linux e Git.
+              </li>
+            </ul>
+          </section>
+        </article>
+        <!-- O Que Aprendi -->
+        <article class="topicos">
+          <h3 class="tituloTopico">O Que Aprendi</h3>
+          <section>
+            <p class="descricaoTopico">
+              Eu melhorei principalmente a <strong>organização</strong>,
+              <strong>análise de requisitos</strong>, <strong>design</strong>,
+              <strong>UX/UI</strong>, <strong>hospedagem</strong>,
+              <strong>testes</strong>, <strong>manutenção</strong>,
+              <strong>backup</strong> e <strong>recuperação</strong>, além de
+              trabalhar com <strong>APIs e integrações</strong>.
+            </p>
+          </section>
+        </article>
+      </div>
     </article>
 
     <!-- Conteúdo Projetos-->
     <div id="projetos"></div>
     <!-- Conteúdo Projeto -->
     <article id="projeto1" class="projetos">
-        <div class="tamanhoProjeto">
-            <div class="tituloDoProjeto">
-                <h3>Projeto: Calculadora Simples Interativa</h3>
-            </div>
-            <div class="containerTextoImagem">
-                <div class="containerDescricaoProjeto1">
-                    <p class="descricaoProjeto">
-                        Desenvolvi uma calculadora simples com dois campos para inserir valores e escolher a operação
-                        matemática (adição, subtração, multiplicação ou divisão). A interface inclui botões interativos
-                        para calcular, apagar com o resultado exibido em tempo real. O objetivo foi fortalecer
-                        a lógica de programação em JavaScript e a manipulação de eventos. Projeto prático para aprimorar
-                        habilidades front-end e integração entre tecnologias web.
-
-                    </p>
-                    <p class="lg-class">
-                        Tecnologias: <i> HTML5, CSS3 e JavaScript</i>
-                        <br>
-                        Controle de Versão: <i>Git / Git Pages.</i>
-                    </p>
-                    <button type="button" class="botaoProjeto" id="linkProjeto1"><a
-                            href="https://bernardoheckler.github.io/basics-js.github.io/Projeto%231_CalculadoraSimples/index.html"
-                            target="_blank">
-                            Veja o Projeto!</a></button>
-
-                </div>
-                <div class="containerImagem">
-                    <figure>
-                        <img src="assets/imagens/imagemCalculadoraSimples.png"
-                            alt="Imagem do Projeto Calculadora Simples">
-                        <figcaption>Calculadora Simples</figcaption>
-                    </figure>
-                </div>
-            </div>
+      <div class="tamanhoProjeto">
+        <div class="tituloDoProjeto">
+          <h3>Projeto: API de Filmes com REACT</h3>
         </div>
+        <div class="containerTextoImagem">
+          <div class="containerDescricaoProjeto1">
+            <p class="descricaoProjeto">
+              Neste site de filmes, desenvolvi uma interface dinâmica e
+              interativa. Projeto que exibe filmes mais populares, informações
+              sobre o filme selecionado (sinopse, orçamento, datas...) e uma
+              barra de pesquisa que utiliza uma API key para buscar filmes
+              específicos, ela faz as requisições HTTP, carregando dados em
+              tempo real. O objetivo em ver a funcionalidade da manipulação de
+              estados, componentes reutilizáveis e integração com APIs. Estudei
+              a gestão de eventos e renderização condicional para garantir uma
+              experiência fluida e responsiva, sendo meu primeiro projeto em
+              React.
+            </p>
+            <p class="lg-class">
+              Tecnologias:
+              <i>React, JavaScript, HTML5, CSS3 e consumo da API de Filmes</i>
+              <br />
+              Controle de Versão: <i>Git / GitHub Pages.</i>
+              <br />
+              Aprendizado:
+              <i
+                >Desenvolvido com base em tutoriais e conhecimentos adquiridos
+                no YouTube, seguindo vídeos do canal "Hora de Codar".</i>
+            </p>
+            <button type="button" class="botaoProjeto" id="linkProjeto1">
+              <a
+                href="https://bernardoheckler.github.io/react-filme/"
+                target="_blank"
+              >
+                Veja o Projeto!</a
+              >
+            </button>
+          </div>
+          <div class="containerImagem">
+            <figure>
+              <img
+                src="assets/imagens/imagemAPI_Filmes_React.png"
+                alt="Imagem do Projeto: API de Filmes com REACT"
+              />
+              <figcaption>API de Filmes com REACT</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- Conteúdo Projetos-->
+    <div id="projetos"></div>
+    <!-- Conteúdo Projeto -->
+    <article id="projeto1" class="projetos">
+      <div class="tamanhoProjeto">
+        <div class="tituloDoProjeto">
+          <h3>Projeto: Calculadora Simples Interativa</h3>
+        </div>
+        <div class="containerTextoImagem">
+          <div class="containerDescricaoProjeto1">
+            <p class="descricaoProjeto">
+              Desenvolvi uma calculadora simples com dois campos para inserir
+              valores e escolher a operação matemática (adição, subtração,
+              multiplicação ou divisão). A interface inclui botões interativos
+              para calcular, apagar com o resultado exibido em tempo real. O
+              objetivo foi fortalecer a lógica de programação em JavaScript e a
+              manipulação de eventos. Projeto prático para aprimorar habilidades
+              front-end e integração entre tecnologias web.
+            </p>
+            <p class="lg-class">
+              Tecnologias: <i> HTML5, CSS3 e JavaScript</i>
+              <br />
+              Controle de Versão: <i>Git / Git Pages.</i>
+            </p>
+            <button type="button" class="botaoProjeto" id="linkProjeto1">
+              <a
+                href="https://bernardoheckler.github.io/basics-js.github.io/Projeto%231_CalculadoraSimples/index.html"
+                target="_blank"
+              >
+                Veja o Projeto!</a
+              >
+            </button>
+          </div>
+          <div class="containerImagem">
+            <figure>
+              <img
+                src="assets/imagens/imagemCalculadoraSimples.png"
+                alt="Imagem do Projeto Calculadora Simples"
+              />
+              <figcaption>Calculadora Simples</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
     </article>
     <!-- Conteúdo Projeto -->
     <article id="projeto1" class="projetos">
-        <div class="tamanhoProjeto">
-            <div class="tituloDoProjeto">
-                <h3>Projeto: Lista de Tarefas Interativa</h3>
-            </div>
-            <div class="containerTextoImagem">
-                <div class="containerDescricaoProjeto1">
-                    <p class="descricaoProjeto">
-                        Desenvolvi uma Lista de Tarefas onde pode inserir textos e que salva temporáriamente tarefas em
-                        formato de caixas, sendo listadas. A interface inclui botões interativos
-                        para adicionar, apagar caixas, editar texto podendo salvar também. O objetivo foi fortalecer
-                        a lógica de programação em JavaScript e a manipulação de eventos, prática com arrays. Projeto
-                        prático para aprimorar minhas habilidades front-end e integração entre tecnologias web.
-
-                    </p>
-                    <p class="lg-class">
-                        Tecnologias: <i> HTML5, CSS3 e JavaScript</i>
-                        <br>
-                        Controle de Versão: <i>Git / Git Pages.</i>
-                    </p>
-                    <button type="button" class="botaoProjeto" id="linkProjeto1"><a
-                            href="https://bernardoheckler.github.io/basics-js.github.io/Projeto%232_ListaDeTarefas/index.html"
-                            target="_blank">
-                            Veja o Projeto!</a></button>
-
-                </div>
-                <div class="containerImagem">
-                    <figure>
-                        <img src="assets/imagens/imagemListaDeTarefas.png"
-                            alt="Imagem do Projeto Lista de Tarefas Interativa">
-                        <figcaption>Lista de Tarefas Interativa</figcaption>
-                    </figure>
-                </div>
-            </div>
+      <div class="tamanhoProjeto">
+        <div class="tituloDoProjeto">
+          <h3>Projeto: Lista de Tarefas Interativa</h3>
         </div>
+        <div class="containerTextoImagem">
+          <div class="containerDescricaoProjeto1">
+            <p class="descricaoProjeto">
+              Desenvolvi uma Lista de Tarefas onde pode inserir textos e que
+              salva temporáriamente tarefas em formato de caixas, sendo
+              listadas. A interface inclui botões interativos para adicionar,
+              apagar caixas, editar texto podendo salvar também. O objetivo foi
+              fortalecer a lógica de programação em JavaScript e a manipulação
+              de eventos, prática com arrays. Projeto prático para aprimorar
+              minhas habilidades front-end e integração entre tecnologias web.
+            </p>
+            <p class="lg-class">
+              Tecnologias: <i> HTML5, CSS3 e JavaScript</i>
+              <br />
+              Controle de Versão: <i>Git / Git Pages.</i>
+            </p>
+            <button type="button" class="botaoProjeto" id="linkProjeto1">
+              <a
+                href="https://bernardoheckler.github.io/basics-js.github.io/Projeto%232_ListaDeTarefas/index.html"
+                target="_blank"
+              >
+                Veja o Projeto!</a
+              >
+            </button>
+          </div>
+          <div class="containerImagem">
+            <figure>
+              <img
+                src="assets/imagens/imagemListaDeTarefas.png"
+                alt="Imagem do Projeto Lista de Tarefas Interativa"
+              />
+              <figcaption>Lista de Tarefas Interativa</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
     </article>
     <!-- Conteúdo Projeto -->
     <article id="projeto1" class="projetos">
-        <div class="tamanhoProjeto">
-            <div class="tituloDoProjeto">
-                <h3>Projeto: Site da Prefeitura</h3>
-            </div>
-            <div class="containerTextoImagem">
-                <div class="containerDescricaoProjeto1">
-                    <p class="descricaoProjeto">
-                        O site foi desenvolvido como um projeto para replicar um modelo original. Ele oferece uma
-                        interface intuitiva com navegação por abas, acesso às postagens recentes, um mapa interativo
-                        para orientar os usuários, além de uma janela para contato direto com suporte e uma tabela
-                        informativa com dados relevantes sobre a cidade.
-                    </p>
-                    <p class="lg-class">
-                        Tecnologias: <i> HTML5, CSS3, Photoshop, Google
-                            Fonts.</i> Controle de Versão: <i>Git.</i>
-                    </p>
-                    <button type="button" class="botaoProjeto" id="linkProjeto1"><a
-                            href="https://github.com/bernardoHeckler/front-end-sites.git" target="_blank">Saiba
-                            Mais!</a></button>
-
-                </div>
-                <div class="containerImagem">
-                    <figure>
-                        <img src="assets/imagens/imagemSiteDaPrefeitura.PNG"
-                            alt="Imagem do Projeto do Site da Prefeitura que copiei">
-                        <figcaption>Cópia do Site da Prefeitura</figcaption>
-                    </figure>
-                </div>
-            </div>
+      <div class="tamanhoProjeto">
+        <div class="tituloDoProjeto">
+          <h3>Projeto: Site da Prefeitura</h3>
         </div>
+        <div class="containerTextoImagem">
+          <div class="containerDescricaoProjeto1">
+            <p class="descricaoProjeto">
+              O site foi desenvolvido como um projeto para replicar um modelo
+              original. Ele oferece uma interface intuitiva com navegação por
+              abas, acesso às postagens recentes, um mapa interativo para
+              orientar os usuários, além de uma janela para contato direto com
+              suporte e uma tabela informativa com dados relevantes sobre a
+              cidade.
+            </p>
+            <p class="lg-class">
+              Tecnologias:
+              <i> HTML5, CSS3, Photoshop, Google Fonts.</i> Controle de Versão:
+              <i>Git.</i>
+            </p>
+            <button type="button" class="botaoProjeto" id="linkProjeto1">
+              <a
+                href="https://github.com/bernardoHeckler/front-end-sites.git"
+                target="_blank"
+                >Saiba Mais!</a
+              >
+            </button>
+          </div>
+          <div class="containerImagem">
+            <figure>
+              <img
+                src="assets/imagens/imagemSiteDaPrefeitura.PNG"
+                alt="Imagem do Projeto do Site da Prefeitura que copiei"
+              />
+              <figcaption>Cópia do Site da Prefeitura</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
     </article>
     <!-- Conteúdo Projeto -->
     <article id="projeto2" class="projetos">
-        <div class="tamanhoProjeto">
-            <div class="tituloDoProjeto">
-                <h3>Projeto: Meu Portfólio</h3>
-            </div>
-            <div class="containerTextoImagem">
-                <div class="containerDescricaoProjeto2">
-                    <p class="descricaoProjeto">
-                        Meu primeiro site de portfólio, criado ao longo de 2023, foi meu principal portfólio online
-                        durante o ano. Ele apresenta minha descrição completa e faz amplo uso de botões interativos,
-                        proporcionando aos visitantes uma navegação mais dinâmica e facilitando a leitura conforme suas
-                        escolhas.
-                    </p>
-                    <p class="lg-class">
-                        Tecnologias: <i> HTML5, CSS3, JavaScript, Photoshop, Google
-                            Fonts.</i> Controle de Versão: <i>Git.</i>
-                    </p>
-                    <button type="button" class="botaoProjeto" id="linkProjeto2"><a
-                            href="https://github.com/bernardoHeckler/bernardohecklerportfolio.github.io.git"
-                            target="_blank">Saiba Mais!</a></button>
-
-                </div>
-                <div class="containerImagem">
-                    <figure>
-                        <img src="assets/imagens/imagemSiteMeuPortfólio.PNG"
-                            alt="Imagem do Projeto Site Meu Portfólio">
-                        <figcaption>Site Meu Portfólio</figcaption>
-                    </figure>
-                </div>
-            </div>
+      <div class="tamanhoProjeto">
+        <div class="tituloDoProjeto">
+          <h3>Projeto: Meu Portfólio</h3>
         </div>
+        <div class="containerTextoImagem">
+          <div class="containerDescricaoProjeto2">
+            <p class="descricaoProjeto">
+              Meu primeiro site de portfólio, criado ao longo de 2023, foi meu
+              principal portfólio online durante o ano. Ele apresenta minha
+              descrição completa e faz amplo uso de botões interativos,
+              proporcionando aos visitantes uma navegação mais dinâmica e
+              facilitando a leitura conforme suas escolhas.
+            </p>
+            <p class="lg-class">
+              Tecnologias:
+              <i> HTML5, CSS3, JavaScript, Photoshop, Google Fonts.</i> Controle
+              de Versão: <i>Git.</i>
+            </p>
+            <button type="button" class="botaoProjeto" id="linkProjeto2">
+              <a
+                href="https://github.com/bernardoHeckler/bernardohecklerportfolio.github.io.git"
+                target="_blank"
+                >Saiba Mais!</a
+              >
+            </button>
+          </div>
+          <div class="containerImagem">
+            <figure>
+              <img
+                src="assets/imagens/imagemSiteMeuPortfólio.PNG"
+                alt="Imagem do Projeto Site Meu Portfólio"
+              />
+              <figcaption>Site Meu Portfólio</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
     </article>
 
     <!-- Conteúdo Enviar mensagem -->
     <section class="faleComigo" id="contato">
-        <div class="colunaTexto">
-            <h2>Preecha <br>
-                <span class="mudarTexto">ao lado</span> e <br>
-                deixe seu <br>
-                <span>feeedback</span>!
-            </h2>
-        </div>
-        <div class="colunaMensagem">
-            <h2>Fale Comigo!</h2>
-            <form action="https://api.staticforms.xyz/submit" method="POST">
-                <input type="hidden" name="accessKey" value="b2a5561d-5e65-4f40-ac4c-b877267cc0a8">
+      <div class="colunaTexto">
+        <h2>
+          Preecha <br />
+          <span class="mudarTexto">ao lado</span> e <br />
+          deixe seu <br />
+          <span>feeedback</span>!
+        </h2>
+      </div>
+      <div class="colunaMensagem">
+        <h2>Fale Comigo!</h2>
+        <form action="https://api.staticforms.xyz/submit" method="POST">
+          <input
+            type="hidden"
+            name="accessKey"
+            value="b2a5561d-5e65-4f40-ac4c-b877267cc0a8"
+          />
 
-                <label>Nome</label>
-                <input type="text" name="name" id="inputNome" placeholder="Digite seu nome" autocomplete="off" required>
+          <label>Nome</label>
+          <input
+            type="text"
+            name="name"
+            id="inputNome"
+            placeholder="Digite seu nome"
+            autocomplete="off"
+            required
+          />
 
-                <label>Email</label>
-                <input type="email" name="email" id="inputEmail" placeholder="Digite seu email" autocomplete="off"
-                    required>
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            id="inputEmail"
+            placeholder="Digite seu email"
+            autocomplete="off"
+            required
+          />
 
-                <label>Mensagem</label>
-                <textarea name="message" placeholder="Me envie uma mensagem" autocomplete="off" required></textarea>
+          <label>Mensagem</label>
+          <textarea
+            name="message"
+            placeholder="Me envie uma mensagem"
+            autocomplete="off"
+            required
+          ></textarea>
 
-                <input type="hidden" name="redirectTo" value="https://bernardoheckler.github.io/obrigado.html">
-                <button type="submit">Enviar Mensagem</button>
-            </form>
+          <input
+            type="hidden"
+            name="redirectTo"
+            value="https://bernardoheckler.github.io/obrigado.html"
+          />
+          <button type="submit">Enviar Mensagem</button>
+        </form>
 
-            <script>
-                // Redireciona rapidamente se o site for para o endereço da API
-                if (window.location.href === "https://api.staticforms.xyz/submit") {
-                    window.location.href = "https://bernardoheckler.github.io/obrigado.html";
-                }
-            </script>
-
-
-        </div>
+        <script>
+          // Redireciona rapidamente se o site for para o endereço da API
+          if (window.location.href === "https://api.staticforms.xyz/submit") {
+            window.location.href =
+              "https://bernardoheckler.github.io/obrigado.html";
+          }
+        </script>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="barraFooter">
-            <img src="assets/barra.svg" alt="#">
+      <div class="barraFooter">
+        <img src="assets/barra.svg" alt="#" />
+      </div>
+      <div class="linhaFooter">
+        <div class="coluna1" id="colunaFooter">
+          <h2 class="nome">Bernardo H.</h2>
+          <p class="texto">
+            Encontrou algum problema na página?<br />
+            <a
+              href="https://github.com/bernardoHeckler/bernardoHeckler.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              >ver Git Hub</a
+            >
+          </p>
+          <p class="texto">Precisa de Ajuda?</p>
+          <p>
+            <a href="mailto:bernaheckler1@gmail.com" class="emailFooter"
+              >bernaheckler1@gmail.com</a
+            >
+          </p>
         </div>
-        <div class="linhaFooter">
-            <div class="coluna1" id="colunaFooter">
-                <h2 class="nome">Bernardo H.</h2>
-                <p class="texto">Encontrou algum problema na página?<br>
-                    <a href="https://github.com/bernardoHeckler/bernardoHeckler.github.io" target="_blank"
-                        rel="noopener noreferrer">ver Git Hub</a>
-                </p>
-                <p class="texto">Precisa de Ajuda?</p>
-                <p><a href="mailto:bernaheckler1@gmail.com" class="emailFooter">bernaheckler1@gmail.com</a></p>
+        <div class="coluna2">
+          <div class="container">
+            <h4>MENU</h4>
+            <div class="navbar">
+              <ul>
+                <li><a href="#inicio" id="">início</a></li>
+                <li><a href="#projetos" id="">projetos</a></li>
+                <li><a href="#sobre" id="">sobre</a></li>
+                <li><a href="#contato" id="">contato</a></li>
+              </ul>
             </div>
-            <div class="coluna2">
-                <div class="container">
-                    <h4>MENU</h4>
-                    <div class="navbar">
-                        <ul>
-                            <li><a href="#inicio" id="">início</a></li>
-                            <li><a href="#projetos" id="">projetos</a></li>
-                            <li><a href="#sobre" id="">sobre</a></li>
-                            <li><a href="#contato" id="">contato</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="container">
-                    <h4>SOCIAL</h4>
-                    <div class="redesSociaisNavBar">
-                        <ul>
-                            <li><a href="https://www.linkedin.com/in/bernardo-heckler-645153305/" id="">LinkedIn</a>
-                            </li>
-                            <li><a href="https://github.com/bernardoHeckler" id="">GitHub</a></li>
-                            <li><a href="https://www.figma.com/design/koC9cc5OO6by74aIBBJJzv/meu-projeto?node-id=225-111&t=WYM2kKYkTpnRxGPr-1"
-                                    id="">Figma</a></li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="container">
+            <h4>SOCIAL</h4>
+            <div class="redesSociaisNavBar">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/bernardo-heckler-645153305/"
+                    id=""
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/bernardoHeckler" id="">GitHub</a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.figma.com/design/koC9cc5OO6by74aIBBJJzv/meu-projeto?node-id=225-111&t=WYM2kKYkTpnRxGPr-1"
+                    id=""
+                    >Figma</a
+                  >
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
-        <div class="colunaFooter">
-            <div class="redesSociais">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/bernardo-heckler-645153305/" target="_blank"
-                            rel="noopener noreferrer"><img src="assets/LinkedIn.svg" alt="LinkedIn"></a></li>
-                    <li><a href="https://github.com/bernardoHeckler" target="_blank" rel="noopener noreferrer"><img
-                                src="assets/GitHub.svg" alt="GitHub"></a></li>
-                    <li><a href="https://www.figma.com/design/koC9cc5OO6by74aIBBJJzv/meu-projeto?node-id=225-111&t=WYM2kKYkTpnRxGPr-1"
-                            target="_blank" rel="noopener noreferrer"><img src="assets/Figma.svg" alt="Figma"></a></li>
-                </ul>
-            </div>
-            <p class="Copyright">Copyright © 2025 Bernardo Heckler - Portfólio Online</p>
+      </div>
+      <div class="colunaFooter">
+        <div class="redesSociais">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/bernardo-heckler-645153305/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="assets/LinkedIn.svg" alt="LinkedIn"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/bernardoHeckler"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="assets/GitHub.svg" alt="GitHub"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.figma.com/design/koC9cc5OO6by74aIBBJJzv/meu-projeto?node-id=225-111&t=WYM2kKYkTpnRxGPr-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="assets/Figma.svg" alt="Figma"
+              /></a>
+            </li>
+          </ul>
         </div>
+        <p class="Copyright">
+          Copyright © 2025 Bernardo Heckler - Portfólio Online
+        </p>
+      </div>
     </footer>
 
     <!-- Script JavaScript -->
     <script src="scripts/index.js"></script>
-</body>
-
+  </body>
 </html>
